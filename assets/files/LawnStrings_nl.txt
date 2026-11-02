@@ -1191,7 +1191,7 @@ Geloof je dat nou?
 JE HEBT MIJN MAGISCHE TACO GEVONDEN!!{SCREAM2}
 
 [CRAZY_DAVE_602]
-{SHOW_MONEYBAG}Ik moet 'm hebben! Ik geef je er €1.000 voor!
+{SHOW_MONEYBAG}Ik moet 'm hebben! Ik geef je er {CURRENCY_SYMBOL}1.000 voor!
 
 [CRAZY_DAVE_603]
 JAA! DE TACO IS VAN MIJ!{SCREAM}
@@ -1338,7 +1338,7 @@ Deze keer wil ik een paar zaden voor je uitkiezen.
 Ik kies... deze drie!
 
 [CRAZY_DAVE_1700]
-{NO_CLICK}Ik geef je €{SELL_PRICE} voor die {PLANT_TYPE}!
+{NO_CLICK}Ik geef je {CURRENCY_SYMBOL}{SELL_PRICE} voor die {PLANT_TYPE}!
 
 [CRAZY_DAVE_2000]
 {NO_CLICK}Plant dit op Repeulteerder om hem in Peulenmitrailleur te veranderen! Die schiet vier erwten tegelijk!
@@ -5698,7 +5698,7 @@ Laat je op de Grote Muur planten.
 {FLAVOR}"Ik ben een oude porseleinen pot, maar ook een plant. Verrast?"
 
 [WEST_FIRE_GOURD]
-Vuurkalebas
+Vuurspuwende paprika
 
 [WEST_FIRE_GOURD_TOOLTIP]
 Steekt zombies aan voor aanhoudende schade
@@ -5723,6 +5723,20 @@ Houdt zombieaanvallen tegen.
 {KEYWORD}Stevigheid: {STAT}gemiddeld
 {SHORTLINE}
 {FLAVOR}Weet je waarom hij verdedigt? Eigenlijk ontbreekt gewoon zijn aanvalsanimatie.
+
+[WALL_WINE_GOURD]
+Wijnkalebas
+
+[WALL_WINE_GOURD_TOOLTIP]
+Versnelt tijdelijk andere planten op hetzelfde vakje
+
+[WALL_WINE_GOURD_DESCRIPTION]
+Wijnkalebas zweeft boven het gazon en schenkt de andere planten op zijn vakje een drankje in om ze kort te versnellen.
+{SHORTLINE}
+{KEYWORD}Bijzonderheid: {STAT}vliegt en versnelt kort de planten op zijn vakje
+{KEYWORD}Bereik: {STAT}planten op zijn vakje
+{SHORTLINE}
+{FLAVOR}Wijnkalebas noemt elk uitstapje een "burenbezoek". Zijn bezoeken zijn altijd welkom, al krijgen zijn buren het daarna zo druk dat ze hem vergeten te bedanken.
 
 [ENDLESS_SPEW_ANEMONE]
 Waterspuitgras
@@ -6179,7 +6193,7 @@ De gevreesde Geelbrauw draagt krachtige schatten, vooral een enorme knots.
 {FLAVOR}Waarom kan hij westerse zombies oproepen? Zij geloven heilig dat hij Boeddha is.
 
 [LINKAGE_DLC_1]
-Bos: Level 1
+Bosgevecht
 
 [LINKAGE_DLC_2]
 Een beperkte blik
@@ -6330,29 +6344,21 @@ Update
 [UPDATE_CONTENT]
 Nieuwe versie %s gevonden. Wil je de updatepagina openen?
 
-[HERO_CONSOLE_TITLE_PROPERTY]
-Eigenschappen
 
-[HERO_CONSOLE_TITLE_SKILL]
-Vaardigheden
 
-[HERO_CONSOLE_BUTTON_UPGRADE]
+[HERO_BUTTON_UPGRADE]
 Verbeteren
 
-[HERO_CONSOLE_BUTTON_PURCHASE]
+[HERO_BUTTON_PURCHASE]
 Kopen
 
-[HERO_CONSOLE_BUTTON_RESET]
+[HERO_BUTTON_RESET]
 Herstellen
 
-[HERO_CONSOLE_BUTTON_TRAIN]
+[HERO_BUTTON_TRAIN]
 Trainen
 
-[HERO_CONSOLE_BUTTON_SKILL]
-Vaardigheden
 
-[HERO_CONSOLE_BUTTON_BACK]
-Terug
 
 [MAIN_MENU_BUTTON_HERO]
 Helden
@@ -6619,9 +6625,6 @@ Maakt elke 45 seconden een schild met %s levenspunten.
 
 [HEROPLANT_UNLOCK_DIAMOND]
 Kopen voor %d
-
-[HEROPLANT_LVLUP_CONFIRM]
-Je heldenplant meteen een niveau laten stijgen voor %d goudstaven?
 
 [HEROPLANT_RESETSKILL_CONFIRM]
 Heldenvaardigheden herstellen voor %d goudstaven?
@@ -8330,7 +8333,7 @@ Zonlicht automatisch verzamelen
 Munten automatisch verzamelen
 
 [NEW_OPTIONS_HELP_GAMEPADTRIGGERS]
-Stelt LT/RT (ZL/ZR op Switch) tijdens gevechten in. Standaard ‘Voorwerpen’: wissel bovenaan van voorwerp en druk op bevestigen om het te gebruiken. ‘Automatisch verzamelen’: elke druk op een trekker verzamelt zonlicht, munten en dergelijke; vasthouden herhaalt dit niet. Met de richtingstoets omhoog kun je nog steeds naar de voorwerpen. Dit verandert geen pagina's in menu's, plantenkeuze of tuin en heeft geen invloed op de schakelaars voor automatisch verzamelen.
+Kies wat LT/RT (ZL/ZR op Switch) in gevechten doen: voorwerpen kiezen en bevestigen voor gebruik, of eenmaal drukken om zon en munten op het veld te verzamelen. Ingedrukt houden herhaalt niet. D-pad omhoog kiest nog steeds voorwerpen.
 
 [NEW_OPTIONS_GAMEPAD_TRIGGERS]
 Trekkerfunctie
@@ -8348,8 +8351,7 @@ Slepend planten
 Kleine geestzombie inschakelen
 
 [NEW_OPTIONS_HELP_ENABLEENDLESSSTAR]
-Als dit uitstaat, verschijnen in Avontuur en Reis naar het Westen geen kleine geestzombies of sterren op de grond in levels die ze normaal hebben. Je kunt daar hoogstens twee sterren verdienen.
-Dit verandert geen lopend gevecht; start het level opnieuw. Hervatte opslag behoudt de oude toestand en bestaande sterrenrecords blijven bewaard.
+Uit: in de betreffende Avontuur- en Reis-naar-het-Westen-levels verschijnen geen vliegende imp en veldster; maximaal twee sterren. Geldt bij een nieuwe start. Opgeslagen gevechten en eerdere beoordelingen blijven behouden.
 
 [NEW_OPTIONS_DRAW_CROSSHAIR]
 Plantkruisdraden
@@ -8400,13 +8402,13 @@ Het beeld is smal. Een zaadbank links kan het speelveld of bedieningselementen b
 Beeld uitrekken
 
 [NEW_OPTIONS_HELP_SCREENSTRETCH]
-0% behoudt de schermverhouding. 100% maakt de indeling 4:3 en rekt die uit over het scherm. Tussenwaarden zorgen voor een geleidelijke overgang, ook op hoge schermen, met 4:3 als eindpunt. Vorm en zichtbaar bereik veranderen. Slepen werkt na loslaten; toetsenbord en controller werken meteen. Alleen op dit apparaat opgeslagen.
+0% behoudt de schermverhouding; 100% rekt een 4:3-indeling uit tot het hele scherm en vervormt het beeld.
 
 [NEW_OPTIONS_MOUSE_CURSOR_SIZE]
 Cursorgrootte
 
 [NEW_OPTIONS_HELP_MOUSECURSORSIZE]
-Kies cursorgrootte 0, 0.5, 1, 1.5, 2, 2.5 of 3; standaard 1. Bij 0 wordt de systeemcursor gebruikt. Het spel geeft dan alleen normaal, link of tekst aan; het systeem bepaalt vorm en grootte. Wijzigingen werken meteen.
+Pas de spelcursor aan. 1 is standaard; 0 gebruikt de systeemcursor.
 
 [NEW_OPTIONS_UI_LEFT_OFFSET]
 Linkermarge
@@ -8469,185 +8471,142 @@ Snoepregen
 Opensourcelicenties
 
 [NEW_OPTIONS_HELP_LANGUAGE]
-Kies de taal van het spel.
-Herstart het spel om de wijziging toe te passen. Je voortgang en de inhoud van levels blijven behouden.
+Kies de interfacetaal. Herstart om toe te passen.
 
 [NEW_OPTIONS_HELP_MUSICVOLUME]
-Pas het muziekvolume aan van 0% tot 100%. Sleep om de verandering te horen.
-Bij 0% staat muziek uit; verhoog het om haar weer aan te zetten. Dit verandert geen plant-, zombie- of knopgeluiden.
+Pas het muziekvolume aan. 0% dempt de muziek.
 
 [NEW_OPTIONS_HELP_SOUNDVOLUME]
-Pas plant-, zombie- en knopgeluiden aan van 0% tot 100%.
-0% dempt deze effecten. Achtergrondmuziek heeft een eigen volumeregeling.
+Pas geluiden van planten, zombies, knoppen en andere effecten aan. 0% dempt ze.
 
 [NEW_OPTIONS_HELP_FULLSCREEN]
-Wissel tussen venster en volledig scherm. Volledig scherm gebruikt het hele beeld.
-Alleen beschikbaar op platforms die omschakelen ondersteunen; niet op apparaten met vaste schermvullende weergave.
+Wissel tussen venster en volledig scherm.
 
 [NEW_OPTIONS_HELP_RUNLOCKED]
-Laat het spel doorgaan als het venster geen focus heeft of geminimaliseerd is, bijvoorbeeld terwijl je wacht.
-Uitgeschakeld gelden de normale pauzeregels. Ingeschakeld blijft het rekenkracht gebruiken; mobiele systemen kunnen achtergrondapps alsnog pauzeren.
+Blijf draaien als het venster inactief of geminimaliseerd is. Mobiele systemen kunnen achtergrondapps nog steeds pauzeren.
 
 [NEW_OPTIONS_HELP_VIBRATION]
-Laat spelgebeurtenissen je apparaat of controller laten trillen. Beide delen deze schakelaar.
-Alleen hardware met trilfunctie geeft feedback; dit voegt die functie niet toe aan andere controllers. Uitschakelen stopt de huidige controllertrilling.
+Schakel trillingen van apparaat en controller in of uit.
 
 [NEW_OPTIONS_HELP_LOWLATENCYAUDIO]
-Verkleint de audiobuffer om de vertraging tussen bediening en geluid te verminderen.
-Vereist een herstart. Sommige apparaten of stuurprogramma's ondersteunen dit niet.
+Verminder de vertraging tussen acties en geluid. Herstart om toe te passen.
 
 [NEW_OPTIONS_HELP_CAMERASIZE]
-Pas de afstand van de gevechtscamera aan. Links zoomt in op planten en zombies; rechts zoomt uit voor meer overzicht. Zaadbank en menu's behouden hun grootte.
+Links zoomt in, rechts toont meer van het slagveld. Kaartenbalk en menu’s blijven even groot.
 
 [NEW_OPTIONS_HELP_TOPSEEDBANK]
-Plaats de zaadbank links of boven. Dit verandert alleen de indeling, niet het aantal kaarten dat je mee kunt nemen.
-Op smalle schermen kan links het beeld of de bediening bedekken; het spel vraagt zo nodig om bevestiging.
+Plaats de kaartenbalk links of bovenaan. Links kan op smalle schermen het beeld bedekken.
 
 [NEW_OPTIONS_HELP_BOARDLEFTOFFSET]
-Verplaatst de linkse interface-elementen in de extra breedbeeldruimte, zowel in het hoofdmenu als tijdens gevechten.
-Pas dit aan de schermrand en je voorkeur aan. Zonder extra horizontale ruimte is het effect mogelijk klein.
+Verplaats linker bediening in de extra breedbeeldruimte. Weinig effect zonder extra horizontale ruimte.
 
 [NEW_OPTIONS_HELP_BOARDRIGHTOFFSET]
-Verplaatst de rechtse interface-elementen in de extra breedbeeldruimte, onafhankelijk van de linkermarge.
-Haal knoppen van de rand af of benut meer ruimte. Het bereik hangt af van schermverhouding en indeling.
+Verplaats rechter bediening in de extra breedbeeldruimte. Weinig effect zonder extra horizontale ruimte.
 
 [NEW_OPTIONS_HELP_COVERLAYER]
-Kies voorgrondbedekking: geen, gras of voorwerpen.
-Stem dit af op uiterlijk en zicht. Ook de positie van straatzombies tijdens de plantenkeuze-overgang wordt hieraan aangepast.
+Kies voorgrondbedekking: geen, gras of voorwerpen. Sommige scènes ondersteunen de gekozen bedekking niet.
 
 [NEW_OPTIONS_HELP_DRAWCROSSHAIR]
-Toont kruisdraden bij het kiezen van een plantplek om rij en kolom uit te lijnen, vooral handig met aanraking of controller.
-Dit is alleen een richtpunt; het plant niet automatisch en verandert geen plantregels.
+Toon een kruisdraad bij het planten om rijen en kolommen uit te lijnen.
 
 [NEW_OPTIONS_HELP_SHOWGAMEPADHINTS]
-Toont knoppen en uitleg bij controllerbediening of toetsenbord-controllermodus; het toetsenbord toont echte toetsnamen. Bij lokaal samenspel blijven tips zichtbaar voor de apparaten van P1 en P2. De muis gebruikt geen tipvak, elke controller heeft eigen pictogrammen en gelijke acties delen uitleg.
-Wordt meteen toegepast en opgeslagen. Uitschakelen verandert geen bediening, focuskader of toetsenbordhulp.
+Toon knopaanwijzingen voor controllers of de toetsenbordmodus Controller. Lokaal met twee spelers volgen ze ieders apparaat; de muis toont geen knoppictogrammen.
 
 [NEW_OPTIONS_HELP_SHOWTOOLTIPS]
-Toont waar mogelijk uitleg over kaarten, objecten en knoppen.
-Of een tooltip verschijnt, hangt af van scherm, aangewezen object en invoermethode. Uitschakelen vermindert de tips op het scherm.
+Toon uitleg bij kaarten, voorwerpen en knoppen.
 
 [NEW_OPTIONS_HELP_MAINMENUZOMBIEHAND]
-Speelt de opkomende zombiehand af als je in het hoofdmenu Avontuur kiest.
-Uitschakelen slaat de gewone introductie over. Bij bijzondere momenten, zoals de eerste spelstart, kan de animatie toch verschijnen.
+Speel de zombiehandintro bij het starten van Avontuur. De eerste keer en bepaalde scènes tonen deze altijd.
 
 [NEW_OPTIONS_HELP_ZOMBIEAPPEARANCE]
-Kies grote of kleine zombiehoofden.
-Dit is alleen uiterlijk en verandert geen gezondheid, aanvalskracht of moeilijkheid.
+Wissel tussen zombies met grote of kleine hoofden.
 
 [NEW_OPTIONS_HELP_DANCERAPPEARANCE]
-Wissel tussen MJ- en discostijl voor danszombies en hun achtergronddansers.
-Niet alleen het uiterlijk verschilt: ook gedrag zoals loopafstand verandert en beïnvloedt het gevecht.
+Kies MJ- of Discostijl voor dansers en achtergronddansers. Ook bewegingsafstanden en sommige gedragingen verschillen.
 
 [NEW_OPTIONS_HELP_SPECIALSHADERS]
-Toont dynamisch zwembadwater, vlammen en meervoudige aanraakzichtvelden met zachte randen.
-Uitgeschakeld of zonder backendondersteuning stoppen zwembadeffecten en worden vlammen vaste afbeeldingen.
-De beperkte-zichtmodus gebruikt dan één rond zichtveld met harde rand.
-Werkt meteen; ingebouwde kleurfilters blijven gelijk.
+Regel bewegende zwembad-, vlam- en zachte meerpuntszichteffecten. Uit: geen zwembadeffecten, statische vlammen en één zichtcirkel met harde rand.
 
 [NEW_OPTIONS_HELP_ENHANCEDISPLAY]
-Toont extra informatie over kaartwachttijden en de gezondheid van planten en zombies om je timing te helpen.
-Er staan meer getallen en gegevens op het scherm; de inhoud hangt af van modus en objecttype.
+Toon kaartafkoeling en gezondheid van planten en zombies.
 
 [NEW_OPTIONS_HELP_GRAPHICSBACKEND]
-Kies een grafische backend die je platform ondersteunt. Automatisch is meestal geschikt; probeer een andere bij beeld- of compatibiliteitsproblemen.
-Vereist een herstart. Prestaties en compatibiliteit hangen af van apparaat en stuurprogramma.
+Kies een grafische backend. Meestal past Automatisch; probeer een andere bij beeldproblemen. Herstart vereist.
 
 [NEW_OPTIONS_APPLY_SPEED_ON_NEW_LEVEL]
 Snelheid bij levelstart
 
 [NEW_OPTIONS_HELP_APPLYSPEEDONNEWLEVEL]
-Past bij een nieuw level meteen de ingestelde snelheid toe. Standaard uit: nieuwe levels starten op 1× en de snelheidsknop activeert je instelling.
-Verandert de snelheidstoestand van het huidige level niet.
+Begin nieuwe levels op de ingestelde snelheid. Uit: begin op 1x en wissel via de snelheidsknop in het spel.
 
 [NEW_OPTIONS_HELP_SPEED]
-Stel de gevechtssnelheid in van 1× tot 10×. 1× is normaal; sneller spelen vermindert zowel wachten als reactietijd.
-Sommige modi of onlineregels beperken de werkelijke snelheid.
+Stel de snelheid in van 1x tot 10x. Sommige modi en onlinepartijen kunnen deze beperken.
 
 [NEW_OPTIONS_HELP_AUTOCOLLECTSUN]
-Verzamelt beschikbaar zonlicht automatisch zodat je minder hoeft te klikken. Uitgeschakeld kun je het zelf verzamelen.
+Verzamel zon op het veld automatisch.
 
 [NEW_OPTIONS_HELP_AUTOCOLLECTCOIN]
-Verzamelt beschikbare munten automatisch zodat je minder hoeft te klikken. Uitgeschakeld kun je ze zelf verzamelen.
+Verzamel munten op het veld automatisch.
 
 [NEW_OPTIONS_HELP_DRAGPLANTING]
-Houd een kaart vast, sleep haar naar de doelplek en laat los om volgens de plantregels te planten.
-Uitgeschakeld kies je meestal eerst de kaart en klik je daarna op de plek. Zonlicht-, wachttijd- en terreineisen blijven gelden.
+Sleep een kaart naar de gewenste plek en laat los om te planten. Uit: kies eerst de kaart en klik dan op de plek.
 
 [NEW_OPTIONS_HELP_ONLYORIGINALFEATURES]
-Richt het hoofdmenu en bijbehorende toegangspunten op oorspronkelijke inhoud en verbergt of vervangt uitbreidingen.
-Vereist een herstart en verwijdert geen voortgang. Uitschakelen en herstarten maakt de uitbreidingen weer bereikbaar.
+Verberg of vervang ingangen naar uitbreidingen voor de oorspronkelijke spelinhoud. Herstart vereist; voortgang blijft behouden.
 
 [NEW_OPTIONS_HELP_SHOWTOOLS]
-Toont of verbergt knoppen zoals 500 zonlicht, kersenstorm en wachttijden wissen.
-Inschakelen maakt voorwerpen niet gratis; de gewone kosten gelden. Altijd gratis voorwerpen is een aparte functie.
+Toon hulpmiddelen zoals +500 zon en het wissen van afkoeltijden. Normale goudstaafkosten blijven gelden.
 
 [NEW_OPTIONS_HELP_SHOWUNLOCKBUTTON]
-Toont of verbergt de vrijspeelknop in het hoofdmenu.
-Dit toont alleen de toegang en speelt zelf niets vrij. Je moet de bijbehorende stappen nog uitvoeren.
+Toon de ontgrendelknop in het hoofdmenu. Klik om het ontgrendelen te starten.
 
 [NEW_OPTIONS_HELP_ENABLESL]
-Toont S en L in de gevechtsinstellingen. S slaat het gevecht op, L laadt de opgeslagen toestand.
-Laden zet je terug naar die toestand; niet-opgeslagen voortgang gaat verloren. Beschikbaarheid hangt af van modus en onlinebeperkingen.
+Toon S (opslaan) en L (laden) in gevechtsinstellingen. Laden wist niet-opgeslagen voortgang. Niet beschikbaar in sommige modi en online.
 
 [NEW_OPTIONS_HELP_FREEGOLDFINGER]
-Maakt voorwerpen voor deze speler blijvend gratis zonder goudstaven te kosten. Vooraf wordt bevestiging gevraagd.
-Dit is permanent en niet uit te schakelen. Het staat los van de zichtbaarheid van voorwerpknoppen.
+Verwijder permanent de goudstaafkosten van hulpmiddelen voor deze speler. Kan daarna niet worden uitgezet.
 
 [NEW_OPTIONS_HELP_IMPORTINTERNALDATA]
-Kies een opslag-ZIP die door het spel is geëxporteerd. Na controle wordt hij bij de volgende start geïmporteerd. Exporteer eerst een back-up.
-Vervangt alleen profielen, voortgang, eigen levels en avatarafbeeldingen.
+Herstel profielen, voortgang, eigen levels en avatars uit een door dit spel geëxporteerde ZIP bij de volgende start. Vervangt bestaande gegevens; exporteer eerst een reservekopie.
 
 [NEW_OPTIONS_HELP_EXPORTINTERNALDATA]
-Pakt je gegevens in een spel-ZIP voor back-up of overdracht naar een ander apparaat. Probeert eerst het huidige gevecht en profiel op te slaan.
-Bevat alleen profielen, voortgang, eigen levels en avatarafbeeldingen. Herstel via Opslaggegevens importeren.
+Exporteer profielen, voortgang, eigen levels en avatars als ZIP voor reservekopie of overdracht. Herstel via Opgeslagen gegevens importeren.
 
 [NEW_OPTIONS_HELP_OPENINTERNALFOLDER]
-Opent de interne gegevensmap in de bestandsbeheerder om bestanden te bekijken of handmatig te back-uppen.
-Wijzigen, verplaatsen of verwijderen kan opslag en eigen inhoud beïnvloeden; maak eerst een back-up. Alleen zichtbaar op ondersteunde platforms.
+Open de spelgegevensmap om bestanden te bekijken of kopiëren. Maak een reservekopie vóór wijzigingen.
 
 [NEW_OPTIONS_HELP_USERDATAFORMAT]
-Kies het opslagformaat voor profielen: MessagePack is compact binair, JSON is leesbare en bewerkbare tekst.
-Meestal volstaat standaard MessagePack. Wisselen converteert niet meteen alle oude bestanden en vervangt geen back-upimport of -export.
+Kies het profielformaat: MessagePack is compact (standaard); JSON is leesbaar en bewerkbaar.
 
 [NEW_OPTIONS_HELP_LEVELDATAFORMAT]
-Kies het opslagformaat voor de huidige gevechtstoestand: MessagePack is compact binair, JSON is makkelijk te lezen en bewerken.
-Dit is geen importinstelling voor eigen levelfiles. Meestal hoef je niets te wijzigen; maak een back-up voor handmatige bewerking.
+Kies het formaat voor opgeslagen gevechten: MessagePack is compact (standaard); JSON is leesbaar en bewerkbaar.
 
 [NEW_OPTIONS_HELP_CHRISTMAS]
-Schakelt kerstversiering in: kerstmutsen op sommige zombies en kerstkousen in sommige scènes.
+Toon kerstversiering zoals kerstmutsen en sokken.
 
 [NEW_OPTIONS_HELP_MUSTACHE]
-Geeft geschikte zombies een snor zonder hun gevechtskracht te veranderen. Typ mustache in het spel om te wisselen.
-Wordt niet blijvend opgeslagen.
+Geef sommige zombies snorren. Ook te wisselen door mustache te typen. Wordt bij herstart gereset.
 
 [NEW_OPTIONS_HELP_TRICKEDOUT]
-Geeft geschikte gewone grasmaaiers een flitsend uiterlijk. Typ trickedout om te wisselen.
-Wordt niet blijvend opgeslagen.
+Geef gewone grasmaaiers een hotrod-uiterlijk. Typ trickedout om te wisselen. Wordt bij herstart gereset.
 
 [NEW_OPTIONS_HELP_FUTURE]
-Geeft geschikte zombies toekomstbrillen zonder hun gevechtskracht te veranderen. Typ future om te wisselen.
-Wordt niet blijvend opgeslagen.
+Geef sommige zombies futuristische brillen. Typ future om te wisselen. Wordt bij herstart gereset.
 
 [NEW_OPTIONS_HELP_DAISIES]
-Laat geschikte zombies bij hun dood bloemen achterlaten. Dit is visueel en plant geen bestuurbare planten. Typ daisies om te wisselen.
-Vereist een Wijsheidsboom van 100 voet. Werkt niet bij elke zombie of elk terrein. Niet blijvend opgeslagen.
+Sommige zombies laten bloemen achter bij hun dood. Vereist een Wijsheidsboom van 100 voet. Typ daisies om te wisselen. Wordt bij herstart gereset.
 
 [NEW_OPTIONS_HELP_DANCE]
-Laat geschikte zombies dansend lopen. Typ dance om te wisselen.
-Vereist een Wijsheidsboom van 500 voet; niet elk zombietype of elke beweging ondersteunt dit. Niet blijvend opgeslagen.
+Laat sommige zombies dansend lopen. Vereist een Wijsheidsboom van 500 voet. Typ dance om te wisselen. Wordt bij herstart gereset.
 
 [NEW_OPTIONS_HELP_PINATA]
-Laat snoep uit geschikte zombies vliegen als ze sterven. Het snoep is een effect, geen extra munten of verzamelbare beloning. Typ pinata om te wisselen.
-Vereist een Wijsheidsboom van 1000 voet. Niet blijvend opgeslagen.
+Sommige zombies spatten bij hun dood uiteen in snoep. Vereist een Wijsheidsboom van 1000 voet. Typ pinata om te wisselen. Wordt bij herstart gereset.
 
 [NEW_OPTIONS_HELP_SUKHBIR]
-Vervangt de gewone geluiden van sommige zombies door andere. Typ sukhbir om te wisselen.
-Verandert geen gevechtskracht en wordt niet blijvend opgeslagen.
+Vervang sommige zombiekreunen. Typ sukhbir om te wisselen. Wordt bij herstart gereset.
 
 [NEW_OPTIONS_HELP_RESOURCEPACKLUASCRIPTS]
-Laat Lua-scripts in bronnenpakketten draaien. Ze kunnen interface en spel uitbreiden, maar ook bestanden lezen, netwerkverzoeken doen of opslag wijzigen. Gebruik alleen vertrouwde scripts.
-Staat los van het inschakelen van het pakket. Herstart volgens de herlaadmelding. Let online op gelijke scriptinstellingen aan beide kanten.
+Voer Lua-scripts uit bronpakketten uit. Ze kunnen het spel uitbreiden, bestanden en het netwerk benaderen en saves wijzigen. Gebruik alleen vertrouwde scripts en herstart wanneer gevraagd.
 
 [NEW_OPTIONS_SWITCH_ON]
 Aan
@@ -9915,6 +9874,9 @@ Versus: Tieba
 [VS_CLASSIC]
 Klassiek versus
 
+[VS_ALL_ZOMBIES]
+Versus: alle zombies (test)
+
 [VS_NIGHT]
 Versus: nacht
 
@@ -11124,7 +11086,7 @@ Guerrilla tegen de stierenkoning
 Halloweenmodus
 
 [NEW_OPTIONS_HELP_HALLOWEEN]
-Schakelt halloweenversiering in: heksenhoeden op sommige zombies en pompoenlantaarns in sommige scènes.
+Toon Halloweenversiering zoals heksenhoeden en pompoenlantaarns.
 
 [HELP_GAMEPAD_XBOX]
 Xbox-controller
@@ -11289,13 +11251,13 @@ Boter (vasthouden)
 Beide sets zijn compleet. Klik op Starten.
 
 [MULTIPLAYER_LOCAL_VS_PICK]
-P{0} · {1}: kies een kaart
+S{0} · {1}: kies een kaart
 
 [MULTIPLAYER_LOCAL_COOP_PICK]
-Kies elk vier kaarten. Met de aanwijzer kies je eerst voor P1 en daarna voor P2.
+Kies elk vier kaarten. Met de aanwijzer kies je eerst voor S1 en daarna voor S2.
 
 [MULTIPLAYER_LOCAL_SHARED_PICK]
-Gedeelde set · P1 kiest, beiden gebruiken hem
+Gedeelde set · S1 kiest, beiden gebruiken hem
 
 [MULTIPLAYER_ACCOUNT]
 Serveraccount
@@ -11411,6 +11373,15 @@ Registratie is momenteel gesloten op deze server.
 [MULTIPLAYER_LOGIN_REQUIRED]
 Meld je aan, of meld je opnieuw aan als je sessie verlopen is.
 
+[MULTIPLAYER_SESSION_EXPIRED]
+Je sessie is verlopen. Meld je opnieuw aan.
+
+[MULTIPLAYER_SESSION_REPLACED]
+Dit account is op een ander apparaat aangemeld. Meld je opnieuw aan.
+
+[MULTIPLAYER_SERVER_SWITCHED]
+Je bent van server gewisseld. Meld je opnieuw aan.
+
 [MULTIPLAYER_ACCOUNT_ALREADY_IN_ROOM]
 Dit account bezet al een plek in de kamer. Herstel bij een onderbreking de oorspronkelijke verbinding.
 
@@ -11448,25 +11419,59 @@ Controller 1
 Controller 2
 
 [LOCAL_INPUT_PLAYER]
-P{0}: {1}
+S{0}: {1}
 
 [LOCAL_INPUT_DISCONNECTED]
 (niet verbonden)
 
 [LOCAL_INPUT_CONNECT]
-Sluit {1} voor P{0} aan of kies een ander apparaat.
+Sluit {1} voor S{0} aan of kies een ander apparaat.
 
 [LOCAL_INPUT_SELECT]
-Invoerapparaat voor P{0} kiezen
+Invoerapparaat voor S{0} kiezen
 
 [LOCAL_INPUT_OCCUPIED]
-(in gebruik door P{0})
+(in gebruik door S{0})
 
 [LOCAL_INPUT_SHARED_DESCRIPTION]
 Gedeelde muis / aanraking · bedient beide kaartbanken
 
 [SHUFFLE]
 Schudden
+
+[HOMERUN_DERBY_TUTORIAL]
+Homerunwedstrijd 2
+
+[HOMERUN_TUTORIAL_START]
+Training starten
+
+[HOMERUN_TUTORIAL_RETRY]
+Opnieuw proberen
+
+[HOMERUN_TUTORIAL_BALLS_TO_GO]
+BALLEN
+OVER
+
+[HOMERUN_TUTORIAL_STATUS]
+Score: {SCORE}  Bal: {ROUND} / 20  Kansen: {LIVES}
+
+[HOMERUN_TUTORIAL_SWIPE]
+Houd de bal links ingedrukt en veeg dan naar rechtsboven om te slaan!
+
+[HOMERUN_TUTORIAL_READY]
+Maak je klaar!
+
+[HOMERUN_TUTORIAL_WON]
+Training voltooid!
+
+[HOMERUN_TUTORIAL_LOST]
+Geen kansen meer. Probeer het opnieuw!
+
+[HOMERUN_TUTORIAL_REPLAY]
+Nog een worp!
+
+[HOMERUN_TUTORIAL_MISS]
+Uit
 
 [SHUFFLE_SELECT_STAKE]
 Stop een zilveren munt, gouden munt of diamant in een vaas. Raad 10 keer achter elkaar goed en win tien keer je inzet.
@@ -11999,20 +12004,17 @@ Puzzels
 Overleven
 
 [NEW_OPTIONS_HELP_ACCESSIBILITY]
-Voorlezen inschakelen zet de toetsenbordfunctie op Controller; uitschakelen zet die op Sneltoetsen. Daarna kun je dit apart wijzigen onder Besturing → Toetsenbordfunctie. Alleen die keuze bepaalt de bediening. Volume en snelheid zijn ook bij uitgeschakeld voorlezen instelbaar.
-
-Menu's: pijltjes, Tab, Enter, Esc.
-F2 leest details van het huidige bedieningselement, F4 de pagina.
-
-Alleen spelen in controllermodus: pijltjes bewegen per vak, J bevestigt of plant, K annuleert, Q/E wisselt kaarten. Houd met lege handen K langer dan een seconde vast en laat los om te graven. U doet de levelactie, Z/C gebruikt de ingestelde trekkerfunctie, Enter pauzeert.
-Opvragen: F1 herhalen, F2 huidig vak, F3 zonlicht en munten, F4 golven, F5 zombies in de rij, F6 huidige kaart. F9 hulp, F10 stoppen met voorlezen.
-Multiplayer behoudt zijn bediening. Een systeemstempakket voor de taal is vereist. Uitschakelen kan onder Besturing.
+Lees interface en gevecht voor. Vereist een systeemstem voor de taal. Inschakelen kiest Controller, uitschakelen Sneltoetsen. Toetsenbordfunctie is apart aanpasbaar.
+Menu’s: pijlen/Tab bewegen, Enter bevestigen, Esc terug. F2: elementdetails; F4: pagina-inhoud.
+Solo-gevecht (Controller): pijlen bewegen, J bevestigt/plant, K annuleert, Q/E wisselen kaarten, Z/C gebruiken triggers, U voert levelacties uit, Enter pauzeert. Houd met lege handen K langer dan 1 seconde vast en laat los om te scheppen.
+Opvragen: F1 herhalen, F2 huidig vak, F3 zon en munten, F4 golven, F5 zombies in deze rij, F6 huidige kaart.
+F9: bedieningshulp. F10: stop voorlezen. Multiplayerbediening blijft gelijk.
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYVOLUME]
-Past alleen het spraakvolume aan, niet muziek of geluidseffecten.
+Pas het voorleesvolume aan. Muziek en effecten blijven gelijk.
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYRATE]
-Past de spraaksnelheid aan. 0 is standaard, positief is sneller en negatief langzamer.
+Voorleessnelheid: 0 is standaard, positief sneller, negatief langzamer.
 
 [A11Y_GRAVE]
 Grafsteen
@@ -12219,14 +12221,14 @@ Sneltoetsen
 Controller
 
 [NEW_OPTIONS_HELP_KEYBOARDMODE]
-Kies Sneltoetsen of Controller voor eenpersoonsgevechten; standaard Sneltoetsen. Alleen deze keuze bepaalt de bediening. Voorlezen aan/uit zet dit op Controller/Sneltoetsen; daarna kun je het hier apart wijzigen. Vaste controllertoetsen:
-WASD: linker stick (bewegen), pijlen: richtingskruis
-J / K / U / I: A / B / X / Y
-Q / E: LB / RB (kaart wisselen), Z / C: LT / RT
-Numeriek 8 / 2 / 4 / 6: rechter stick
-Enter: Start, Backspace: Back, Esc: bestaand menu
-Gewoon gevecht: J plant, K annuleert. Richt met lege handen op een plant, houd K langer dan een seconde vast en laat los om te graven. U doet de levelactie.
-Lokaal samenspel gebruikt de lobbytoewijzing; online behoudt bestaande sneltoetsen. De koppeling pauzeert bij tekstvelden, pop-ups en pauze. Laat alle gekoppelde toetsen los voordat je hervat.
+Gebruik sneltoetsen of gamepad-emulatie in solo-gevechten. Controller-toetsen:
+WASD: linker stick; pijlen: D-pad
+J/K/U/I: A/B/X/Y; Q/E: LB/RB (kaarten)
+Z/C: LT/RT; numeriek 8/2/4/6: rechter stick
+Enter: pauze; Backspace: terug; Esc: menu; Tab: snelheid
+In solo-gamepadmodus kiest de bovenste cijferrij 1–0 kaarten/gereedschap en pauzeert Spatie; andere oude sneltoetsen zijn uitgeschakeld.
+J plant, K annuleert. Houd met lege handen K langer dan 1 seconde vast en laat los om te scheppen. U: levelactie.
+Voorlezen omschakelen wijzigt dit ook. Online gebruikt sneltoetsen; lokaal met twee gelden lobbytoewijzingen.
 
 [NEW_OPTIONS_SECTION_INPUT]
 Bediening
@@ -12247,7 +12249,7 @@ Laden…
 Niet beschikbaar
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYVOICE]
-Kies een geïnstalleerde systeemstem. Automatisch volgt de speltaal; een onbeschikbare stem krijgt automatisch een vervanging. Je kunt ook kiezen terwijl voorlezen uitstaat. De keuze wordt per apparaat opgeslagen.
+Kies een systeemstem. Automatisch volgt de speltaal, ook als de gekozen stem niet beschikbaar is.
 
 [NEW_OPTIONS_CURRENCY]
 Valuta
@@ -12256,7 +12258,7 @@ Valuta
 Algemeen
 
 [NEW_OPTIONS_HELP_CURRENCY]
-Verandert het valuta-uiterlijk van munten, geldzakken, de muntenbalk en verkoopiconen. Bedragen en prijzen blijven gelijk.
+Wijzig munt- en andere valutapictogrammen. Bedragen en prijzen blijven gelijk.
 
 [MUSIC_BOX_TUNE_CREDITSZOMBIESONYOURLAWNJP]
 Zombies op je gazon (Japans)
@@ -12271,7 +12273,10 @@ Vertaling van MV-songtekst tonen
 日本語
 
 [NEW_OPTIONS_HELP_MUSICVIDEOLANGUAGE]
-Kies de zang- en ondertiteltaal van de muziekvideo, standaard Engels. Werkt bij de volgende weergave en verandert de interfacetaal niet.
+Kies de taal van zang en ondertitels van de muziekvideo. Geldt bij de volgende opening.
+
+[NEW_OPTIONS_HELP_MUSICVIDEOTRANSLATION]
+Toon liedtekstvertalingen in de interfacetaal, behalve als deze gelijk is aan de oorspronkelijke ondertitels.
 
 [NEW_OPTIONS_LANGUAGE_FRENCH]
 Français
@@ -12413,3 +12418,33 @@ Ik heb ook een hordeur bij me
 
 [CREDITS_LYRIC_GIVE_TRICYCLE]
 Geef me die driewieler
+
+[ALMANAC_TITLE_HERO]
+Grote almanak - Helden
+
+[HERO_SKILL_POINTS]
+Resterende vaardigheidspunten
+
+[HERO_MAX_LEVEL]
+Max. niveau
+
+[HERO_REQUIRED_LEVEL]
+Niveau %s vereist
+
+[HERO_HEALTH]
+Leven
+
+[HERO_ATTACK]
+Aanval
+
+[HERO_SPEED]
+Snelheid
+
+[HERO_POINTS_REMAINING]
+Resterend
+
+[A11Y_HIGH_CONTRAST]
+Hoog contrast
+
+[NEW_OPTIONS_HELP_HIGHCONTRAST]
+Maak de slagveldachtergrond donkerder en laat planten, zombies en objecten met duidelijke kleuren opvallen.

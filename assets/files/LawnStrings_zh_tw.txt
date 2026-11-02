@@ -1260,19 +1260,19 @@
 嘿，你目前已經收集了 {MONEY} ！
 
 [CRAZY_DAVE_1402]
-當你收集到 ${UPGRADE_COST}時， 我會賣給你些實用道具！
+當你收集到 {UPGRADE_COST}時， 我會賣給你些實用道具！
 
 [CRAZY_DAVE_1501]
 嘿！我的朋友 想再增加一個卡片槽嗎？
 
 [CRAZY_DAVE_1502]
-這將花費你${UPGRADE_COST}，之後你每關能選7種植物而不是6種！
+這將花費你{UPGRADE_COST}，之後你每關能選7種植物而不是6種！
 
 [CRAZY_DAVE_1503]
 {NO_CLICK}聽起來怎麼樣？
 
 [CRAZY_DAVE_1510]
-太好了！然後當你攢到${UPGRADE_COST}，我將給你升級到8個卡片槽！
+太好了！然後當你攢到{UPGRADE_COST}，我將給你升級到8個卡片槽！
 
 [CRAZY_DAVE_1511]
 回見！
@@ -1284,7 +1284,7 @@
 嘿！我的朋友 想再增加一個卡片槽嗎？
 
 [CRAZY_DAVE_1552]
-這將花費你${UPGRADE_COST}，之後你每關能選8種植物而不是7種！
+這將花費你{UPGRADE_COST}，之後你每關能選8種植物而不是7種！
 
 [CRAZY_DAVE_1553]
 {NO_CLICK}聽起來怎麼樣？
@@ -1308,7 +1308,7 @@
 我選……這三種！
 
 [CRAZY_DAVE_1700]
-{NO_CLICK}我給你 ${SELL_PRICE}來換 {PLANT_TYPE}！
+{NO_CLICK}我給你 {CURRENCY_SYMBOL}{SELL_PRICE}來換 {PLANT_TYPE}！
 
 [CRAZY_DAVE_2000]
 {NO_CLICK}把這些種在你的雙重射手上，把它變成機槍射手！機槍射手一次能射出4顆豌豆！
@@ -4595,7 +4595,7 @@ x%d
 倍速
 
 [CRAZY_DAVE_9988]
-{NO_CLICK}{MOUTH_BIG_OH}你已經在我的商店裡花費了$25,000金幣，可真是個富哥！
+{NO_CLICK}{MOUTH_BIG_OH}你已經在我的商店裡花費了{CURRENCY_SYMBOL}25,000金幣，可真是個富哥！
 
 [CRAZY_DAVE_9989]
 {NO_CLICK}{SCREAM}恭喜你達成了成就——散財童子！
@@ -5716,18 +5716,18 @@ x%d
 {FLAVOR}“我是個來自古代的瓷盆，但我也是一棵植物。是不是很意外？”
 
 [WEST_FIRE_GOURD]
-火葫蘆
+噴火甜椒
 
 [WEST_FIRE_GOURD_TOOLTIP]
 點燃殭屍造成持續傷害
 
 [WEST_FIRE_GOURD_DESCRIPTION]
-火葫蘆能噴火，點燃殭屍造成持續傷害。即使停止攻擊，灼燒傷害仍會持續一段時間。
+噴火甜椒能噴火，點燃殭屍造成持續傷害。即使停止攻擊，灼燒傷害仍會持續一段時間。
 {SHORTLINE}
 {KEYWORD}傷害：{STAT}高，能穿透鐵絲網門
 {KEYWORD}範圍：{STAT}被火焰噴中的殭屍
 {SHORTLINE}
-{FLAVOR}“你說你在功夫世界也見到過火葫蘆？”火葫蘆說，“那是我的表弟。”
+{FLAVOR}“你說你在功夫世界見到過火葫蘆？”噴火甜椒說，“那是我的表弟。”
 
 [WEST_BAMBOO_SHOOT]
 竹筍
@@ -5741,6 +5741,20 @@ x%d
 {KEYWORD}強度：{STAT}中等
 {SHORTLINE}
 {FLAVOR}你知道竹筍為什麼可以抵擋殭屍傷害嗎？其實是因為缺少攻擊動畫。
+
+[WALL_WINE_GOURD]
+酒葫蘆
+
+[WALL_WINE_GOURD_TOOLTIP]
+使同格的其他植物暫時加速
+
+[WALL_WINE_GOURD_DESCRIPTION]
+酒葫蘆飛在空中，定時為同格的其他植物斟酒，讓它們暫時加速。
+{SHORTLINE}
+{KEYWORD}特點：{STAT}飛行植物，暫時加速同格的夥伴
+{KEYWORD}範圍：{STAT}同格植物
+{SHORTLINE}
+{FLAVOR}酒葫蘆把每次出門都稱作「走訪鄰居」。他的拜訪總是很受歡迎，只是鄰居們常常還沒來得及道謝，就已經忙得停不下來了。
 
 [ENDLESS_SPEW_ANEMONE]
 水槍草
@@ -6198,7 +6212,7 @@ x%d
 {FLAVOR}你問他為什麼能召喚西方殭屍？因為西方殭屍堅信他是佛祖。
 
 [LINKAGE_DLC_1]
-樹林：第一關
+林間激戰
 
 [LINKAGE_DLC_2]
 管中窺豹
@@ -6349,29 +6363,21 @@ x%d
 [UPDATE_CONTENT]
 檢測到新版本%s，是否前往更新？
 
-[HERO_CONSOLE_TITLE_PROPERTY]
-屬 性
 
-[HERO_CONSOLE_TITLE_SKILL]
-技 能
 
-[HERO_CONSOLE_BUTTON_UPGRADE]
+[HERO_BUTTON_UPGRADE]
 升級
 
-[HERO_CONSOLE_BUTTON_PURCHASE]
+[HERO_BUTTON_PURCHASE]
 購買
 
-[HERO_CONSOLE_BUTTON_RESET]
+[HERO_BUTTON_RESET]
 重置
 
-[HERO_CONSOLE_BUTTON_TRAIN]
+[HERO_BUTTON_TRAIN]
 訓練
 
-[HERO_CONSOLE_BUTTON_SKILL]
-技能
 
-[HERO_CONSOLE_BUTTON_BACK]
-返回
 
 [MAIN_MENU_BUTTON_HERO]
 英雄
@@ -6638,9 +6644,6 @@ x%d
 
 [HEROPLANT_UNLOCK_DIAMOND]
 %d購買
-
-[HEROPLANT_LVLUP_CONFIRM]
-你確定使用%d個元寶立刻升級英雄植物嗎？
 
 [HEROPLANT_RESETSKILL_CONFIRM]
 你確定使用%d個元寶來重置英雄技能嗎？
@@ -8337,7 +8340,7 @@ Español
 自動收集金幣
 
 [NEW_OPTIONS_HELP_GAMEPADTRIGGERS]
-設定戰鬥中 LT/RT（Switch 為 ZL/ZR）的功能。預設「使用道具」：切換頂部道具，按確認鍵使用。「自動收集」：每次按下任一扳機，收集場上的陽光和錢幣等資源；長按不連發。仍可用方向鍵向上進入道具區。此設定不影響選單、選卡和花園的翻頁，也不改變自動收集陽光／金幣開關。
+設定戰鬥中 LT/RT（Switch 為 ZL/ZR）的功能：切換道具後按確認鍵使用，或按一次收集全場陽光和錢幣。長按不連發，十字鍵向上仍可選道具。
 
 [NEW_OPTIONS_GAMEPAD_TRIGGERS]
 手把扳機功能
@@ -8355,8 +8358,7 @@ Español
 啟用小靈殭屍
 
 [NEW_OPTIONS_HELP_ENABLEENDLESSSTAR]
-關閉後，冒險模式和西天取經中原本有小靈殭屍的關卡不再出現小靈和地面星星，過關最多獲得兩星。
-修改此設定不會影響戰鬥中的對局，重新開始關卡後生效。繼續存檔時保留原有狀態，已有的星級紀錄不受影響。
+關閉後，冒險模式和西天取經的相關關卡不再出現小靈殭屍和地面星星，最多兩星。重新開局生效，繼續存檔和既有星級不變。
 
 [NEW_OPTIONS_DRAW_CROSSHAIR]
 種植十字線
@@ -8407,13 +8409,13 @@ MJ
 畫面拉伸
 
 [NEW_OPTIONS_HELP_SCREENSTRETCH]
-0% 保持螢幕原比例，100% 將畫面配置調整為 4:3，再拉伸鋪滿螢幕。中間值逐漸過渡；寬螢幕和高螢幕均適用，高螢幕也以 4:3 為終點。拉伸會改變物體形狀和可見範圍。拖曳後放開生效，鍵盤或手把調整立即生效，設定僅儲存在目前裝置。
+0% 保持螢幕比例，100% 按 4:3 配置拉伸填滿螢幕，畫面會變形。
 
 [NEW_OPTIONS_MOUSE_CURSOR_SIZE]
 滑鼠大小
 
 [NEW_OPTIONS_HELP_MOUSECURSORSIZE]
-調整遊戲游標的大小：0、0.5、1、1.5、2、2.5、3，預設為 1。設為 0 時使用系統游標，遊戲只提示一般、連結或文字類型，外觀和大小由系統決定。修改後立即生效。
+調整遊戲游標大小，1 為預設大小，0 使用系統游標。
 
 [NEW_OPTIONS_UI_LEFT_OFFSET]
 介面左邊距
@@ -8476,184 +8478,142 @@ JSON
 開源許可
 
 [NEW_OPTIONS_HELP_LANGUAGE]
-選擇遊戲介面語言。變更後需要重新啟動遊戲，遊戲進度會保留。
+選擇介面語言，重新啟動遊戲後生效。
 
 [NEW_OPTIONS_HELP_MUSICVOLUME]
-調整背景音樂的音量，範圍為 0% 至 100%。拖動滑塊即可試聽變化。
-調到 0% 會關閉音樂；重新調高可恢復音樂。此項不控制植物、殭屍和按鈕等音效。
+調整背景音樂音量，0% 靜音。
 
 [NEW_OPTIONS_HELP_SOUNDVOLUME]
-調整植物、殭屍、按鈕等音效的音量，範圍為 0% 至 100%。
-調到 0% 可靜音這些音效。背景音樂的音量由“音樂音量”單獨控制。
+調整植物、殭屍和按鈕等音效的音量，0% 靜音。
 
 [NEW_OPTIONS_HELP_FULLSCREEN]
-在視窗顯示與全屏顯示之間切換。全屏可讓遊戲佔用整個顯示區域。
-只有允許切換全屏的平臺才會提供此項；系統固定全屏的裝置不會顯示這個開關。
+切換視窗或全螢幕顯示。
 
 [NEW_OPTIONS_HELP_RUNLOCKED]
-允許遊戲視窗失去焦點或最小化後繼續執行。需要等待對局程序時可以開啟。
-關閉後，失去焦點時會按遊戲的暫停規則處理。開啟會繼續消耗計算資源；移動系統仍可能暫停後臺應用。
+視窗失去焦點或最小化後繼續執行。行動系統仍可能暫停背景程式。
 
 [NEW_OPTIONS_HELP_VIBRATION]
-允許遊戲事件觸發裝置或手柄震動。裝置和當前手柄共用這個開關。
-只有支援震動的硬體才會產生反饋；開啟此項不會讓不支援震動的手柄獲得震動能力。關閉開關會停止當前手柄震動。
+開關裝置和手把的震動回饋。
 
 [NEW_OPTIONS_HELP_LOWLATENCYAUDIO]
-啟用音訊低延遲模式，縮短聲音播放的緩衝時間，減少操作與聲音反饋之間的延遲。
-更改後需要重啟遊戲才能生效；部分裝置或驅動可能不支援此模式。
+減少操作與聲音之間的延遲，重新啟動遊戲後生效。
 
 [NEW_OPTIONS_HELP_CAMERASIZE]
-調整戰場鏡頭的遠近。向左拉近，植物和殭屍顯示得更大；向右拉遠，可以看到更多場景。種子欄和選單大小不受影響。
+向左拉近戰場，向右拉遠以看到更多場景。種子欄和選單大小不變。
 
 [NEW_OPTIONS_HELP_TOPSEEDBANK]
-選擇把種子欄放在畫面左側或上方。它只改變卡片欄佈局，不增加可攜帶的卡片數量。
-較窄螢幕使用左側種子欄時可能遮擋畫面或操作區域，遊戲會在需要時提示確認。
+將種子欄放在左側或上方。窄螢幕使用左側配置可能遮擋畫面。
 
 [NEW_OPTIONS_HELP_BOARDLEFTOFFSET]
-調整寬屏額外空間中左側介面元素的位置，主選單和對局中的相關佈局會使用這個設定。
-根據螢幕邊緣和操作習慣拖動滑塊；螢幕沒有額外橫向空間時，調整效果可能不明顯。
+調整寬螢幕中左側介面的位置，沒有額外橫向空間時效果不明顯。
 
 [NEW_OPTIONS_HELP_BOARDRIGHTOFFSET]
-調整寬屏額外空間中右側介面元素的位置，與左邊距分別設定。
-可用它讓右側按鈕遠離螢幕邊緣，或利用更多寬屏空間。實際移動範圍取決於螢幕比例和當前佈局。
+調整寬螢幕中右側介面的位置，沒有額外橫向空間時效果不明顯。
 
 [NEW_OPTIONS_HELP_COVERLAYER]
-選擇場景前景遮擋物的表現：無、草叢或物品。
-可根據畫面風格和視野需要選擇；更改也會調整選卡過場中街道殭屍的相關站位，以配合所選遮擋物。
+選擇前景遮擋物：無、草叢或物品。部分場景不支援指定遮擋物。
 
 [NEW_OPTIONS_HELP_DRAWCROSSHAIR]
-在選擇種植位置時顯示十字線，幫助對準草坪上的行和列。觸屏或手柄操作時尤其便於確認目標位置。
-它只提供位置提示，不會自動種植，也不會改變植物的種植規則。
+種植時顯示十字線，幫助對準行列。
 
 [NEW_OPTIONS_HELP_SHOWGAMEPADHINTS]
-使用手把或鍵盤手把模式時，顯示目前可用操作的按鍵與說明，鍵盤顯示實際鍵名。本機雙人依 P1、P2 選擇的裝置常駐顯示提示：滑鼠不佔提示位置，每支手把顯示自己的圖示；相同動作共用說明。
-變更後立即生效並儲存。關閉提示不影響操作、焦點框或鍵盤用途的說明。
+顯示手把或鍵盤手把模式的按鍵提示。本機雙人依各自裝置顯示，滑鼠不顯示按鍵圖示。
 
 [NEW_OPTIONS_HELP_SHOWTOOLTIPS]
-允許介面顯示相應的提示資訊，幫助檢視卡片、物件或按鈕的說明。
-提示是否出現取決於當前介面、所指向的物件和輸入方式；關閉後可減少畫面上的提示欄。
+顯示卡片、物件和按鈕的提示說明。
 
 [NEW_OPTIONS_HELP_MAINMENUZOMBIEHAND]
-點選主選單的冒險模式時，播放殭屍手破土而出的開場動畫。
-關閉可跳過通常的冒險開場動畫，更快進入後續流程；首次開始遊戲等特定流程仍可能保留這段動畫。
+進入冒險模式時播放殭屍手開場動畫。首次遊戲等特定流程仍會播放。
 
 [NEW_OPTIONS_HELP_ZOMBIEAPPEARANCE]
-在大頭和小頭兩種殭屍頭型之間切換，選擇你喜歡的外觀比例。
-這是外觀設定，不改變殭屍的血量、攻擊力或關卡難度。
+切換殭屍的大頭或小頭造型。
 
 [NEW_OPTIONS_HELP_DANCERAPPEARANCE]
-在 MJ 和迪斯科兩種舞者風格之間切換，影響對應的舞王及伴舞殭屍。
-兩種風格除了外觀不同，移動距離等行為也存在差異，會影響實際對局表現。
+切換 MJ 或迪斯可舞王及伴舞造型，兩者的移動距離等行為也有差異。
 
 [NEW_OPTIONS_HELP_SPECIALSHADERS]
-開啟後顯示動態泳池、火焰及柔邊多觸點視野。
-關閉或後端不支援時，泳池特效停繪，火焰改用固定貼圖。
-管中窺豹改為單觸點硬邊圓形視野。
-切換立即生效，內建變色濾鏡不受影響。
+控制動態泳池、火焰和柔邊多觸點視野。關閉後泳池特效停繪，火焰改用靜態貼圖，視野變為單觸點硬邊圓形。
 
 [NEW_OPTIONS_HELP_ENHANCEDISPLAY]
-額外顯示卡片冷卻以及植物、殭屍的血量資訊，便於觀察戰況和判斷操作時機。
-開啟後畫面上的數字和資訊會增多。具體顯示內容隨當前模式和物件型別而定。
+顯示卡片冷卻和植物、殭屍的血量。
 
 [NEW_OPTIONS_HELP_GRAPHICSBACKEND]
-選擇遊戲使用的圖形渲染後端，只列出當前平臺支援的選項。一般可使用“自動”；遇到畫面或相容性問題時可嘗試其他後端。
-更改後需要重啟遊戲。後端之間的相容性和效能取決於裝置與驅動。
+選擇圖形後端，通常用「自動」，畫面異常時可嘗試其他選項。重新啟動遊戲後生效。
 
 [NEW_OPTIONS_APPLY_SPEED_ON_NEW_LEVEL]
 開局倍速
 
 [NEW_OPTIONS_HELP_APPLYSPEEDONNEWLEVEL]
-開啟後，進入新關卡時立即使用設定的倍速。預設關閉，新關卡以 1 倍速開始，可透過局內倍速按鈕啟用已設定的倍速。
-此設定不改變當前關卡的倍速狀態。
+新關卡直接使用設定的倍速。關閉時以 1 倍速開始，可用局內倍速按鈕切換。
 
 [NEW_OPTIONS_HELP_SPEED]
-調整對局執行倍速，範圍為 1 至 10 倍。1 倍為正常速度，更高倍速可縮短等待時間，也會減少反應時間。
-特定模式或聯機規則可能限制實際採用的速度。
+設定 1 至 10 倍遊戲速度，部分模式和連線可能限制倍速。
 
 [NEW_OPTIONS_HELP_AUTOCOLLECTSUN]
-自動收集可收取的陽光，減少逐個點選的操作；關閉後可按通常方式手動收集。
+自動收集場上的陽光。
 
 [NEW_OPTIONS_HELP_AUTOCOLLECTCOIN]
-自動收集可收取的金幣，減少逐個點選的操作；關閉後可手動收集。
+自動收集場上的金幣。
 
 [NEW_OPTIONS_HELP_DRAGPLANTING]
-允許按住卡片並拖到目標位置，鬆開後按種植規則進行放置。
-關閉後主要使用先選擇卡片、再點選目標位置的操作方式。種植仍需滿足陽光、冷卻和地形等條件。
+按住卡片拖到目標位置，放開種植；關閉時先選卡，再點位置。
 
 [NEW_OPTIONS_HELP_ONLYORIGINALFEATURES]
-讓主選單和相關內容入口以原版內容為主，隱藏或替換相應的擴充套件入口。
-更改後需要重啟遊戲。它不會刪除已有進度；關閉並重啟後可重新訪問原有的擴充套件入口。
+隱藏或替換擴充內容入口，以原版內容為主。重新啟動後生效，既有進度保留。
 
 [NEW_OPTIONS_HELP_SHOWTOOLS]
-控制陽光+500、櫻桃風雷、清除冷卻等道具按鈕的顯示。
-開啟這個開關不等於免費使用道具，具體消耗仍按道具規則處理。“永久免費道具”是另一項獨立功能。
+顯示陽光+500、櫻桃風雷、清除冷卻等道具按鈕，使用時仍依規則消耗元寶。
 
 [NEW_OPTIONS_HELP_SHOWUNLOCKBUTTON]
-控制主選單解鎖按鈕是否顯示，方便需要時開啟相關解鎖流程。
-這個開關只控制入口的顯示，不會直接解鎖關卡或其他內容，實際解鎖仍需完成對應流程。
+顯示主選單的解鎖按鈕，點擊後進入解鎖流程。
 
 [NEW_OPTIONS_HELP_ENABLESL]
-在對局設定中顯示 S 和 L 按鈕。S 表示儲存當前對局，L 表示載入已經儲存的對局，可用於快速存讀檔。
-載入會回到存檔中的狀態，尚未儲存的對局進展會丟失。按鈕是否可用仍受當前模式和聯機限制影響。
+在局內設定顯示 S（存檔）和 L（讀檔）。讀檔會捨棄未儲存的進展，部分模式和連線不可用。
 
 [NEW_OPTIONS_HELP_FREEGOLDFINGER]
-為當前玩家啟用永久免費道具，使道具使用不再消耗元寶。啟用前會有確認步驟。
-這是永久功能，啟用後無法透過設定關閉。它與“道具按鈕”的顯示開關分別控制。
+為目前玩家永久免除道具的元寶消耗，啟用後無法關閉。
 
 [NEW_OPTIONS_HELP_IMPORTINTERNALDATA]
-選擇由本遊戲匯出的存檔 ZIP，校驗透過後在下次啟動時匯入。匯入前請先匯出備份。
-僅替換使用者資料、遊戲進度、自訂關卡和大頭貼圖片。
+從本遊戲匯出的 ZIP 還原資料、進度、自訂關卡和大頭貼，下次啟動生效。會取代現有資料，請先匯出備份。
 
 [NEW_OPTIONS_HELP_EXPORTINTERNALDATA]
-把當前存檔打包為遊戲專用 ZIP，用於備份或遷移到另一臺裝置。匯出時會嘗試儲存當前對局和玩家資料。
-僅包含使用者資料、遊戲進度、自訂關卡和大頭貼圖片。請透過“匯入存檔”恢復這種 ZIP。
+將資料、進度、自訂關卡和大頭貼匯出為 ZIP，用於備份或移轉，可透過「匯入存檔」還原。
 
 [NEW_OPTIONS_HELP_OPENINTERNALFOLDER]
-在系統檔案管理器中開啟遊戲的內部資料目錄，便於檢視或手動備份檔案。
-修改、移動或刪除其中的檔案可能影響存檔和自訂內容，操作前建議保留備份。此入口只在平臺支援時顯示。
+開啟遊戲資料夾，便於查看和備份。修改檔案前請先備份。
 
 [NEW_OPTIONS_HELP_USERDATAFORMAT]
-選擇使用者資料儲存時使用的格式：MessagePack 為緊湊的二進位制格式，JSON 為便於閱讀和編輯的文字格式。
-通常可保持預設的 MessagePack。切換格式不會立即批次轉換全部舊檔案，也不代替匯入或匯出備份。
+選擇使用者資料的儲存格式：MessagePack 體積小（預設），JSON 便於查看和編輯。
 
 [NEW_OPTIONS_HELP_LEVELDATAFORMAT]
-選擇儲存當前關卡狀態時使用的格式：MessagePack 為緊湊的二進位制格式，JSON 便於檢視和編輯。
-此項針對對局存檔，不是自訂關卡檔案的匯入設定。通常無需修改預設格式；手動編輯前請保留備份。
+選擇對局存檔格式：MessagePack 體積小（預設），JSON 便於查看和編輯。
 
 [NEW_OPTIONS_HELP_CHRISTMAS]
-開啟聖誕節裝飾，例如部分殭屍的聖誕帽，以及部分場景中的聖誕襪。
+顯示聖誕帽、聖誕襪等節日裝飾。
 
 [NEW_OPTIONS_HELP_MUSTACHE]
-讓支援該效果的殭屍長出鬍子，是不改變戰鬥能力的外觀彩蛋。也可在遊戲中輸入 mustache 切換。
-不作為長期設定儲存。
+讓部分殭屍長出鬍子，也可輸入 mustache 切換。重新啟動後不保留。
 
 [NEW_OPTIONS_HELP_TRICKEDOUT]
-將適用的普通割草機切換為炫酷造型，屬於外觀彩蛋。也可輸入 trickedout 切換。
-不作為長期設定儲存。
+讓普通割草機換上炫酷造型，也可輸入 trickedout 切換。重新啟動後不保留。
 
 [NEW_OPTIONS_HELP_FUTURE]
-讓支援該效果的殭屍戴上未來風格的眼鏡，不改變它們的戰鬥能力。也可輸入 future 切換。
-不作為長期設定儲存。
+讓部分殭屍戴上未來眼鏡，也可輸入 future 切換。重新啟動後不保留。
 
 [NEW_OPTIONS_HELP_DAISIES]
-讓符合條件的殭屍死亡時留下菊花，是視覺彩蛋，不會種出可操作的植物。也可輸入 daisies 切換。
-需要智慧樹達到 100 英尺；部分殭屍或地形不會產生花朵。不作為長期設定儲存。
+讓部分殭屍死後留下雛菊，需要智慧樹 100 英尺。也可輸入 daisies 切換，重新啟動後不保留。
 
 [NEW_OPTIONS_HELP_DANCE]
-讓支援該效果的殭屍邊走邊跳舞。也可輸入 dance 切換。
-需要智慧樹達到 500 英尺，並非所有殭屍型別和動作狀態都支援。不作為長期設定儲存。
+讓部分殭屍邊走邊跳舞，需要智慧樹 500 英尺。也可輸入 dance 切換，重新啟動後不保留。
 
 [NEW_OPTIONS_HELP_PINATA]
-讓符合條件的殭屍死亡時出現糖果飛濺效果。糖果是彩蛋粒子，不是額外的金幣或可收集獎勵。也可輸入 pinata 切換。
-需要智慧樹達到 1000 英尺。不作為長期設定儲存。
+讓部分殭屍死後飛出糖果，需要智慧樹 1000 英尺。也可輸入 pinata 切換，重新啟動後不保留。
 
 [NEW_OPTIONS_HELP_SUKHBIR]
-把部分殭屍平時的叫聲替換為另一組聲音。也可在遊戲中輸入 sukhbir 切換。
-不改變戰鬥能力，不作為長期設定儲存。
+替換部分殭屍的叫聲，也可輸入 sukhbir 切換。重新啟動後不保留。
 
 [NEW_OPTIONS_HELP_RESOURCEPACKLUASCRIPTS]
-允許資源包中的 Lua 指令碼執行。指令碼可以擴充套件介面和玩法，也可能訪問檔案、發起網路請求或修改存檔，請只啟用可信來源的指令碼。
-此項與資源包本身的啟用開關分別控制。更改後按資源包過載提示重啟遊戲；聯機時請留意雙方指令碼配置是否一致。
+執行資源包中的 Lua 腳本，可擴充玩法，也能存取檔案和網路、修改存檔。請只啟用可信腳本，並依提示重新啟動。
 
 [NEW_OPTIONS_SWITCH_ON]
 開
@@ -9921,6 +9881,9 @@ P{0}
 [VS_CLASSIC]
 對戰經典
 
+[VS_ALL_ZOMBIES]
+對戰 全殭屍測試
+
 [VS_NIGHT]
 對戰 夜晚
 
@@ -11136,7 +11099,7 @@ James Level
 萬聖節模式
 
 [NEW_OPTIONS_HELP_HALLOWEEN]
-開啟萬聖節裝飾：部分殭屍的巫師帽，以及部分場景中的南瓜燈。
+顯示巫師帽、南瓜燈等萬聖節裝飾。
 
 [HELP_GAMEPAD_XBOX]
 Xbox 控制器
@@ -11424,6 +11387,15 @@ P{0} · {1}：請選擇一張卡片
 [MULTIPLAYER_LOGIN_REQUIRED]
 請先登入，或在工作階段到期後重新登入。
 
+[MULTIPLAYER_SESSION_EXPIRED]
+帳號登入已過期，請重新登入。
+
+[MULTIPLAYER_SESSION_REPLACED]
+帳號已在其他裝置登入，請重新登入。
+
+[MULTIPLAYER_SERVER_SWITCHED]
+已切換伺服器，請重新登入。
+
 [MULTIPLAYER_ACCOUNT_ALREADY_IN_ROOM]
 此帳號已在該房間佔用席位。斷線時請恢復原連線。
 
@@ -11480,6 +11452,40 @@ P{0}：{1}
 
 [SHUFFLE]
 洗牌
+
+[HOMERUN_DERBY_TUTORIAL]
+本壘打大賽2
+
+[HOMERUN_TUTORIAL_START]
+開始練習
+
+[HOMERUN_TUTORIAL_RETRY]
+再試一次
+
+[HOMERUN_TUTORIAL_BALLS_TO_GO]
+剩餘
+球數
+
+[HOMERUN_TUTORIAL_STATUS]
+得分：{SCORE}  回合：{ROUND} / 20  機會：{LIVES}
+
+[HOMERUN_TUTORIAL_SWIPE]
+在左側區域按住球，向右上方滑動揮棒！
+
+[HOMERUN_TUTORIAL_READY]
+準備接球！
+
+[HOMERUN_TUTORIAL_WON]
+練習完成！
+
+[HOMERUN_TUTORIAL_LOST]
+機會用完了，再試一次吧！
+
+[HOMERUN_TUTORIAL_REPLAY]
+再投一球！
+
+[HOMERUN_TUTORIAL_MISS]
+出局
 
 [SHUFFLE_SELECT_STAKE]
 將銀幣、金幣或鑽石放進罐子，連續猜對10輪可獲得十倍獎金。
@@ -12014,20 +12020,17 @@ P{0}：{1}
 生存模式
 
 [NEW_OPTIONS_HELP_ACCESSIBILITY]
-開啟無障礙朗讀時，鍵盤用途切換為「手把」；關閉時切換為「快捷鍵」。之後可在「控制 → 鍵盤用途」單獨修改，實際操作只依此選項執行。朗讀關閉時也可調整音量和速度。
-
-選單：方向鍵、Tab、Enter、Esc。
-介面中，F2 朗讀目前控制項詳情，F4 朗讀頁面內容。
-
-手把模式下的單人操作：方向鍵逐格移動，J 確認或種植，K 取消，Q/E 換卡，空手時長按 K 超過一秒後放開剷除，U 執行關卡動作，Z/C 使用設定的扳機功能，Enter 暫停。
-查詢：F1 重讀，F2 目前格子，F3 陽光與金幣，F4 波次，F5 本列殭屍，F6 目前卡片。F9 說明，F10 停止朗讀。
-多人沿用原有操作。朗讀需要系統安裝對應語言的語音包，可在控制設定中關閉。
+朗讀介面和戰況，需要對應語言的系統語音。開啟時鍵盤切為「手把」，關閉時切為「快捷鍵」，也可單獨修改「鍵盤用途」。
+選單：方向鍵/Tab 移動，Enter 確認，Esc 返回；F2 控制項詳情，F4 頁面內容。
+單人戰鬥（手把模式）：方向鍵移動，J 確認/種植，K 取消，Q/E 換卡，Z/C 扳機功能，U 關卡動作，Enter 暫停。空手長按 K 超過 1 秒後放開可鏟除。
+查詢：F1 重讀，F2 目前格子，F3 陽光與金幣，F4 波次，F5 本行殭屍，F6 目前卡片。
+F9 操作說明，F10 停止朗讀。多人操作不變。
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYVOLUME]
-調整朗讀音量，不改變遊戲音樂和音效的音量。
+調整朗讀音量，音樂和音效不變。
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYRATE]
-調整朗讀速度。0 使用預設速度，正數加快，負數減慢。
+調整朗讀速度：0 為預設，正數加快，負數減慢。
 
 [A11Y_GRAVE]
 墓碑
@@ -12234,14 +12237,14 @@ F2 朗讀目前項目的詳細介紹。
 手把
 
 [NEW_OPTIONS_HELP_KEYBOARDMODE]
-單人戰鬥可選擇「快捷鍵」或「手把」，預設快捷鍵。實際操作只依此選項執行。切換無障礙朗讀開關會相應切為手把或快捷鍵，之後可在這裡單獨修改。手把模式固定鍵位：
-WASD：左搖桿（移動）　方向鍵：十字鍵
-J / K / U / I：A / B / X / Y
-Q / E：LB / RB（換卡）　Z / C：LT / RT
-數字鍵盤 8 / 2 / 4 / 6：右搖桿
-Enter：Start　Backspace：Back　Esc：原有選單
-一般戰鬥 J 種植、K 取消，空手對準植物長按 K 超過一秒後放開剷除；U 執行關卡動作。
-本機雙人仍依大廳裝置分配使用鍵盤，連線保留原有快捷鍵。文字欄位、對話框、暫停時停用映射；恢復時先放開所有映射鍵。
+單人戰鬥可用快捷鍵或鍵盤模擬手把。手把鍵位：
+WASD：左搖桿　方向鍵：十字鍵
+J/K/U/I：A/B/X/Y　Q/E：LB/RB（換卡）
+Z/C：LT/RT　數字鍵盤 8/2/4/6：右搖桿
+Enter：暫停　Backspace：返回　Esc：選單　Tab：變速
+單人手把模式另支援主鍵盤 1–0 選卡/工具、空白鍵暫停；其餘原有快捷鍵停用。
+J 種植，K 取消，空手長按 K 超過 1 秒後放開鏟除；U 執行關卡動作。
+切換朗讀開關會改變此項。連線沿用快捷鍵，本機雙人依大廳分配。
 
 [NEW_OPTIONS_SECTION_INPUT]
 操作
@@ -12262,7 +12265,7 @@ Enter：Start　Backspace：Back　Esc：原有選單
 無法使用
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYVOICE]
-選擇系統已安裝的語音。自動選擇會配合遊戲語言；所選語音無法使用時自動回退。關閉朗讀時也可選擇，設定依裝置儲存。
+選擇系統語音。「自動」依遊戲語言配對，所選語音無法使用時也會自動配對。
 
 [NEW_OPTIONS_CURRENCY]
 貨幣
@@ -12271,7 +12274,7 @@ Enter：Start　Backspace：Back　Esc：原有選單
 通用
 
 [NEW_OPTIONS_HELP_CURRENCY]
-切換金幣、錢袋、金幣欄和出售圖示的貨幣外觀，不改變金額或價格。
+切換金幣等貨幣圖示的外觀，金額和價格不變。
 
 [MUSIC_BOX_TUNE_CREDITSZOMBIESONYOURLAWNJP]
 草坪上的殭屍（日文）
@@ -12286,7 +12289,10 @@ MV 語言
 日本語
 
 [NEW_OPTIONS_HELP_MUSICVIDEOLANGUAGE]
-選擇 MV 的演唱和字幕語言，預設英文，下次進入 MV 時生效，不改變介面語言。
+選擇 MV 的演唱和字幕語言，下次開啟 MV 時生效。
+
+[NEW_OPTIONS_HELP_MUSICVIDEOTRANSLATION]
+依介面語言顯示 MV 歌詞譯文，與原字幕同語言時不顯示。
 
 [NEW_OPTIONS_LANGUAGE_FRENCH]
 Français
@@ -12428,3 +12434,33 @@ Svenska
 
 [CREDITS_LYRIC_GIVE_TRICYCLE]
 把那輛三輪車給我吧
+
+[ALMANAC_TITLE_HERO]
+大圖鑑 - 英雄
+
+[HERO_SKILL_POINTS]
+剩餘技能點
+
+[HERO_MAX_LEVEL]
+已滿級
+
+[HERO_REQUIRED_LEVEL]
+%s級解鎖
+
+[HERO_HEALTH]
+生命
+
+[HERO_ATTACK]
+攻擊
+
+[HERO_SPEED]
+速度
+
+[HERO_POINTS_REMAINING]
+剩餘
+
+[A11Y_HIGH_CONTRAST]
+高對比度
+
+[NEW_OPTIONS_HELP_HIGHCONTRAST]
+壓暗戰場背景，用醒目顏色凸顯植物、殭屍等物件。

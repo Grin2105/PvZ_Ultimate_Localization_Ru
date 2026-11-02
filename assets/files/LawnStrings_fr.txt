@@ -1332,7 +1332,7 @@ Cette fois, je prendrai des graines pour vous !
 Je choisis...ces trois-là !
 
 [CRAZY_DAVE_1700]
-{NO_CLICK}Je vous donne ${SELL_PRICE} pour cette plante : {PLANT_TYPE} !
+{NO_CLICK}Je vous donne {CURRENCY_SYMBOL}{SELL_PRICE} pour cette plante : {PLANT_TYPE} !
 
 [CRAZY_DAVE_2000]
 {NO_SOUND}{NO_CLICK}Plantez-les sur votre double pisto-pois pour en faire une sulfateuse à pois ! Ce truc tire 4 pois à la fois !
@@ -5711,18 +5711,18 @@ Le Pot en porcelaine permet de planter sur la Grande Muraille.
 {FLAVOR}« Je suis un pot en porcelaine antique, mais aussi une plante. Surpris ? »
 
 [WEST_FIRE_GOURD]
-Gourde de feu
+Poivron crache-feu
 
 [WEST_FIRE_GOURD_TOOLTIP]
 Enflamme les zombies et inflige des dégâts continus
 
 [WEST_FIRE_GOURD_DESCRIPTION]
-La Gourde de feu crache des flammes qui embrasent les zombies et infligent des dégâts continus. Ils brûlent encore un moment après l'arrêt de l'attaque.
+Le Poivron crache-feu crache des flammes qui embrasent les zombies et infligent des dégâts continus. Ils brûlent encore un moment après l'arrêt de l'attaque.
 {SHORTLINE}
 {KEYWORD}Dégâts :{STAT} élevés, traverse les portes grillagées
 {KEYWORD}Portée :{STAT} tous les zombies pris dans les flammes
 {SHORTLINE}
-{FLAVOR}« Vous avez aussi vu une Gourde de feu dans le monde du kung-fu ? dit-elle. C'est mon jeune cousin. »
+{FLAVOR}« Vous avez vu une Gourde de feu dans le monde du kung-fu ? dit-il. C'est mon jeune cousin. »
 
 [WEST_BAMBOO_SHOOT]
 Pousse de bambou
@@ -5736,6 +5736,20 @@ La Pousse de bambou bloque les attaques des zombies.
 {KEYWORD}Résistance :{STAT} moyen
 {SHORTLINE}
 {FLAVOR}Savez-vous pourquoi la Pousse de bambou bloque les attaques ? Tout simplement parce qu'elle n'a pas d'animation d'attaque.
+
+[WALL_WINE_GOURD]
+Gourde à Vin
+
+[WALL_WINE_GOURD_TOOLTIP]
+Accélère temporairement les autres plantes de la même case
+
+[WALL_WINE_GOURD_DESCRIPTION]
+Gourde à vin flotte au-dessus de la pelouse et sert les autres plantes de sa case pour les accélérer brièvement.
+{SHORTLINE}
+{KEYWORD}Particularité : {STAT}vole et accélère brièvement les plantes de sa case
+{KEYWORD}Portée : {STAT}plantes de sa case
+{SHORTLINE}
+{FLAVOR}Gourde à Vin appelle chaque sortie une « visite de voisinage ». Ses visites sont toujours appréciées, mais ses voisins sont ensuite si occupés qu’ils en oublient de la remercier.
 
 [ENDLESS_SPEW_ANEMONE]
 Herbe à eau
@@ -6192,7 +6206,7 @@ Le cruel Gargantua aux sourcils jaunes possède de nombreux trésors puissants. 
 {FLAVOR}Pourquoi peut-il invoquer des zombies occidentaux ? Parce qu'ils sont convaincus qu'il est Bouddha.
 
 [LINKAGE_DLC_1]
-Forêt – 1
+Bataille en forêt
 
 [LINKAGE_DLC_2]
 Extinction des feux
@@ -6343,29 +6357,21 @@ Mise à jour
 [UPDATE_CONTENT]
 La version %s est disponible. Ouvrir la page de mise à jour ?
 
-[HERO_CONSOLE_TITLE_PROPERTY]
-Caractéristiques
 
-[HERO_CONSOLE_TITLE_SKILL]
-Compétences
 
-[HERO_CONSOLE_BUTTON_UPGRADE]
+[HERO_BUTTON_UPGRADE]
 Améliorer
 
-[HERO_CONSOLE_BUTTON_PURCHASE]
+[HERO_BUTTON_PURCHASE]
 Acheter
 
-[HERO_CONSOLE_BUTTON_RESET]
+[HERO_BUTTON_RESET]
 Réinitialiser
 
-[HERO_CONSOLE_BUTTON_TRAIN]
+[HERO_BUTTON_TRAIN]
 Entraîner
 
-[HERO_CONSOLE_BUTTON_SKILL]
-Compétences
 
-[HERO_CONSOLE_BUTTON_BACK]
-Retour
 
 [MAIN_MENU_BUTTON_HERO]
 Héros
@@ -6632,9 +6638,6 @@ Crée toutes les 45 secondes un bouclier doté de %s points de vie.
 
 [HEROPLANT_UNLOCK_DIAMOND]
 Acheter pour %d
-
-[HEROPLANT_LVLUP_CONFIRM]
-Voulez-vous dépenser %d lingots d'or pour améliorer immédiatement votre héros ?
 
 [HEROPLANT_RESETSKILL_CONFIRM]
 Voulez-vous dépenser %d lingots d'or pour réinitialiser les compétences du héros ?
@@ -8342,7 +8345,7 @@ Ramassage auto des soleils
 Ramassage auto des pièces
 
 [NEW_OPTIONS_HELP_GAMEPADTRIGGERS]
-Choisissez le rôle de LT/RT (ZL/ZR sur Switch) en combat. « Utiliser les objets » par défaut : sélectionnez un objet en haut, puis confirmez. « Ramassage auto » : appuyez sur une gâchette pour ramasser les ressources du terrain. Maintenir ne répète pas l'action. La croix vers le haut permet toujours d'accéder aux objets. Navigation des menus, cartes et jardins, ainsi que ramassage automatique des soleils/pièces, restent inchangés.
+En combat, LT/RT (ZL/ZR sur Switch) permettent de choisir un objet puis de le confirmer, ou de ramasser soleils et pièces en une pression. Maintenir ne répète pas la collecte. La croix vers le haut permet toujours de choisir les objets.
 
 [NEW_OPTIONS_GAMEPAD_TRIGGERS]
 Gâchettes de manette
@@ -8360,8 +8363,7 @@ Plantation par glissement
 Activer le Diablotin volant
 
 [NEW_OPTIONS_HELP_ENABLEENDLESSSTAR]
-Désactivé, le Diablotin volant et l'étoile au sol disparaissent des niveaux concernés d'Aventure et du Voyage vers l'Ouest. Ces niveaux donnent au maximum deux étoiles.
-Le combat en cours n'est pas modifié. L'effet s'applique au redémarrage du niveau. Une sauvegarde conserve son état initial et les anciens records d'étoiles restent.
+Désactivé : les niveaux concernés en Aventure et Voyage en Occident perdent le diablotin volant et l’étoile au sol, avec deux étoiles maximum. Au prochain nouveau départ ; sauvegardes et notes existantes conservées.
 
 [NEW_OPTIONS_DRAW_CROSSHAIR]
 Repère de plantation
@@ -8413,13 +8415,13 @@ L'écran est étroit : la barre à gauche peut masquer le terrain ou les command
 Étirement de l'écran
 
 [NEW_OPTIONS_HELP_SCREENSTRETCH]
-0% conserve le ratio d'origine. 100% étire une disposition 4:3 sur tout l'écran. Les valeurs intermédiaires font la transition, même sur écran vertical, avec la même cible 4:3. Formes et zone visible changent. Relâchez le curseur pour appliquer ; clavier et manette agissent immédiatement. Enregistré sur cet appareil uniquement.
+0% conserve les proportions ; 100% étire une disposition 4:3 sur tout l’écran et déforme l’image.
 
 [NEW_OPTIONS_MOUSE_CURSOR_SIZE]
 Taille du curseur
 
 [NEW_OPTIONS_HELP_MOUSECURSORSIZE]
-Taille : 0, 0.5, 1, 1.5, 2, 2.5 ou 3 (défaut 1). À 0, le curseur système est utilisé : le jeu indique seulement normal, lien ou texte, le système choisit l'apparence et la taille. Effet immédiat.
+Règle la taille du pointeur du jeu. 1 par défaut ; 0 utilise le pointeur système.
 
 [NEW_OPTIONS_UI_LEFT_OFFSET]
 Marge gauche
@@ -8482,183 +8484,142 @@ Pluie de bonbons
 Licences open source
 
 [NEW_OPTIONS_HELP_LANGUAGE]
-Choisissez la langue de l’interface. Redémarrez le jeu pour appliquer ce changement. Votre progression est conservée.
+Choisit la langue de l’interface. Redémarrage requis.
 
 [NEW_OPTIONS_HELP_MUSICVOLUME]
-Réglez la musique de 0% à 100%. Le curseur permet d'entendre le changement.
-0% coupe la musique, augmenter la réactive. Les sons des plantes, zombies et boutons dépendent du volume des effets.
+Règle le volume de la musique. 0% la coupe.
 
 [NEW_OPTIONS_HELP_SOUNDVOLUME]
-Réglez les sons des plantes, zombies, boutons et autres effets de 0% à 100%.
-0% coupe les effets. La musique se règle séparément.
+Règle les sons des plantes, zombies, boutons et autres effets. 0% les coupe.
 
 [NEW_OPTIONS_HELP_FULLSCREEN]
-Basculez entre fenêtre et plein écran. Le plein écran utilise toute la surface d'affichage.
-Option réservée aux plateformes permettant le changement. Elle est masquée sur les appareils toujours en plein écran.
+Bascule entre fenêtre et plein écran.
 
 [NEW_OPTIONS_HELP_RUNLOCKED]
-Laisse le jeu tourner sans focus ou réduit. Utile pour attendre la progression d'un niveau.
-Désactivé, les pauses normales s'appliquent hors focus. Le jeu utilise toujours des ressources en arrière-plan, et un système mobile peut le suspendre.
+Continue lorsque la fenêtre est inactive ou réduite. Les systèmes mobiles peuvent encore suspendre l’application en arrière-plan.
 
 [NEW_OPTIONS_HELP_VIBRATION]
-Autorise les vibrations sur l'appareil ou la manette active lors d'événements. Ce bouton contrôle les deux.
-Nécessite un matériel compatible. L'activation n'ajoute pas cette fonction à une manette dépourvue de vibration. Désactiver arrête la vibration en cours.
+Active ou désactive les vibrations de l’appareil et de la manette.
 
 [NEW_OPTIONS_HELP_LOWLATENCYAUDIO]
-Le mode audio à faible latence réduit le tampon et le délai entre action et son.
-Redémarrez après modification. Certains appareils ou pilotes ne prennent pas ce mode en charge.
+Réduit le délai entre les actions et les sons. Redémarrage requis.
 
 [NEW_OPTIONS_HELP_CAMERASIZE]
-Réglez le zoom du terrain. À gauche, plantes et zombies grossissent ; à droite, davantage du décor apparaît. Cartes et menus gardent leur taille.
+À gauche pour rapprocher la vue, à droite pour élargir le champ. Taille des cartes et menus inchangée.
 
 [NEW_OPTIONS_HELP_TOPSEEDBANK]
-Place la barre de graines à gauche ou en haut. Seule la disposition change, pas le nombre de cartes.
-Sur écran étroit, la barre gauche peut masquer terrain ou commandes. Le jeu demande confirmation si nécessaire.
+Place les cartes à gauche ou en haut. À gauche, elles peuvent masquer une partie des écrans étroits.
 
 [NEW_OPTIONS_HELP_BOARDLEFTOFFSET]
-Déplace les éléments de gauche dans l'espace supplémentaire des écrans larges. S'applique aux dispositions concernées du menu et du combat.
-Adaptez le curseur aux bords et à votre portée. Sans espace horizontal libre, l'effet peut être minime.
+Déplace les éléments de gauche dans la marge des écrans larges. Peu d’effet sans espace horizontal supplémentaire.
 
 [NEW_OPTIONS_HELP_BOARDRIGHTOFFSET]
-Déplace les éléments de droite dans l'espace large, indépendamment de la marge gauche.
-Placez les commandes de droite plus confortablement. Le déplacement dépend du ratio et de la disposition.
+Déplace les éléments de droite dans la marge des écrans larges. Peu d’effet sans espace horizontal supplémentaire.
 
 [NEW_OPTIONS_HELP_COVERLAYER]
-Choisissez la couverture du premier plan : aucune, herbe ou objets.
-Choisissez l'apparence et la visibilité souhaitées. Les positions des zombies de rue à la sélection des graines s'adaptent à la couverture.
+Choisit les éléments au premier plan : aucun, herbe ou objets. Certaines scènes ne prennent pas en charge le choix indiqué.
 
 [NEW_OPTIONS_HELP_DRAWCROSSHAIR]
-Affiche un repère de ligne et de colonne lors de la plantation, utile au tactile ou à la manette.
-Aide visuelle seulement : ni plantation automatique, ni changement des règles.
+Affiche un réticule pour aligner les plantations sur les lignes et colonnes.
 
 [NEW_OPTIONS_HELP_SHOWGAMEPADHINTS]
-Affiche les actions des manettes et claviers en mode manette, avec les vrais noms des touches. À deux en local, les aides P1/P2 restent visibles : la souris n'ajoute pas d'icône, chaque manette a ses symboles. Les actions partagées ont un seul libellé.
-Appliqué et enregistré immédiatement. Masquer les aides ne change ni commandes, ni focus, ni aide clavier.
+Affiche les touches de manette ou du clavier en mode manette. À deux en local, suit l’appareil de chacun ; aucun symbole de touche pour la souris.
 
 [NEW_OPTIONS_HELP_SHOWTOOLTIPS]
-Autorise les infobulles des cartes, objets et commandes compatibles sous le pointeur.
-La disponibilité dépend de l'écran, de la cible et du mode de saisie. Désactivez pour réduire les panneaux.
+Affiche les descriptions des cartes, objets et boutons.
 
 [NEW_OPTIONS_HELP_MAINMENUZOMBIEHAND]
-Joue l'animation de la main zombie au lancement d'Aventure depuis le menu.
-Désactiver passe l'animation habituelle. Certains cas, comme le premier démarrage, peuvent toujours la jouer.
+Joue l’animation de la main zombie au début de l’Aventure. Elle reste présente lors de la première partie et de certaines séquences.
 
 [NEW_OPTIONS_HELP_ZOMBIEAPPEARANCE]
-Choisissez des têtes de zombies grandes ou petites.
-Réglage visuel : ne change ni vie, ni attaque, ni difficulté.
+Choisit des zombies à grosse ou petite tête.
 
 [NEW_OPTIONS_HELP_DANCERAPPEARANCE]
-Bascule les danseurs et leurs accompagnateurs entre MJ et Disco.
-Les styles changent aussi le comportement, notamment les déplacements. Le déroulement du niveau peut donc varier.
+Choisit le style MJ ou Disco des danseurs et de leurs accompagnateurs. Leurs distances de déplacement et certains comportements diffèrent aussi.
 
 [NEW_OPTIONS_HELP_SPECIALSHADERS]
-Active piscine et flammes animées ainsi qu'une vision à bords doux pour plusieurs pointeurs.
-Désactivé ou non pris en charge : piscine sans effets, flammes fixes et vision limitée à un cercle net unique.
-Effet immédiat. Les filtres de couleur intégrés restent inchangés.
+Contrôle piscine animée, flammes et vision multipoint aux bords doux. Désactivé : aucun effet de piscine, flammes fixes et un seul cercle de vision aux bords nets.
 
 [NEW_OPTIONS_HELP_ENHANCEDISPLAY]
-Affiche recharge des cartes et vie des plantes/zombies pour mieux évaluer le combat et le timing.
-Ajoute chiffres et informations. Le détail dépend du mode et du type d'objet.
+Affiche les temps de recharge et la santé des plantes et zombies.
 
 [NEW_OPTIONS_HELP_GRAPHICSBACKEND]
-Choisissez un moteur graphique pris en charge. Automatique convient au départ ; un autre moteur peut résoudre des problèmes d'affichage ou de compatibilité.
-Redémarrez après modification. Compatibilité et performances dépendent de l'appareil et des pilotes.
+Choisit le moteur graphique. Utilisez généralement Auto ; essayez une autre option en cas de problème d’affichage. Redémarrage requis.
 
 [NEW_OPTIONS_APPLY_SPEED_ON_NEW_LEVEL]
 Démarrer en accéléré
 
 [NEW_OPTIONS_HELP_APPLYSPEEDONNEWLEVEL]
-Activé, les nouveaux niveaux utilisent immédiatement votre vitesse. Désactivé par défaut : départ à 1x, puis le bouton de vitesse active votre réglage.
-Ne change pas la vitesse du niveau en cours.
+Démarre les nouveaux niveaux à la vitesse réglée. Sinon, démarre à 1x ; le bouton de vitesse en jeu permet de changer.
 
 [NEW_OPTIONS_HELP_SPEED]
-Réglez la vitesse de 1x à 10x. 1x est normal. Plus vite réduit l'attente, mais aussi le temps de réaction.
-Certains modes ou règles multijoueurs peuvent limiter la vitesse réelle.
+Règle la vitesse de 1x à 10x. Certains modes et le jeu en ligne peuvent la limiter.
 
 [NEW_OPTIONS_HELP_AUTOCOLLECTSUN]
-Ramasse les soleils automatiquement pour éviter les clics répétés. Désactivé, ramassez-les manuellement.
+Ramasse automatiquement les soleils du terrain.
 
 [NEW_OPTIONS_HELP_AUTOCOLLECTCOIN]
-Ramasse les pièces automatiquement. Désactivé, ramassez-les manuellement.
+Ramasse automatiquement les pièces du terrain.
 
 [NEW_OPTIONS_HELP_DRAGPLANTING]
-Permet de glisser une carte vers sa cible puis de relâcher pour planter.
-Désactivé, sélectionnez la carte puis cliquez l'emplacement. Soleil suffisant, carte prête et case valide restent nécessaires.
+Glissez une carte vers sa destination et relâchez pour planter. Sinon, sélectionnez la carte puis cliquez sur la case.
 
 [NEW_OPTIONS_HELP_ONLYORIGINALFEATURES]
-Utilise les menus du contenu original et masque ou remplace les entrées d'extensions correspondantes.
-Redémarrez après modification. La progression reste. Désactivez et redémarrez pour retrouver les extensions.
+Masque ou remplace les accès aux extensions pour privilégier le contenu original. Redémarrage requis ; progression conservée.
 
 [NEW_OPTIONS_HELP_SHOWTOOLS]
-Affiche les bonus +500 soleils, Tempête de cerises et recharge immédiate.
-Afficher les boutons ne rend pas les bonus gratuits. Leurs coûts restent ; la gratuité permanente est une autre fonction.
+Affiche les bonus, dont +500 soleils et la remise à zéro des recharges. Les coûts habituels en lingots restent applicables.
 
 [NEW_OPTIONS_HELP_SHOWUNLOCKBUTTON]
-Affiche le bouton de déblocage du menu principal.
-Contrôle seulement l'accès à l'écran. Ne débloque rien directement ; la procédure normale reste nécessaire.
+Affiche le bouton de déblocage du menu principal. Cliquez pour lancer la procédure.
 
 [NEW_OPTIONS_HELP_ENABLESL]
-Affiche S et L dans les réglages en partie. S sauvegarde le niveau ; L le recharge pour une sauvegarde/lecture rapide.
-Charger restaure l'état sauvegardé et abandonne les progrès non enregistrés. Disponibilité selon mode et restrictions multijoueurs.
+Affiche S (sauvegarder) et L (charger) dans les réglages en combat. Charger efface la progression non sauvegardée. Indisponible dans certains modes et en ligne.
 
 [NEW_OPTIONS_HELP_FREEGOLDFINGER]
-Rend les bonus gratuits définitivement pour ce joueur, sans lingots. Une confirmation précède l'activation.
-Permanent, impossible à désactiver ensuite dans les réglages. La visibilité des boutons se règle séparément.
+Supprime définitivement le coût en lingots des bonus pour ce joueur. Impossible à désactiver ensuite.
 
 [NEW_OPTIONS_HELP_IMPORTINTERNALDATA]
-Choisissez un ZIP exporté par le jeu. Après vérification, import au prochain lancement. Exportez d'abord une sauvegarde de secours.
-Remplace uniquement profils, progression, niveaux personnalisés et images Zombatar.
+Restaure profils, progression, niveaux personnalisés et avatars depuis un ZIP exporté par ce jeu au prochain lancement. Remplace les données existantes ; exportez une sauvegarde avant.
 
 [NEW_OPTIONS_HELP_EXPORTINTERNALDATA]
-Emballe les données dans un ZIP propre au jeu pour sauvegarde ou transfert. Tente d'abord de sauvegarder niveau et joueur.
-Inclut seulement profils, progression, niveaux personnalisés et images Zombatar. Restaurez via Importer sauvegarde.
+Exporte profils, progression, niveaux personnalisés et avatars en ZIP pour sauvegarde ou transfert. À restaurer via l’importation de sauvegarde.
 
 [NEW_OPTIONS_HELP_OPENINTERNALFOLDER]
-Ouvre le dossier interne dans le gestionnaire de fichiers pour inspection ou copie manuelle.
-Modifier, déplacer ou supprimer peut affecter les sauvegardes et contenus personnels. Faites une copie avant. Option sur plateformes compatibles uniquement.
+Ouvre le dossier des données pour consultation ou sauvegarde. Sauvegardez avant toute modification.
 
 [NEW_OPTIONS_HELP_USERDATAFORMAT]
-Format du joueur : MessagePack binaire compact ou JSON lisible et modifiable.
-MessagePack convient au jeu normal. Changer ne convertit pas immédiatement tous les fichiers et ne remplace pas l'import/export de sauvegarde.
+Format des profils : MessagePack est compact (par défaut), JSON est lisible et modifiable.
 
 [NEW_OPTIONS_HELP_LEVELDATAFORMAT]
-Sauvegardez le niveau en MessagePack compact ou JSON lisible et modifiable.
-Concerne les parties sauvegardées, pas l'import de définitions de niveaux. Inutile de changer pour jouer. Copiez avant d'éditer manuellement.
+Format des combats sauvegardés : MessagePack est compact (par défaut), JSON est lisible et modifiable.
 
 [NEW_OPTIONS_HELP_CHRISTMAS]
-Active les décorations de Noël : bonnets sur certains zombies et chaussettes dans certaines scènes.
+Affiche les décorations de Noël, dont bonnets et chaussettes.
 
 [NEW_OPTIONS_HELP_MUSTACHE]
-Ajoute des moustaches décoratives sans changer les capacités. S'active aussi en tapant mustache.
-Ce réglage n'est pas conservé.
+Donne une moustache à certains zombies. Saisie de mustache possible. Réinitialisé au redémarrage.
 
 [NEW_OPTIONS_HELP_TRICKEDOUT]
-Donne un aspect de bolide aux tondeuses compatibles. Effet visuel activable aussi avec trickedout.
-Ce réglage n'est pas conservé.
+Donne un style hot rod aux tondeuses ordinaires. Saisie de trickedout possible. Réinitialisé au redémarrage.
 
 [NEW_OPTIONS_HELP_FUTURE]
-Ajoute des lunettes futuristes sans changer les capacités. Bascule aussi avec future.
-Ce réglage n'est pas conservé.
+Donne des lunettes futuristes à certains zombies. Saisie de future possible. Réinitialisé au redémarrage.
 
 [NEW_OPTIONS_HELP_DAISIES]
-Fait pousser des fleurs à la mort de certains zombies. Effet visuel, pas une plante contrôlable. Bascule avec daisies.
-Nécessite un Arbre de la sagesse de 100 pieds. Certains zombies ou sols ne produisent pas de fleurs. Non conservé.
+Certains zombies laissent des fleurs à leur mort. Arbre de la sagesse de 100 pieds requis. Saisissez daisies pour basculer. Réinitialisé au redémarrage.
 
 [NEW_OPTIONS_HELP_DANCE]
-Fait danser certains zombies en marchant. Bascule aussi avec dance.
-Nécessite un Arbre de 500 pieds. Tous les zombies ou mouvements ne sont pas compatibles. Non conservé.
+Fait danser certains zombies en marchant. Arbre de la sagesse de 500 pieds requis. Saisissez dance pour basculer. Réinitialisé au redémarrage.
 
 [NEW_OPTIONS_HELP_PINATA]
-Fait jaillir des bonbons à la mort de certains zombies. Effet visuel, sans pièces ni récompenses à ramasser. Bascule avec pinata.
-Nécessite un Arbre de la sagesse de 1000 pieds. Non conservé.
+Certains zombies projettent des bonbons à leur mort. Arbre de la sagesse de 1000 pieds requis. Saisissez pinata pour basculer. Réinitialisé au redémarrage.
 
 [NEW_OPTIONS_HELP_SUKHBIR]
-Remplace les grognements de certains zombies par d'autres sons. Bascule aussi avec sukhbir.
-Ne change pas les capacités de combat. Non conservé.
+Remplace les cris de certains zombies. Saisie de sukhbir possible. Réinitialisé au redémarrage.
 
 [NEW_OPTIONS_HELP_RESOURCEPACKLUASCRIPTS]
-Autorise les scripts Lua des packs. Ils peuvent étendre interface et jeu, accéder aux fichiers, envoyer des requêtes réseau ou modifier les sauvegardes. N'activez que des sources fiables.
-Distinct de l'activation du pack. Redémarrez si demandé après modification. En multijoueur, vérifiez la compatibilité des scripts des deux côtés.
+Exécute les scripts Lua des packs de ressources. Ils peuvent étendre le jeu, accéder aux fichiers et au réseau, et modifier les sauvegardes. Activez uniquement des scripts fiables et redémarrez si demandé.
 
 [NEW_OPTIONS_SWITCH_ON]
 Activé
@@ -9926,6 +9887,9 @@ Duel : Tieba
 [VS_CLASSIC]
 Duel : Classique
 
+[VS_ALL_ZOMBIES]
+Duel : tous les zombies (test)
+
 [VS_NIGHT]
 Duel : Nuit
 
@@ -11135,7 +11099,7 @@ Combat de taureaux
 Mode Halloween
 
 [NEW_OPTIONS_HELP_HALLOWEEN]
-Active Halloween : chapeaux de sorcière sur certains zombies et lanternes citrouilles dans certaines scènes.
+Affiche les décorations d’Halloween, dont chapeaux de sorcière et citrouilles lumineuses.
 
 [HELP_GAMEPAD_XBOX]
 Manette Xbox
@@ -11300,13 +11264,13 @@ Beurre (maintenir)
 Les deux decks sont pleins. Appuyez sur Démarrer.
 
 [MULTIPLAYER_LOCAL_VS_PICK]
-P{0} · {1} : choisir une carte
+J{0} · {1} : choisir une carte
 
 [MULTIPLAYER_LOCAL_COOP_PICK]
-Quatre cartes chacun. Le pointeur remplit P1 puis P2.
+Quatre cartes chacun. Le pointeur remplit J1 puis J2.
 
 [MULTIPLAYER_LOCAL_SHARED_PICK]
-Deck partagé · P1 choisit pour les deux
+Deck partagé · J1 choisit pour les deux
 
 [MULTIPLAYER_ACCOUNT]
 Compte du serveur
@@ -11422,6 +11386,15 @@ L'inscription est désactivée sur ce serveur.
 [MULTIPLAYER_LOGIN_REQUIRED]
 Connectez-vous, ou reconnectez-vous si la session a expiré.
 
+[MULTIPLAYER_SESSION_EXPIRED]
+Votre session a expiré. Veuillez vous reconnecter.
+
+[MULTIPLAYER_SESSION_REPLACED]
+Ce compte s'est connecté sur un autre appareil. Veuillez vous reconnecter.
+
+[MULTIPLAYER_SERVER_SWITCHED]
+Vous avez changé de serveur. Veuillez vous reconnecter.
+
 [MULTIPLAYER_ACCOUNT_ALREADY_IN_ROOM]
 Ce compte occupe déjà une place. Reconnectez-vous avec la session d'origine.
 
@@ -11459,25 +11432,59 @@ Manette 1
 Manette 2
 
 [LOCAL_INPUT_PLAYER]
-P{0} : {1}
+J{0} : {1}
 
 [LOCAL_INPUT_DISCONNECTED]
  (déconnecté)
 
 [LOCAL_INPUT_CONNECT]
-Connectez {1} pour P{0}, ou choisissez un autre appareil.
+Connectez {1} pour J{0}, ou choisissez un autre appareil.
 
 [LOCAL_INPUT_SELECT]
-Choisir l'appareil de P{0}
+Choisir l'appareil de J{0}
 
 [LOCAL_INPUT_OCCUPIED]
- (utilisé par P{0})
+ (utilisé par J{0})
 
 [LOCAL_INPUT_SHARED_DESCRIPTION]
 Souris / tactile partagés · Deux barres disponibles
 
 [SHUFFLE]
 Mélange
+
+[HOMERUN_DERBY_TUTORIAL]
+Concours de home runs 2
+
+[HOMERUN_TUTORIAL_START]
+Commencer l’entraînement
+
+[HOMERUN_TUTORIAL_RETRY]
+Réessayer
+
+[HOMERUN_TUTORIAL_BALLS_TO_GO]
+BALLES
+RESTANTES
+
+[HOMERUN_TUTORIAL_STATUS]
+Score : {SCORE}  Balle : {ROUND} / 20  Chances : {LIVES}
+
+[HOMERUN_TUTORIAL_SWIPE]
+Maintiens la balle à gauche, puis glisse vers le haut et la droite pour frapper !
+
+[HOMERUN_TUTORIAL_READY]
+Prépare-toi !
+
+[HOMERUN_TUTORIAL_WON]
+Entraînement terminé !
+
+[HOMERUN_TUTORIAL_LOST]
+Plus de chances. Réessaie !
+
+[HOMERUN_TUTORIAL_REPLAY]
+Encore un lancer !
+
+[HOMERUN_TUTORIAL_MISS]
+Retrait
 
 [SHUFFLE_SELECT_STAKE]
 Placez une pièce d'argent, d'or ou un diamant dans un vase. Trouvez-le 10 fois de suite pour gagner 10 fois la mise.
@@ -12010,20 +12017,17 @@ Puzzle
 Survie
 
 [NEW_OPTIONS_HELP_ACCESSIBILITY]
-Activer la lecture sélectionne le mode clavier Manette ; désactiver choisit Raccourcis. Vous pouvez ensuite modifier ce mode dans Commandes. Seul ce choix définit les touches. Volume et vitesse restent réglables lecture désactivée.
-
-Menus : flèches, Tab, Enter, Esc.
-Dans les menus, F2 lit les détails de la commande, F4 le contenu de la page.
-
-En solo, mode Manette : flèches par case, J confirme/plante, K annule, Q/E changent de carte. Mains vides, maintenez K sur une plante plus d'une seconde puis relâchez pour déterrer. U fait l'action du niveau, Z/C celle des gâchettes, Enter met en pause.
-Requêtes : F1 répéter, F2 case, F3 soleils/pièces, F4 vague, F5 zombies de la ligne, F6 carte. F9 aide, F10 arrêt.
-Le multijoueur garde ses commandes. Une voix installée dans votre langue est nécessaire. Désactivation dans Commandes.
+Lit l’interface et le combat. Nécessite une voix système pour la langue. Activer choisit Manette, désactiver choisit Raccourcis. Le mode clavier reste réglable séparément.
+Menus : flèches/Tab pour naviguer, Enter pour confirmer, Esc pour revenir. F2 : détails du contrôle ; F4 : contenu de la page.
+Combat solo (mode manette) : flèches pour bouger, J confirme/plante, K annule, Q/E changent de carte, Z/C utilisent les gâchettes, U effectue l’action du niveau, Enter met en pause. Les mains vides, maintenez K plus de 1 seconde puis relâchez pour déterrer.
+Consultations : F1 répéter, F2 case actuelle, F3 soleils et pièces, F4 vagues, F5 zombies de la ligne, F6 carte actuelle.
+F9 : aide aux commandes. F10 : arrêter la lecture. Commandes multijoueurs inchangées.
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYVOLUME]
-Réglez la voix indépendamment de la musique et des effets.
+Règle le volume de lecture. Musique et effets inchangés.
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYRATE]
-Réglez la vitesse : zéro normal, positif plus rapide, négatif plus lent.
+Vitesse de lecture : 0 par défaut, valeurs positives plus rapides, négatives plus lentes.
 
 [A11Y_GRAVE]
 pierre tombale
@@ -12230,14 +12234,14 @@ Raccourcis
 Manette
 
 [NEW_OPTIONS_HELP_KEYBOARDMODE]
-Choisissez Raccourcis (défaut) ou Manette en solo. Seul ce choix définit les touches. Activer la lecture choisit Manette, désactiver choisit Raccourcis ; vous pouvez ensuite changer ici. Touches fixes du mode Manette :
-WASD : stick gauche (déplacement) ; flèches : croix directionnelle
-J / K / U / I: A / B / X / Y
-Q / E : LB / RB (cartes) ; Z / C : LT / RT
-Pavé numérique 8 / 2 / 4 / 6 : stick droit
-Enter : Start ; Backspace : Retour ; Esc : menu habituel
-En combat normal, J plante, K annule. Mains vides, maintenez K sur une plante plus d'une seconde et relâchez pour déterrer. U effectue l'action du niveau.
-À deux en local, les appareils suivent le salon ; en ligne, les raccourcis existants restent. Le mappage s'arrête dans les champs texte, dialogues et pauses. Relâchez toutes les touches mappées avant de reprendre.
+Raccourcis ou émulation de manette en solo. Touches du mode manette :
+WASD : stick gauche ; flèches : croix
+J/K/U/I : A/B/X/Y ; Q/E : LB/RB (cartes)
+Z/C : LT/RT ; pavé numérique 8/2/4/6 : stick droit
+Enter : pause ; Backspace : retour ; Esc : menu ; Tab : vitesse
+En mode manette solo, 1–0 de la rangée supérieure sélectionnent les cartes/outils et Espace met en pause ; les autres anciens raccourcis sont désactivés.
+J plante, K annule. Les mains vides, maintenez K plus de 1 seconde puis relâchez pour déterrer. U : action du niveau.
+Changer la lecture vocale modifie ce choix. En ligne : raccourcis ; à deux en local : attribution du salon.
 
 [NEW_OPTIONS_SECTION_INPUT]
 Saisie
@@ -12258,7 +12262,7 @@ Chargement…
 Indisponible
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYVOICE]
-Choisissez une voix système installée. Automatique suit la langue du jeu et sert de repli si la voix choisie manque. Réglable même sans lecture. Enregistré sur cet appareil.
+Choisit une voix système. Automatique suit la langue du jeu, y compris si la voix choisie est indisponible.
 
 [NEW_OPTIONS_CURRENCY]
 Monnaie
@@ -12267,7 +12271,7 @@ Monnaie
 Générique
 
 [NEW_OPTIONS_HELP_CURRENCY]
-Change l'apparence monétaire des pièces, sacs, compteurs et icônes de vente, sans changer montants ni prix.
+Change l’apparence des pièces et autres icônes monétaires. Montants et prix inchangés.
 
 [MUSIC_BOX_TUNE_CREDITSZOMBIESONYOURLAWNJP]
 Des zombies sur votre pelouse (japonais)
@@ -12282,7 +12286,10 @@ Afficher la traduction des paroles du MV
 日本語
 
 [NEW_OPTIONS_HELP_MUSICVIDEOLANGUAGE]
-Choisissez chant et sous-titres anglais ou japonais pour le clip. Anglais par défaut, appliqué au prochain lancement du clip. L'interface ne change pas.
+Choisit la langue du chant et des sous-titres du clip. Au prochain visionnage.
+
+[NEW_OPTIONS_HELP_MUSICVIDEOTRANSLATION]
+Affiche la traduction des paroles dans la langue de l’interface, sauf si elle correspond aux sous-titres originaux.
 
 [NEW_OPTIONS_LANGUAGE_FRENCH]
 Français
@@ -12424,3 +12431,33 @@ J'ai aussi une porte moustiquaire
 
 [CREDITS_LYRIC_GIVE_TRICYCLE]
 Donne-moi ce tricycle
+
+[ALMANAC_TITLE_HERO]
+Almanach de banlieue – Héros
+
+[HERO_SKILL_POINTS]
+Points de compétence restants
+
+[HERO_MAX_LEVEL]
+Niveau max.
+
+[HERO_REQUIRED_LEVEL]
+Niveau %s requis
+
+[HERO_HEALTH]
+Vie
+
+[HERO_ATTACK]
+Attaque
+
+[HERO_SPEED]
+Vitesse
+
+[HERO_POINTS_REMAINING]
+Restants
+
+[A11Y_HIGH_CONTRAST]
+Contraste élevé
+
+[NEW_OPTIONS_HELP_HIGHCONTRAST]
+Assombrit le fond du terrain et met les plantes, zombies et objets en évidence par la couleur.

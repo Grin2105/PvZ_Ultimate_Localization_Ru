@@ -1188,7 +1188,7 @@ Det är ju bra typiskt!
 DU HAR HITTAT MIN MAGISKA TACO!!{SCREAM2}
 
 [CRAZY_DAVE_602]
-{SHOW_MONEYBAG}Jag måste ha den! Du får 1 000 kr!
+{SHOW_MONEYBAG}Jag måste ha den! Du får {CURRENCY_SYMBOL}1 000!
 
 [CRAZY_DAVE_603]
 JA! TACON ÄR MIN!{SCREAM}
@@ -1335,7 +1335,7 @@ Den här gången vill jag välja ut frön åt dig!
 Jag väljer ... De här tre!
 
 [CRAZY_DAVE_1700]
-{NO_CLICK}Jag kan ge dig {SELL_PRICE} kr för den där {PLANT_TYPE}!
+{NO_CLICK}Jag kan ge dig {CURRENCY_SYMBOL}{SELL_PRICE} för den där {PLANT_TYPE}!
 
 [CRAZY_DAVE_2000]
 {NO_CLICK}Plantera på Dubbelärta för att göra den till Ärtspruta! Den skjuter fyra ärtor åt gången!
@@ -5695,7 +5695,7 @@ Låter dig plantera på Kinesiska muren.
 {FLAVOR}"Jag är en gammal porslinskruka men också en växt. Förvånad?"
 
 [WEST_FIRE_GOURD]
-Eldkalebass
+Eldsprutande paprika
 
 [WEST_FIRE_GOURD_TOOLTIP]
 Tänder eld på zombier och gör skada över tid
@@ -5720,6 +5720,20 @@ Stoppar zombieattacker.
 {KEYWORD}Tålighet: {STAT}medel
 {SHORTLINE}
 {FLAVOR}Vet du varför han försvarar? Egentligen saknas bara attackanimationen.
+
+[WALL_WINE_GOURD]
+Vinkalebass
+
+[WALL_WINE_GOURD_TOOLTIP]
+Ökar tillfälligt hastigheten för andra växter på samma ruta
+
+[WALL_WINE_GOURD_DESCRIPTION]
+Vinkalebass svävar över gräsmattan och bjuder de andra växterna på sin ruta på en dryck som tillfälligt får dem att agera snabbare.
+{SHORTLINE}
+{KEYWORD}Egenskap: {STAT}flyger och får tillfälligt växterna på sin ruta att agera snabbare
+{KEYWORD}Räckvidd: {STAT}växter på samma ruta
+{SHORTLINE}
+{FLAVOR}Vinkalebass kallar varje utflykt ett ”grannbesök”. Besöken är alltid uppskattade, men efteråt får grannarna så mycket att göra att de glömmer att tacka honom.
 
 [ENDLESS_SPEW_ANEMONE]
 Vattensprutargräs
@@ -6176,7 +6190,7 @@ Den skräckinjagande kungen bär mäktiga skatter, särskilt en enorm klubba.
 {FLAVOR}Varför kan han kalla på västerländska zombier? De tror bestämt att han är Buddha.
 
 [LINKAGE_DLC_1]
-Skog: Bana 1
+Strid i skogen
 
 [LINKAGE_DLC_2]
 Begränsad sikt
@@ -6327,29 +6341,21 @@ Uppdatering
 [UPDATE_CONTENT]
 Ny version %s hittad. Vill du öppna uppdateringssidan?
 
-[HERO_CONSOLE_TITLE_PROPERTY]
-Egenskaper
 
-[HERO_CONSOLE_TITLE_SKILL]
-Förmågor
 
-[HERO_CONSOLE_BUTTON_UPGRADE]
+[HERO_BUTTON_UPGRADE]
 Uppgradera
 
-[HERO_CONSOLE_BUTTON_PURCHASE]
+[HERO_BUTTON_PURCHASE]
 Köp
 
-[HERO_CONSOLE_BUTTON_RESET]
+[HERO_BUTTON_RESET]
 Återställ
 
-[HERO_CONSOLE_BUTTON_TRAIN]
+[HERO_BUTTON_TRAIN]
 Träna
 
-[HERO_CONSOLE_BUTTON_SKILL]
-Förmågor
 
-[HERO_CONSOLE_BUTTON_BACK]
-Tillbaka
 
 [MAIN_MENU_BUTTON_HERO]
 Hjältar
@@ -6616,9 +6622,6 @@ Skapar var 45:e sekund en sköld med %s hälsa.
 
 [HEROPLANT_UNLOCK_DIAMOND]
 Köp för %d
-
-[HEROPLANT_LVLUP_CONFIRM]
-Höj hjälteväxtens nivå direkt för %d guldtackor?
 
 [HEROPLANT_RESETSKILL_CONFIRM]
 Återställ hjälteförmågorna för %d guldtackor?
@@ -8327,7 +8330,7 @@ Samla sol automatiskt
 Samla mynt automatiskt
 
 [NEW_OPTIONS_HELP_GAMEPADTRIGGERS]
-Ställer in LT/RT (ZL/ZR på Switch) i strid. Standardvalet ”Använd föremål” växlar mellan föremålen överst; bekräfta för att använda. ”Automatisk insamling” samlar sol, mynt och andra resurser varje gång en avtryckare trycks; att hålla inne upprepar inte. Styrkorset upp öppnar fortfarande föremålsområdet. Inställningen påverkar inte sidbyte i menyer, växtval eller trädgård och ändrar inte automatisk sol- eller myntinsamling.
+Välj vad LT/RT (ZL/ZR på Switch) gör i strid: välj föremål och bekräfta för att använda, eller tryck en gång för att samla sol och mynt på fältet. Att hålla inne upprepar inte. Styrkors upp väljer fortfarande föremål.
 
 [NEW_OPTIONS_GAMEPAD_TRIGGERS]
 Handkontrollens avtryckare
@@ -8345,8 +8348,7 @@ Plantera genom att dra
 Aktivera liten andezombie
 
 [NEW_OPTIONS_HELP_ENABLEENDLESSSTAR]
-När detta stängs av försvinner små andezombier och markstjärnor från banor i Äventyr och Resan till väst som normalt har dem. Högst två stjärnor kan då tjänas.
-Pågående strider påverkas inte; ändringen gäller när banan startas om. Fortsatta sparfiler behåller sitt gamla tillstånd och befintliga stjärnrekord ändras inte.
+Av: berörda nivåer i Äventyr och Resan till Västern saknar flygande imp och markstjärna, med högst två stjärnor. Gäller vid ny start; sparade strider och tidigare betyg behålls.
 
 [NEW_OPTIONS_DRAW_CROSSHAIR]
 Planteringskors
@@ -8397,13 +8399,13 @@ Visningsytan är smal. En fröbank till vänster kan täcka spelplanen eller kon
 Sträck bilden
 
 [NEW_OPTIONS_HELP_SCREENSTRETCH]
-0% behåller skärmens proportioner. 100% ändrar layouten till 4:3 och sträcker den över hela skärmen. Mellanvärden ger en gradvis övergång; både breda och höga skärmar använder 4:3 som slutpunkt. Form och synfält ändras. Dragning gäller när du släpper, tangentbord och handkontroll direkt. Sparas bara på den här enheten.
+0% behåller skärmens proportioner; 100% sträcker en 4:3-layout över hela skärmen och förvränger bilden.
 
 [NEW_OPTIONS_MOUSE_CURSOR_SIZE]
 Pekarstorlek
 
 [NEW_OPTIONS_HELP_MOUSECURSORSIZE]
-Välj spelpekarens storlek: 0, 0.5, 1, 1.5, 2, 2.5 eller 3; standard är 1. Vid 0 används systempekaren. Spelet anger bara vanlig, länk eller text; systemet bestämmer utseende och storlek. Ändringen gäller direkt.
+Ändra spelpekarens storlek. 1 är standard; 0 använder systempekaren.
 
 [NEW_OPTIONS_UI_LEFT_OFFSET]
 Vänstermarginal
@@ -8466,185 +8468,142 @@ Godisregn
 Licenser för öppen källkod
 
 [NEW_OPTIONS_HELP_LANGUAGE]
-Välj språk för spelets gränssnitt.
-Starta om spelet för att tillämpa ändringen. Språkbytet raderar inte framsteg och ändrar inte banornas innehåll.
+Välj gränssnittsspråk. Starta om för att tillämpa.
 
 [NEW_OPTIONS_HELP_MUSICVOLUME]
-Ändrar bakgrundsmusiken mellan 0% och 100%. Dra reglaget för att höra ändringen.
-0% stänger av musiken; höj för att slå på den igen. Växt-, zombie- och knappljud påverkas inte.
+Justera musikvolymen. 0% stänger av ljudet.
 
 [NEW_OPTIONS_HELP_SOUNDVOLUME]
-Ändrar växt-, zombie- och knappljud mellan 0% och 100%.
-0% tystar effekterna. Bakgrundsmusiken styrs separat med musikvolymen.
+Justera ljud från växter, zombier, knappar och andra effekter. 0% stänger av dem.
 
 [NEW_OPTIONS_HELP_FULLSCREEN]
-Växlar mellan fönster och helskärm. Helskärm använder hela visningsytan.
-Visas bara på plattformar som tillåter byte, inte på enheter med fast helskärmsläge.
+Växla mellan fönster och helskärm.
 
 [NEW_OPTIONS_HELP_RUNLOCKED]
-Låter spelet fortsätta när fönstret tappar fokus eller minimeras, exempelvis medan du väntar.
-Avstängt följs spelets pausregler. Påslaget används fortsatt beräkningsresurser; mobilsystem kan ändå pausa bakgrundsappar.
+Fortsätt köra när fönstret är inaktivt eller minimerat. Mobilsystem kan ändå pausa bakgrundsappar.
 
 [NEW_OPTIONS_HELP_VIBRATION]
-Låter spelhändelser få enheten eller handkontrollen att vibrera. De delar samma inställning.
-Bara maskinvara med vibrationsstöd ger respons; funktionen lägger inte till stöd på andra kontroller. Avstängning stoppar aktuell handkontrollsvibration.
+Slå på eller av vibration för enhet och handkontroll.
 
 [NEW_OPTIONS_HELP_LOWLATENCYAUDIO]
-Minskar ljudbufferten för kortare fördröjning mellan handling och ljud.
-Kräver omstart. Vissa enheter eller drivrutiner kanske inte stöder läget.
+Minska fördröjningen mellan handling och ljud. Starta om för att tillämpa.
 
 [NEW_OPTIONS_HELP_CAMERASIZE]
-Ändrar stridskamerans avstånd. Vänster zoomar in så växter och zombier blir större; höger zoomar ut och visar mer. Fröbank och menyer behåller sin storlek.
+Vänster zoomar in, höger visar mer av fältet. Kortfält och menyer behåller sin storlek.
 
 [NEW_OPTIONS_HELP_TOPSEEDBANK]
-Placera fröbanken till vänster eller överst. Det ändrar bara layouten, inte antalet kort du kan ta med.
-På smala skärmar kan vänsterplacering täcka bilden eller kontroller; spelet ber om bekräftelse vid behov.
+Placera kortfältet till vänster eller överst. Till vänster kan det skymma smala skärmar.
 
 [NEW_OPTIONS_HELP_BOARDLEFTOFFSET]
-Flyttar vänstra gränssnittselement i bredbildens extra utrymme, både i huvudmenyn och i strid.
-Anpassa efter skärmkanter och hur du spelar. Utan extra vågrätt utrymme kan effekten vara liten.
+Flytta vänstra reglage inom bredbildens extra utrymme. Liten effekt utan extra bredd.
 
 [NEW_OPTIONS_HELP_BOARDRIGHTOFFSET]
-Flyttar högra gränssnittselement i bredbildens extra utrymme, separat från vänstermarginalen.
-Flytta knappar från kanten eller utnyttja mer utrymme. Räckvidden beror på skärmproportioner och layout.
+Flytta högra reglage inom bredbildens extra utrymme. Liten effekt utan extra bredd.
 
 [NEW_OPTIONS_HELP_COVERLAYER]
-Välj förgrundshinder: inget, gräs eller föremål.
-Anpassa efter stil och sikt. Även gatuzombiernas placering under övergången till växtval anpassas till valet.
+Välj förgrundshinder: inga, gräs eller föremål. Vissa scener stöder inte den valda typen.
 
 [NEW_OPTIONS_HELP_DRAWCROSSHAIR]
-Visar ett kors när du väljer planteringsplats för att lättare hitta rätt rad och kolumn, särskilt med pekskärm eller handkontroll.
-Det visar bara positionen, planterar inte automatiskt och ändrar inga planteringsregler.
+Visa ett hårkors vid plantering för att rikta in rader och kolumner.
 
 [NEW_OPTIONS_HELP_SHOWGAMEPADHINTS]
-Visar knappar och förklaringar med handkontroll eller tangentbordets handkontrollsläge; tangentbordet visar faktiska tangentnamn. Vid lokalt tvåspelarspel visas hjälp för P1:s och P2:s valda enheter. Musen tar ingen hjälpplats, varje kontroll har egna ikoner och samma handling delar förklaring.
-Gäller och sparas direkt. Avstängning påverkar inte kontroller, fokusram eller tangentbordsfunktionernas hjälp.
+Visa knapptips för handkontroller och tangentbordets handkontrolläge. Lokalt för två följer de varje spelares enhet; musen visar inga knappikoner.
 
 [NEW_OPTIONS_HELP_SHOWTOOLTIPS]
-Visar förklaringar för kort, föremål och knappar där det är möjligt.
-Visningen beror på aktuell skärm, utpekat objekt och inmatningssätt. Avstängning minskar mängden tips på skärmen.
+Visa beskrivningar för kort, föremål och knappar.
 
 [NEW_OPTIONS_HELP_MAINMENUZOMBIEHAND]
-Visar zombiehanden som bryter upp ur marken när Äventyr väljs i huvudmenyn.
-Avstängning hoppar över den vanliga inledningen. Vid särskilda tillfällen, som första spelstarten, kan animationen ändå visas.
+Spela zombiehandsintrot vid start av Äventyr. Första spelet och vissa sekvenser visar det ändå.
 
 [NEW_OPTIONS_HELP_ZOMBIEAPPEARANCE]
-Välj stora eller små zombiehuvuden.
-Det är bara utseende och ändrar inte hälsa, attackstyrka eller svårighetsgrad.
+Växla mellan stora och små zombiehuvuden.
 
 [NEW_OPTIONS_HELP_DANCERAPPEARANCE]
-Växlar mellan MJ- och discostil för danszombier och bakgrundsdansare.
-Även beteenden som gångavstånd skiljer sig och påverkar striden.
+Välj MJ- eller Discostil för dansare och bakgrundsdansare. Även rörelsesträckor och vissa beteenden skiljer sig.
 
 [NEW_OPTIONS_HELP_SPECIALSHADERS]
-Visar dynamiskt poolvatten, eld och flera pekstyrda synfält med mjuka kanter.
-Avstängt eller utan stöd i grafikmotorn stoppas pooleffekterna och elden använder fasta bilder.
-Läget med begränsad sikt använder då ett enda cirkelformat synfält med skarp kant.
-Gäller direkt; inbyggda färgfilter påverkas inte.
+Styr animerad pool, lågor och mjuk flerpunktsikt. Av: inga pooleffekter, stilla lågor och en enda siktcirkel med skarp kant.
 
 [NEW_OPTIONS_HELP_ENHANCEDISPLAY]
-Visar extra information om kortens väntetider och växters och zombiers hälsa för att hjälpa med läget och tajmningen.
-Fler siffror och uppgifter visas; innehållet beror på läge och objekttyp.
+Visa kortens laddningstid och växters och zombiers hälsa.
 
 [NEW_OPTIONS_HELP_GRAPHICSBACKEND]
-Välj en grafikmotor som stöds av plattformen. Automatisk fungerar normalt; prova en annan vid bild- eller kompatibilitetsproblem.
-Kräver omstart. Prestanda och kompatibilitet beror på enhet och drivrutin.
+Välj grafikmotor. Vanligen passar Auto; prova en annan vid bildfel. Omstart krävs.
 
 [NEW_OPTIONS_APPLY_SPEED_ON_NEW_LEVEL]
 Hastighet vid banstart
 
 [NEW_OPTIONS_HELP_APPLYSPEEDONNEWLEVEL]
-Tillämpar vald hastighet direkt på nya banor. Standard är av: nya banor börjar i 1× och hastighetsknappen aktiverar ditt val.
-Ändrar inte hastighetsläget för den aktuella banan.
+Starta nya nivåer med inställd hastighet. Av: starta på 1x och växla med hastighetsknappen i spelet.
 
 [NEW_OPTIONS_HELP_SPEED]
-Ställer stridshastigheten mellan 1× och 10×. 1× är normalt; högre hastighet minskar både väntan och reaktionstid.
-Vissa lägen eller onlineregler kan begränsa den faktiska hastigheten.
+Ställ in hastigheten från 1x till 10x. Vissa lägen och onlinespel kan begränsa den.
 
 [NEW_OPTIONS_HELP_AUTOCOLLECTSUN]
-Samlar tillgänglig sol automatiskt så du slipper klicka lika mycket. Avstängt samlar du själv.
+Samla automatiskt sol på fältet.
 
 [NEW_OPTIONS_HELP_AUTOCOLLECTCOIN]
-Samlar tillgängliga mynt automatiskt så du slipper klicka lika mycket. Avstängt samlar du själv.
+Samla automatiskt mynt på fältet.
 
 [NEW_OPTIONS_HELP_DRAGPLANTING]
-Håll ett kort, dra till målplatsen och släpp för att plantera enligt reglerna.
-Avstängt väljer du främst kortet först och klickar sedan på platsen. Krav på sol, väntetid och terräng gäller fortfarande.
+Dra ett kort till platsen och släpp för att plantera. Av: välj kortet och klicka sedan på platsen.
 
 [NEW_OPTIONS_HELP_ONLYORIGINALFEATURES]
-Låter huvudmenyn och relaterade ingångar fokusera på originalinnehåll och döljer eller ersätter utökade alternativ.
-Kräver omstart och raderar inga framsteg. Stäng av och starta om för att nå utökningarna igen.
+Dölj eller ersätt ingångar till utökat innehåll för att fokusera på originalet. Omstart krävs; framsteg behålls.
 
 [NEW_OPTIONS_HELP_SHOWTOOLS]
-Visar eller döljer knappar som 500 sol, körsbärsstorm och borttagning av väntetid.
-Aktivering gör inte föremålen gratis; vanliga kostnader gäller. Alltid gratis föremål är en separat funktion.
+Visa hjälpmedel som +500 sol och återställning av laddningstider. Vanliga kostnader i guldtackor gäller fortfarande.
 
 [NEW_OPTIONS_HELP_SHOWUNLOCKBUTTON]
-Visar eller döljer upplåsningsknappen i huvudmenyn.
-Det visar bara ingången och låser inte upp något direkt. Tillhörande steg måste fortfarande slutföras.
+Visa upplåsningsknappen i huvudmenyn. Klicka för att starta upplåsningen.
 
 [NEW_OPTIONS_HELP_ENABLESL]
-Visar S och L i stridsinställningarna. S sparar aktuell strid, L läser in den sparade.
-Inläsning återgår till sparat tillstånd och osparade framsteg försvinner. Tillgängligheten beror på läge och onlinebegränsningar.
+Visa S (spara) och L (ladda) i stridsinställningarna. Laddning tar bort osparade framsteg. Saknas i vissa lägen och online.
 
 [NEW_OPTIONS_HELP_FREEGOLDFINGER]
-Gör föremål permanent gratis för aktuell spelare utan kostnad i guldtackor. Bekräftelse krävs före aktivering.
-Funktionen är permanent och kan inte stängas av. Den är separat från föremålsknapparnas synlighet.
+Ta permanent bort hjälpmedlens kostnad i guldtackor för spelaren. Kan inte stängas av efter aktivering.
 
 [NEW_OPTIONS_HELP_IMPORTINTERNALDATA]
-Välj en spar-ZIP som exporterats av spelet. Efter kontroll importeras den vid nästa start. Exportera en säkerhetskopia först.
-Ersätter bara profiler, framsteg, egna banor och avatarbilder.
+Återställ profiler, framsteg, egna nivåer och avatarer från en ZIP exporterad av spelet vid nästa start. Ersätter befintliga data; exportera en säkerhetskopia först.
 
 [NEW_OPTIONS_HELP_EXPORTINTERNALDATA]
-Packar aktuella data i en spel-ZIP för säkerhetskopiering eller flytt till en annan enhet. Försöker spara aktuell strid och profil vid export.
-Innehåller bara profiler, framsteg, egna banor och avatarbilder. Återställ via Importera sparfiler.
+Exportera profiler, framsteg, egna nivåer och avatarer som ZIP för säkerhetskopia eller flytt. Återställ med import av spardata.
 
 [NEW_OPTIONS_HELP_OPENINTERNALFOLDER]
-Öppnar spelets interna datamapp i filhanteraren för granskning eller manuell säkerhetskopiering.
-Ändringar, flytt eller radering kan påverka sparfiler och eget innehåll; säkerhetskopiera först. Visas bara på plattformar som stöds.
+Öppna speldatamappen för granskning eller kopiering. Säkerhetskopiera före ändringar.
 
 [NEW_OPTIONS_HELP_USERDATAFORMAT]
-Välj sparformat för profiler: MessagePack är kompakt binärdata, JSON är text som är lätt att läsa och redigera.
-Standardvalet MessagePack räcker oftast. Byte konverterar inte alla gamla filer direkt och ersätter inte import eller export av säkerhetskopior.
+Profilformat: MessagePack är kompakt (standard); JSON går att läsa och redigera.
 
 [NEW_OPTIONS_HELP_LEVELDATAFORMAT]
-Välj format för att spara aktuell strid: MessagePack är kompakt binärdata, JSON är lätt att läsa och redigera.
-Det är ingen importinställning för egna banfiler. Standardformatet behöver oftast inte ändras; säkerhetskopiera före manuell redigering.
+Format för sparade strider: MessagePack är kompakt (standard); JSON går att läsa och redigera.
 
 [NEW_OPTIONS_HELP_CHRISTMAS]
-Aktiverar juldekorationer: tomteluvor på vissa zombier och julstrumpor i vissa miljöer.
+Visa juldekorationer som tomteluvor och strumpor.
 
 [NEW_OPTIONS_HELP_MUSTACHE]
-Ger zombier som stöds mustascher utan att ändra stridsförmågan. Skriv mustache i spelet för att växla.
-Sparas inte permanent.
+Ge vissa zombier mustascher. Skriv mustache för att växla. Återställs vid omstart.
 
 [NEW_OPTIONS_HELP_TRICKEDOUT]
-Ger vanliga gräsklippare som stöds ett häftigt utseende. Skriv trickedout för att växla.
-Sparas inte permanent.
+Ge vanliga gräsklippare ett hotrod-utseende. Skriv trickedout för att växla. Återställs vid omstart.
 
 [NEW_OPTIONS_HELP_FUTURE]
-Ger zombier som stöds framtidsglasögon utan att ändra stridsförmågan. Skriv future för att växla.
-Sparas inte permanent.
+Ge vissa zombier futuristiska glasögon. Skriv future för att växla. Återställs vid omstart.
 
 [NEW_OPTIONS_HELP_DAISIES]
-Låter zombier som stöds lämna blommor när de dör. Effekten är visuell och skapar inga styrbara växter. Skriv daisies för att växla.
-Kräver ett 100 fot högt Visdomsträd. Fungerar inte för alla zombier eller terränger. Sparas inte permanent.
+Vissa zombier lämnar blommor när de dör. Kräver Visdomens träd på 100 fot. Skriv daisies för att växla. Återställs vid omstart.
 
 [NEW_OPTIONS_HELP_DANCE]
-Låter zombier som stöds dansa medan de går. Skriv dance för att växla.
-Kräver ett 500 fot högt Visdomsträd; alla zombietyper och rörelser stöds inte. Sparas inte permanent.
+Låt vissa zombier dansa när de går. Kräver Visdomens träd på 500 fot. Skriv dance för att växla. Återställs vid omstart.
 
 [NEW_OPTIONS_HELP_PINATA]
-Låter godis flyga ur zombier som stöds när de dör. Godiset är en effekt, inte extra mynt eller insamlingsbara belöningar. Skriv pinata för att växla.
-Kräver ett 1000 fot högt Visdomsträd. Sparas inte permanent.
+Vissa zombier sprider godis när de dör. Kräver Visdomens träd på 1000 fot. Skriv pinata för att växla. Återställs vid omstart.
 
 [NEW_OPTIONS_HELP_SUKHBIR]
-Byter vissa zombiers vanliga läten mot andra ljud. Skriv sukhbir för att växla.
-Ändrar inte stridsförmågan och sparas inte permanent.
+Byt ut vissa zombieläten. Skriv sukhbir för att växla. Återställs vid omstart.
 
 [NEW_OPTIONS_HELP_RESOURCEPACKLUASCRIPTS]
-Tillåter Lua-skript i resurspaket. De kan utöka gränssnitt och spel, men även läsa filer, göra nätverksanrop eller ändra sparfiler. Använd bara betrodda skript.
-Är separat från paketets aktivering. Starta om enligt omladdningsmeddelandet. Kontrollera vid onlinespel att båda har samma skriptinställningar.
+Kör Lua-skript från resurspaket. De kan utöka spelet, nå filer och nätverk samt ändra sparfiler. Aktivera bara betrodda skript och starta om när du uppmanas.
 
 [NEW_OPTIONS_SWITCH_ON]
 På
@@ -9912,6 +9871,9 @@ Motspel: Tieba
 [VS_CLASSIC]
 Klassiskt motspel
 
+[VS_ALL_ZOMBIES]
+Motspel: alla zombier (test)
+
 [VS_NIGHT]
 Motspel: natt
 
@@ -11121,7 +11083,7 @@ Gerilla mot tjurkungen
 Halloweenläge
 
 [NEW_OPTIONS_HELP_HALLOWEEN]
-Aktiverar halloweendekorationer: häxhattar på vissa zombier och pumpalyktor i vissa miljöer.
+Visa halloweendekorationer som häxhattar och pumpalyktor.
 
 [HELP_GAMEPAD_XBOX]
 Xbox-handkontroll
@@ -11286,13 +11248,13 @@ Smör (håll inne)
 Båda kortuppsättningarna är fulla. Klicka på Starta.
 
 [MULTIPLAYER_LOCAL_VS_PICK]
-P{0} · {1}: välj ett kort
+S{0} · {1}: välj ett kort
 
 [MULTIPLAYER_LOCAL_COOP_PICK]
-Välj fyra kort var. Pekaren väljer först åt P1 och sedan åt P2.
+Välj fyra kort var. Pekaren väljer först åt S1 och sedan åt S2.
 
 [MULTIPLAYER_LOCAL_SHARED_PICK]
-Delad kortuppsättning · P1 väljer, båda använder
+Delad kortuppsättning · S1 väljer, båda använder
 
 [MULTIPLAYER_ACCOUNT]
 Serverkonto
@@ -11408,6 +11370,15 @@ Registrering är för närvarande stängd på servern.
 [MULTIPLAYER_LOGIN_REQUIRED]
 Logga in, eller logga in igen om sessionen har gått ut.
 
+[MULTIPLAYER_SESSION_EXPIRED]
+Din inloggning har gått ut. Logga in igen.
+
+[MULTIPLAYER_SESSION_REPLACED]
+Det här kontot har loggats in på en annan enhet. Logga in igen.
+
+[MULTIPLAYER_SERVER_SWITCHED]
+Du har bytt server. Logga in igen.
+
 [MULTIPLAYER_ACCOUNT_ALREADY_IN_ROOM]
 Kontot har redan en plats i rummet. Återställ den ursprungliga anslutningen om den bröts.
 
@@ -11445,25 +11416,59 @@ Handkontroll 1
 Handkontroll 2
 
 [LOCAL_INPUT_PLAYER]
-P{0}: {1}
+S{0}: {1}
 
 [LOCAL_INPUT_DISCONNECTED]
 (inte ansluten)
 
 [LOCAL_INPUT_CONNECT]
-Anslut {1} för P{0} eller välj en annan enhet.
+Anslut {1} för S{0} eller välj en annan enhet.
 
 [LOCAL_INPUT_SELECT]
-Välj inmatningsenhet för P{0}
+Välj inmatningsenhet för S{0}
 
 [LOCAL_INPUT_OCCUPIED]
-(används av P{0})
+(används av S{0})
 
 [LOCAL_INPUT_SHARED_DESCRIPTION]
 Delad mus / pekskärm · styr båda kortbankerna
 
 [SHUFFLE]
 Blanda
+
+[HOMERUN_DERBY_TUTORIAL]
+Homeruntävling 2
+
+[HOMERUN_TUTORIAL_START]
+Börja träna
+
+[HOMERUN_TUTORIAL_RETRY]
+Försök igen
+
+[HOMERUN_TUTORIAL_BALLS_TO_GO]
+BOLLAR
+KVAR
+
+[HOMERUN_TUTORIAL_STATUS]
+Poäng: {SCORE}  Boll: {ROUND} / 20  Chanser: {LIVES}
+
+[HOMERUN_TUTORIAL_SWIPE]
+Håll ned bollen till vänster och svep sedan uppåt åt höger för att slå!
+
+[HOMERUN_TUTORIAL_READY]
+Gör dig redo!
+
+[HOMERUN_TUTORIAL_WON]
+Träningen är klar!
+
+[HOMERUN_TUTORIAL_LOST]
+Inga chanser kvar. Försök igen!
+
+[HOMERUN_TUTORIAL_REPLAY]
+Ett kast till!
+
+[HOMERUN_TUTORIAL_MISS]
+Ute
 
 [SHUFFLE_SELECT_STAKE]
 Lägg ett silvermynt, guldmynt eller en diamant i vasen. Gissa rätt 10 gånger i rad för tio gånger insatsen.
@@ -11996,20 +12001,17 @@ Pussel
 Överlevnad
 
 [NEW_OPTIONS_HELP_ACCESSIBILITY]
-När uppläsning aktiveras byts tangentbordsfunktionen till Handkontroll; när den stängs av byts den till Kortkommandon. Ändra sedan separat under Kontroller → Tangentbordsfunktion. Bara det valet styr kontrollerna. Volym och hastighet kan ändras även när uppläsning är av.
-
-Menyer: piltangenter, Tab, Enter, Esc.
-F2 läser detaljer om aktuell kontroll, F4 sidans innehåll.
-
-Enspelarläge med handkontrollsfunktion: pilar flyttar ruta för ruta, J bekräftar eller planterar, K avbryter, Q/E byter kort. Håll K över en sekund med tomma händer och släpp för att gräva upp. U utför banhandling, Z/C använder vald avtryckarfunktion, Enter pausar.
-Frågor: F1 upprepa, F2 aktuell ruta, F3 sol och mynt, F4 vågor, F5 zombier i raden, F6 aktuellt kort. F9 hjälp, F10 stoppa uppläsning.
-Flerspelarläget behåller sina kontroller. Systemet behöver ett installerat röstpaket för språket. Uppläsning kan stängas av under Kontroller.
+Läs upp gränssnitt och strid. Kräver en systemröst för språket. På väljer handkontroll, av väljer kortkommandon. Tangentbordsfunktion kan ändras separat.
+Menyer: pilar/Tab flyttar, Enter bekräftar, Esc går tillbaka. F2: elementdetaljer; F4: sidinnehåll.
+Solostrid (handkontrolläge): pilar flyttar, J bekräftar/planterar, K avbryter, Q/E byter kort, Z/C använder avtryckare, U utför nivåhandlingar, Enter pausar. Med tomma händer, håll K över 1 sekund och släpp för att gräva.
+Frågor: F1 upprepa, F2 aktuell ruta, F3 sol och mynt, F4 vågor, F5 zombier i raden, F6 aktuellt kort.
+F9: kontrollhjälp. F10: stoppa uppläsning. Flerspelarkontrollerna är oförändrade.
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYVOLUME]
-Ändrar bara uppläsningens volym, inte spelmusik eller ljudeffekter.
+Justera uppläsningsvolymen. Musik och effekter påverkas inte.
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYRATE]
-Ändrar uppläsningshastigheten. 0 är standard, positiva värden är snabbare och negativa långsammare.
+Uppläsningshastighet: 0 är standard, positivt snabbare, negativt långsammare.
 
 [A11Y_GRAVE]
 Gravsten
@@ -12216,14 +12218,14 @@ Kortkommandon
 Handkontroll
 
 [NEW_OPTIONS_HELP_KEYBOARDMODE]
-Välj Kortkommandon eller Handkontroll för enspelarstrider; standard är Kortkommandon. Bara detta val styr kontrollerna. Uppläsning på/av växlar till Handkontroll/Kortkommandon; sedan kan du ändra separat här. Fasta tangenter i handkontrollsläge:
-WASD: vänster spak (rörelse), pilar: styrkors
-J / K / U / I: A / B / X / Y
-Q / E: LB / RB (byt kort), Z / C: LT / RT
-Numeriskt 8 / 2 / 4 / 6: höger spak
-Enter: Start, Backspace: Back, Esc: vanliga menyn
-I vanlig strid planterar J och K avbryter. Sikta på en växt med tomma händer, håll K över en sekund och släpp för att gräva upp. U utför banhandlingen.
-Lokalt tvåspelarspel följer lobbyns enhetsval; online behåller vanliga kortkommandon. Mappningen pausas i textfält, popupfönster och paus. Släpp alla mappade tangenter innan du fortsätter.
+Använd kortkommandon eller emulera en handkontroll i solostrider. Knappar:
+WASD: vänster spak; pilar: styrkors
+J/K/U/I: A/B/X/Y; Q/E: LB/RB (kort)
+Z/C: LT/RT; numeriskt 8/2/4/6: höger spak
+Enter: paus; Backspace: tillbaka; Esc: meny; Tab: hastighet
+I sololägets handkontrollsläge väljer övre sifferraden 1–0 kort/verktyg och mellanslag pausar; övriga gamla kortkommandon är avstängda.
+J planterar, K avbryter. Med tomma händer, håll K över 1 sekund och släpp för att gräva. U: nivåhandling.
+Att växla uppläsning ändrar detta. Online använder kortkommandon; lokalt för två gäller lobbytilldelningen.
 
 [NEW_OPTIONS_SECTION_INPUT]
 Inmatning
@@ -12244,7 +12246,7 @@ Läser in…
 Inte tillgänglig
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYVOICE]
-Välj en röst som är installerad i systemet. Automatiskt val följer spelspråket; en otillgänglig vald röst ersätts automatiskt. Du kan välja även med uppläsning avstängd. Inställningen sparas per enhet.
+Välj systemröst. Automatiskt följer spelspråket, även när vald röst inte är tillgänglig.
 
 [NEW_OPTIONS_CURRENCY]
 Valuta
@@ -12253,7 +12255,7 @@ Valuta
 Generisk
 
 [NEW_OPTIONS_HELP_CURRENCY]
-Ändrar valutautseendet på mynt, penningpåsar, myntfält och försäljningsikoner. Belopp och priser ändras inte.
+Ändra utseendet på mynt och andra valutaikoner. Belopp och priser påverkas inte.
 
 [MUSIC_BOX_TUNE_CREDITSZOMBIESONYOURLAWNJP]
 Zombier på din gräsmatta (japanska)
@@ -12268,7 +12270,10 @@ Visa översättning av MV-låttext
 日本語
 
 [NEW_OPTIONS_HELP_MUSICVIDEOLANGUAGE]
-Välj musikvideons sång- och undertextspråk, engelska som standard. Gäller nästa gång videon öppnas och ändrar inte gränssnittsspråket.
+Välj språk för musikvideons sång och undertexter. Gäller nästa gång den öppnas.
+
+[NEW_OPTIONS_HELP_MUSICVIDEOTRANSLATION]
+Visa översatt sångtext på gränssnittsspråket, utom när det är samma som originaltexten.
 
 [NEW_OPTIONS_LANGUAGE_FRENCH]
 Français
@@ -12410,3 +12415,33 @@ Jag har en nätdörr också
 
 [CREDITS_LYRIC_GIVE_TRICYCLE]
 Ge mig den där trehjulingen
+
+[ALMANAC_TITLE_HERO]
+Stora almanackan - Hjältar
+
+[HERO_SKILL_POINTS]
+Återstående färdighetspoäng
+
+[HERO_MAX_LEVEL]
+Maxnivå
+
+[HERO_REQUIRED_LEVEL]
+Kräver nivå %s
+
+[HERO_HEALTH]
+Hälsa
+
+[HERO_ATTACK]
+Attack
+
+[HERO_SPEED]
+Hastighet
+
+[HERO_POINTS_REMAINING]
+Kvar
+
+[A11Y_HIGH_CONTRAST]
+Hög kontrast
+
+[NEW_OPTIONS_HELP_HIGHCONTRAST]
+Mörka ned fältets bakgrund och framhäv växter, zombier och föremål med tydliga färger.

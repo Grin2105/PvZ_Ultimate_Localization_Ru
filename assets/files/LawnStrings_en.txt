@@ -1358,7 +1358,7 @@ This time around, I wanna pick some seeds for you!
 I choose... these three!
 
 [CRAZY_DAVE_1700]
-{NO_CLICK}I'll give you ${SELL_PRICE} for that {PLANT_TYPE}!
+{NO_CLICK}I'll give you {CURRENCY_SYMBOL}{SELL_PRICE} for that {PLANT_TYPE}!
 
 [CRAZY_DAVE_2000]
 {NO_SOUND}{NO_CLICK}Plant these on your repeaters to turn them into gatling peas! Gatling peas shoot four peas at a time!
@@ -5741,18 +5741,18 @@ Porcelain Pot lets you plant on the Great Wall.
 {FLAVOR}"I'm a porcelain pot from ancient times, but I'm also a plant. Surprised?"
 
 [WEST_FIRE_GOURD]
-Fire Gourd
+Fire-breathing Bell Pepper
 
 [WEST_FIRE_GOURD_TOOLTIP]
 Sets zombies on fire, dealing damage over time
 
 [WEST_FIRE_GOURD_DESCRIPTION]
-Fire Gourd breathes fire that ignites zombies, dealing damage over time. The burning continues for a while even after he stops attacking.
+Fire-breathing Bell Pepper breathes fire that ignites zombies, dealing damage over time. The burning continues for a while even after he stops attacking.
 {SHORTLINE}
 {KEYWORD}Damage:{STAT} heavy, penetrates screen doors
 {KEYWORD}Range:{STAT} all zombies caught in the flames
 {SHORTLINE}
-{FLAVOR}"You saw a Fire Gourd in Kung-fu World too?" says Fire Gourd. "That's my younger cousin."
+{FLAVOR}"You saw a Fire Gourd in Kung-fu World?" says Fire-breathing Bell Pepper. "That's my younger cousin."
 
 [WEST_BAMBOO_SHOOT]
 Bamboo Shoot
@@ -5766,6 +5766,20 @@ Bamboo Shoot blocks damage from zombies.
 {KEYWORD}Toughness:{STAT} medium
 {SHORTLINE}
 {FLAVOR}Do you know why Bamboo Shoot blocks zombie attacks? It's actually because he has no attack animation.
+
+[WALL_WINE_GOURD]
+Wine Gourd
+
+[WALL_WINE_GOURD_TOOLTIP]
+Temporarily speeds up other plants on the same tile
+
+[WALL_WINE_GOURD_DESCRIPTION]
+Wine Gourd hovers above the lawn, pouring drinks for the other plants on his tile to briefly speed them up.
+{SHORTLINE}
+{KEYWORD}Special: {STAT}flies and briefly speeds up plants on his tile
+{KEYWORD}Range: {STAT}plants on his tile
+{SHORTLINE}
+{FLAVOR}Wine Gourd calls every outing a "neighborly visit." His visits are always welcome, though his neighbors tend to get so busy afterward that they forget to thank him.
 
 [ENDLESS_SPEW_ANEMONE]
 Water Gun Grass
@@ -6222,7 +6236,7 @@ The savage Yellow Brows Gargantuar carries many powerful treasures. His enormous
 {FLAVOR}Why can he summon Western zombies? Because they firmly believe he is the Buddha.
 
 [LINKAGE_DLC_1]
-Forest - 1
+Forest Fight
 
 [LINKAGE_DLC_2]
 Lights Out
@@ -6373,29 +6387,21 @@ Update
 [UPDATE_CONTENT]
 New version %s is available. Go to the update page?
 
-[HERO_CONSOLE_TITLE_PROPERTY]
-Stats
 
-[HERO_CONSOLE_TITLE_SKILL]
-Skills
 
-[HERO_CONSOLE_BUTTON_UPGRADE]
+[HERO_BUTTON_UPGRADE]
 Upgrade
 
-[HERO_CONSOLE_BUTTON_PURCHASE]
+[HERO_BUTTON_PURCHASE]
 Buy
 
-[HERO_CONSOLE_BUTTON_RESET]
+[HERO_BUTTON_RESET]
 Reset
 
-[HERO_CONSOLE_BUTTON_TRAIN]
+[HERO_BUTTON_TRAIN]
 Train
 
-[HERO_CONSOLE_BUTTON_SKILL]
-Skills
 
-[HERO_CONSOLE_BUTTON_BACK]
-Back
 
 [MAIN_MENU_BUTTON_HERO]
 Heroes
@@ -6664,9 +6670,6 @@ Every 45 seconds, generates a shield with %s health.
 
 [HEROPLANT_UNLOCK_DIAMOND]
 Buy for %d
-
-[HEROPLANT_LVLUP_CONFIRM]
-Are you sure you want to use %d gold ingots to upgrade your hero immediately?
 
 [HEROPLANT_RESETSKILL_CONFIRM]
 Are you sure you want to use %d gold ingots to reset your hero's skills?
@@ -8375,7 +8378,7 @@ Auto-collect Sun
 Auto-collect Coins
 
 [NEW_OPTIONS_HELP_GAMEPADTRIGGERS]
-Choose what LT/RT (ZL/ZR on Switch) do in battle. Use items (default): select a top-bar item, then press Confirm to use it. Auto-collect: press either trigger to collect resources such as sun and coins across the board. Holding a trigger does not repeat. You can still press Up on the D-pad to reach items. Menu, seed selection and garden paging, and the automatic sun/coin collection settings are unchanged.
+Choose LT/RT (ZL/ZR on Switch) actions in battle: select items and press Confirm to use, or press once to collect sun and coins across the board. Holding does not repeat. D-pad Up still selects items.
 
 [NEW_OPTIONS_GAMEPAD_TRIGGERS]
 Controller triggers
@@ -8393,8 +8396,7 @@ Drag Planting
 Enable Flying Imp
 
 [NEW_OPTIONS_HELP_ENABLEENDLESSSTAR]
-When off, the Flying Imp and the star on the lawn will not appear in applicable Adventure and Journey to the West levels. These levels can award at most two stars.
-Changing this setting does not affect a battle in progress. It takes effect when you restart the level. Continuing a saved game keeps its original state. Previous star records are kept.
+When off, applicable Adventure and Journey to the West levels have no Flying Imp or lawn star and award at most two stars. Applies to fresh starts; saved battles and existing ratings stay unchanged.
 
 [NEW_OPTIONS_DRAW_CROSSHAIR]
 Planting Crosshair
@@ -8446,13 +8448,13 @@ The current display area is narrow, so the left seed bank may cover part of the 
 Screen stretch
 
 [NEW_OPTIONS_HELP_SCREENSTRETCH]
-0% keeps the original screen aspect ratio. 100% uses a 4:3 layout stretched to fill the screen. Intermediate values blend between them. This also applies to tall screens, with the same 4:3 endpoint. Stretching changes shapes and the visible area. Drag and release to apply; keyboard or controller changes apply immediately. Saved only on this device.
+0% keeps the screen aspect ratio; 100% stretches a 4:3 layout to fill the screen, distorting shapes.
 
 [NEW_OPTIONS_MOUSE_CURSOR_SIZE]
 Cursor size
 
 [NEW_OPTIONS_HELP_MOUSECURSORSIZE]
-Set the game cursor size to 0, 0.5, 1, 1.5, 2, 2.5 or 3 (default: 1). At 0, use the system cursor: the game only requests the normal, link or text type, while the system controls its appearance and size. Changes apply immediately.
+Adjust the game cursor size. 1 is the default; 0 uses the system cursor.
 
 [NEW_OPTIONS_UI_LEFT_OFFSET]
 UI Left Margin
@@ -8515,183 +8517,142 @@ Candy Burst
 Open-source Licenses
 
 [NEW_OPTIONS_HELP_LANGUAGE]
-Choose the interface language. Restart the game to apply the change. Your progress is preserved.
+Choose the interface language. Restart to apply.
 
 [NEW_OPTIONS_HELP_MUSICVOLUME]
-Adjust background music from 0% to 100%. Drag the slider to hear the change.
-Setting it to 0% turns music off; raising it enables music again. Plant, zombie and button sounds are controlled separately by SFX Volume.
+Adjust background music volume. 0% mutes it.
 
 [NEW_OPTIONS_HELP_SOUNDVOLUME]
-Adjust plant, zombie, button and other sound effects from 0% to 100%.
-Set it to 0% to mute sound effects. Background music is controlled separately by Music Volume.
+Adjust plant, zombie, button and other sound effects. 0% mutes them.
 
 [NEW_OPTIONS_HELP_FULLSCREEN]
-Switch between windowed and full-screen display. Full screen lets the game use the whole display area.
-This option is available only on platforms that allow full-screen switching. Devices locked to full screen do not show it.
+Switch between windowed and full-screen display.
 
 [NEW_OPTIONS_HELP_RUNLOCKED]
-Allow the game to keep running when its window loses focus or is minimized. This can be useful when waiting for a level to progress.
-When off, the normal focus-loss pause rules apply. Background play still uses system resources, and a mobile operating system may suspend the app.
+Keep running when the window loses focus or is minimized. Mobile systems may still pause background apps.
 
 [NEW_OPTIONS_HELP_VIBRATION]
-Allow game events to trigger vibration on the device or current controller. Both use this switch.
-Feedback requires compatible hardware. Turning this on cannot add vibration support to a controller that lacks it. Turning it off stops current controller vibration.
+Turn device and controller vibration on or off.
 
 [NEW_OPTIONS_HELP_LOWLATENCYAUDIO]
-Enable low-latency audio mode to shorten the output buffer and reduce the delay between an action and its sound feedback.
-Restart the game after changing it; some devices or drivers may not support this mode.
+Reduce the delay between actions and sounds. Restart to apply.
 
 [NEW_OPTIONS_HELP_CAMERASIZE]
-Adjust the battlefield zoom. Drag left to make plants and zombies appear larger, or right to see more of the scene. Seed banks and menus stay the same size.
+Drag left to zoom in, or right to see more of the battlefield. Seed banks and menus stay the same size.
 
 [NEW_OPTIONS_HELP_TOPSEEDBANK]
-Place the seed bank on the left or at the top of the screen. This changes its layout, not the number of cards you can carry.
-On narrow screens, the left layout may cover part of the battlefield or controls. The game asks for confirmation when needed.
+Place the seed bank on the left or at the top. The left layout may obscure the scene on narrow screens.
 
 [NEW_OPTIONS_HELP_BOARDLEFTOFFSET]
-Adjust the position of left-side interface elements within the extra space on wide screens. Relevant main-menu and battlefield layouts use this setting.
-Move the slider to suit your screen edges and reach. The effect may be small when there is no extra horizontal space.
+Move left-side controls within extra wide-screen space. Little effect without extra horizontal space.
 
 [NEW_OPTIONS_HELP_BOARDRIGHTOFFSET]
-Adjust right-side interface elements within extra wide-screen space, independently of the left margin.
-Use it to position right-side controls more comfortably. The available movement depends on the screen aspect ratio and current layout.
+Move right-side controls within extra wide-screen space. Little effect without extra horizontal space.
 
 [NEW_OPTIONS_HELP_COVERLAYER]
-Choose the foreground cover style: none, grass or objects.
-Pick the appearance and visibility you prefer. Changing it also adjusts relevant street-zombie positions during seed selection to match the selected cover.
+Choose foreground cover: none, grass or objects. Some scenes do not support the selected cover.
 
 [NEW_OPTIONS_HELP_DRAWCROSSHAIR]
-Show a crosshair when choosing where to plant, making the target row and column easier to identify, especially with touch or a controller.
-It is a visual guide: it does not plant automatically or change placement rules.
+Show a crosshair while planting to help line up rows and columns.
 
 [NEW_OPTIONS_HELP_SHOWGAMEPADHINTS]
-Show available actions for gamepads and keyboards in Gamepad mode, using actual key names for the keyboard. Local two-player hints stay visible for devices assigned to P1 and P2: the mouse adds no icon and each gamepad shows its own icons. Shared actions use one label.
-Changes apply and save immediately. Hiding hints does not affect controls, focus outlines or Keyboard mode help.
+Show button hints for controllers or Gamepad keyboard mode. Local two-player hints follow each player’s device; the mouse shows no button icons.
 
 [NEW_OPTIONS_HELP_SHOWTOOLTIPS]
-Allow contextual tooltips for supported cards, objects and controls. They provide information about the item you point at.
-Availability depends on the screen, target and input method. Turn this off to reduce tooltip panels on screen.
+Show tooltips for cards, objects and buttons.
 
 [NEW_OPTIONS_HELP_MAINMENUZOMBIEHAND]
-Play the zombie-hand opening animation when starting Adventure from the main menu.
-Turning it off skips the usual animation to reach the next screen sooner. Certain flows, such as the first game start, may still play it.
+Play the zombie-hand intro when entering Adventure. First-time play and certain sequences still show it.
 
 [NEW_OPTIONS_HELP_ZOMBIEAPPEARANCE]
-Choose big-head or small-head zombie proportions.
-This is an appearance setting; it does not change zombie health, attack power or level difficulty.
+Switch between big-head and small-head zombies.
 
 [NEW_OPTIONS_HELP_DANCERAPPEARANCE]
-Switch between the MJ and Disco styles for the corresponding dancing and backup-dancer zombies.
-The styles differ in behavior as well as appearance, including movement distance, so this choice can affect how a level plays out.
+Choose MJ or Disco dancers and backup dancers. Movement distances and some other behaviors also differ.
 
 [NEW_OPTIONS_HELP_SPECIALSHADERS]
-Enable animated pool and flame effects and soft-edged, multi-pointer vision.
-When disabled or unsupported, pool effects are hidden, flames use a fixed image, and limited view uses one hard-edged circle.
-Changes take effect immediately. Built-in color filters are unaffected.
+Control animated pool, flame and soft multi-pointer vision effects. When off, pool effects stop, flames use static images and vision uses one hard-edged circle.
 
 [NEW_OPTIONS_HELP_ENHANCEDISPLAY]
-Show extra card-cooldown and plant/zombie health information to help you judge the battle and time your actions.
-This adds more numbers and information to the screen. The exact information depends on the mode and object type.
+Show card cooldowns and plant/zombie health.
 
 [NEW_OPTIONS_HELP_GRAPHICSBACKEND]
-Choose a graphics rendering backend supported by this platform. Auto is a good starting point; another backend may help with graphics or compatibility problems.
-Restart the game after changing it. Compatibility and performance depend on your device and drivers.
+Choose a graphics backend. Usually use Auto; try another if graphics look wrong. Restart to apply.
 
 [NEW_OPTIONS_APPLY_SPEED_ON_NEW_LEVEL]
 Start with speed boost
 
 [NEW_OPTIONS_HELP_APPLYSPEEDONNEWLEVEL]
-When enabled, new levels immediately use your configured speed. Off by default: new levels start at 1x, and the in-game speed button enables your configured speed.
-This setting does not change the speed state of the current level.
+Start new levels at your configured speed. When off, start at 1x and switch with the in-game speed button.
 
 [NEW_OPTIONS_HELP_SPEED]
-Adjust gameplay speed from 1x to 10x. 1x is normal speed. Higher values reduce waiting time but also give you less time to react.
-Specific modes or multiplayer rules may restrict the speed actually used.
+Set game speed from 1x to 10x. Some modes and online play may limit it.
 
 [NEW_OPTIONS_HELP_AUTOCOLLECTSUN]
-Automatically collect available sun to reduce repeated clicks. When off, collect it manually as usual.
+Automatically collect sun on the board.
 
 [NEW_OPTIONS_HELP_AUTOCOLLECTCOIN]
-Automatically collect available coins to reduce repeated clicks. When off, collect them manually.
+Automatically collect coins on the board.
 
 [NEW_OPTIONS_HELP_DRAGPLANTING]
-Allow dragging a card to its target position and releasing it to plant.
-When off, use the select-card-then-click-position interaction. Planting still requires enough sun, a ready card and a valid location.
+Drag a card to a spot and release to plant. When off, select a card, then click a spot.
 
 [NEW_OPTIONS_HELP_ONLYORIGINALFEATURES]
-Use the original-content menu and related entry points, hiding or replacing the corresponding expanded-content entries.
-Restart the game after changing it. Existing progress is not deleted; turn it off and restart to access the expanded entries again.
+Hide or replace expanded-content entries to focus on original content. Restart to apply; progress is kept.
 
 [NEW_OPTIONS_HELP_SHOWTOOLS]
-Show buttons for power-ups such as +500 Sun, Cherry Windstorm and clearing cooldowns.
-Showing the buttons does not make power-ups free; their normal costs still apply. Permanently Free Power-ups is a separate feature.
+Show power-up buttons such as +500 Sun, Cherry Windstorm and clearing cooldowns. Normal gold-ingot costs still apply.
 
 [NEW_OPTIONS_HELP_SHOWUNLOCKBUTTON]
-Show the main-menu unlock button so you can open the relevant unlock flow.
-This only controls the entry point. It does not directly unlock levels or other content; the normal unlock flow still applies.
+Show the main-menu unlock button. Click it to start unlocking content.
 
 [NEW_OPTIONS_HELP_ENABLESL]
-Show S and L buttons in the in-game settings. S saves the current level; L loads the saved level for quick saving and loading.
-Loading returns to the saved state and discards unsaved level progress. Availability still depends on the current mode and multiplayer restrictions.
+Show S (save) and L (load) in battle settings. Loading discards unsaved progress. Unavailable in some modes and online play.
 
 [NEW_OPTIONS_HELP_FREEGOLDFINGER]
-Enable free power-ups permanently for the current player, removing their gold-ingot costs. A confirmation flow appears before activation.
-This is permanent and cannot be turned off through settings after activation. Power-up button visibility is controlled separately.
+Permanently remove power-up gold-ingot costs for this player. Cannot be turned off once enabled.
 
 [NEW_OPTIONS_HELP_IMPORTINTERNALDATA]
-Select a save ZIP exported by this game. After validation, it is imported on the next launch. Export a backup first.
-Only player profiles, game progress, custom levels and Zombatar images are replaced.
+Restore profiles, progress, custom levels and avatar images from a ZIP exported by this game on next launch. Replaces existing data; export a backup first.
 
 [NEW_OPTIONS_HELP_EXPORTINTERNALDATA]
-Package current save data into a game-specific ZIP for backup or transfer. Export attempts to save the current level and player data first.
-Only player profiles, game progress, custom levels and Zombatar images are included. Restore this ZIP through Import Save.
+Export profiles, progress, custom levels and avatar images as a ZIP for backup or transfer. Restore it with Import save data.
 
 [NEW_OPTIONS_HELP_OPENINTERNALFOLDER]
-Open the internal game-data directory in the system file manager to inspect or manually back up files.
-Editing, moving or deleting files there can affect saves and custom content, so keep a backup before doing so. This entry appears only on supported platforms.
+Open the game-data folder to inspect or back up files. Back up before editing.
 
 [NEW_OPTIONS_HELP_USERDATAFORMAT]
-Choose the format used to save player data: MessagePack is compact binary data; JSON is readable, editable text.
-Keeping the default MessagePack is suitable for normal play. Changing this does not immediately batch-convert every existing file or replace backup import/export.
+Choose the profile save format: MessagePack is compact (default); JSON is readable and editable.
 
 [NEW_OPTIONS_HELP_LEVELDATAFORMAT]
-Choose the format used to save a running level: compact binary MessagePack or readable, editable JSON.
-This concerns saved gameplay states, not importing custom-level definitions. Normal play does not require changing the default. Back up files before editing them manually.
+Choose the battle save format: MessagePack is compact (default); JSON is readable and editable.
 
 [NEW_OPTIONS_HELP_CHRISTMAS]
-Enable Christmas decorations: Santa hats on some zombies and stockings in some scenes.
+Show Christmas decorations such as Santa hats and stockings.
 
 [NEW_OPTIONS_HELP_MUSTACHE]
-Give supported zombies mustaches as a cosmetic Easter egg, without changing their combat abilities. You can also type mustache in the game to toggle it.
-This is not saved as a persistent setting.
+Give some zombies mustaches. You can also type mustache to toggle. Resets on restart.
 
 [NEW_OPTIONS_HELP_TRICKEDOUT]
-Use the hot-rod appearance for supported lawn mowers. This is a cosmetic Easter egg, also available by typing trickedout.
-This is not saved as a persistent setting.
+Give standard lawn mowers a hot-rod look. You can also type trickedout to toggle. Resets on restart.
 
 [NEW_OPTIONS_HELP_FUTURE]
-Give supported zombies futuristic glasses without changing their combat abilities. You can also type future to toggle it.
-This is not saved as a persistent setting.
+Give some zombies futuristic glasses. You can also type future to toggle. Resets on restart.
 
 [NEW_OPTIONS_HELP_DAISIES]
-Leave flowers when eligible zombies die. This is a visual Easter egg, not a controllable plant. You can also type daisies to toggle it.
-Requires a Tree of Wisdom at least 100 feet tall; some zombies or terrain do not produce flowers. This is not saved as a persistent setting.
+Leave daisies when some zombies die. Requires a 100-foot Tree of Wisdom. Type daisies to toggle. Resets on restart.
 
 [NEW_OPTIONS_HELP_DANCE]
-Make supported zombies dance as they walk. You can also type dance to toggle it.
-Requires a Tree of Wisdom at least 500 feet tall. Not every zombie type or action supports it. This is not saved as a persistent setting.
+Make some zombies dance as they walk. Requires a 500-foot Tree of Wisdom. Type dance to toggle. Resets on restart.
 
 [NEW_OPTIONS_HELP_PINATA]
-Produce a burst of candy when eligible zombies die. The candy is a visual effect, not extra coins or collectible rewards. You can also type pinata to toggle it.
-Requires a Tree of Wisdom at least 1000 feet tall. This is not saved as a persistent setting.
+Make some zombies burst into candy when they die. Requires a 1000-foot Tree of Wisdom. Type pinata to toggle. Resets on restart.
 
 [NEW_OPTIONS_HELP_SUKHBIR]
-Replace the usual groans of some zombies with an alternate set of sounds. You can also type sukhbir to toggle it.
-It does not change combat abilities. This is not saved as a persistent setting.
+Replace some zombie groans. You can also type sukhbir to toggle. Resets on restart.
 
 [NEW_OPTIONS_HELP_RESOURCEPACKLUASCRIPTS]
-Allow Lua scripts supplied by resource packs to run. Scripts can extend the interface and gameplay, and may access files, make network requests or modify saves. Enable scripts only from sources you trust.
-This is separate from enabling a resource pack itself. Restart as prompted after changing resource-pack settings. In multiplayer, check that both sides use compatible script configurations.
+Run resource-pack Lua scripts. They can extend gameplay, access files and the network, and change saves. Enable only trusted scripts and restart when prompted.
 
 [NEW_OPTIONS_SWITCH_ON]
 On
@@ -9960,6 +9921,9 @@ Versus Tieba
 [VS_CLASSIC]
 Versus Classic
 
+[VS_ALL_ZOMBIES]
+Versus: All Zombies Test
+
 [VS_NIGHT]
 Versus Night
 
@@ -11168,7 +11132,7 @@ Bullfighting
 Halloween Mode
 
 [NEW_OPTIONS_HELP_HALLOWEEN]
-Enable Halloween decorations: witch hats on some zombies and pumpkin lanterns in some scenes.
+Show Halloween decorations such as witch hats and pumpkin lanterns.
 
 [HELP_GAMEPAD_XBOX]
 Xbox Controller
@@ -11456,6 +11420,15 @@ Registration is disabled on this server.
 [MULTIPLAYER_LOGIN_REQUIRED]
 Please sign in, or sign in again if your session expired.
 
+[MULTIPLAYER_SESSION_EXPIRED]
+Your login has expired. Please sign in again.
+
+[MULTIPLAYER_SESSION_REPLACED]
+This account signed in on another device. Please sign in again.
+
+[MULTIPLAYER_SERVER_SWITCHED]
+You switched servers. Please sign in again.
+
 [MULTIPLAYER_ACCOUNT_ALREADY_IN_ROOM]
 This account already has a seat in the room. Reconnect using the original session.
 
@@ -11512,6 +11485,40 @@ Shared mouse / touch · Both card banks are available
 
 [SHUFFLE]
 Shuffle
+
+[HOMERUN_DERBY_TUTORIAL]
+Homerun Derby 2
+
+[HOMERUN_TUTORIAL_START]
+Start practice
+
+[HOMERUN_TUTORIAL_RETRY]
+Try again
+
+[HOMERUN_TUTORIAL_BALLS_TO_GO]
+BALLS
+TO GO
+
+[HOMERUN_TUTORIAL_STATUS]
+Score: {SCORE}  Ball: {ROUND} / 20  Chances: {LIVES}
+
+[HOMERUN_TUTORIAL_SWIPE]
+Hold the ball on the left, then swipe up and right to bat!
+
+[HOMERUN_TUTORIAL_READY]
+Get ready!
+
+[HOMERUN_TUTORIAL_WON]
+Practice complete!
+
+[HOMERUN_TUTORIAL_LOST]
+Out of chances. Try again!
+
+[HOMERUN_TUTORIAL_REPLAY]
+One more pitch!
+
+[HOMERUN_TUTORIAL_MISS]
+Out
 
 [SHUFFLE_SELECT_STAKE]
 Place a silver coin, gold coin, or diamond in a vase. Find it 10 times in a row to win 10 times your stake.
@@ -12046,20 +12053,17 @@ Puzzle
 Survival
 
 [NEW_OPTIONS_HELP_ACCESSIBILITY]
-Turning narration on selects Gamepad keyboard mode; turning it off selects Shortcuts. You can then change Controls > Keyboard mode separately. Only that choice determines keyboard controls. Volume and rate can also be adjusted while narration is off.
-
-Menus: arrows, Tab, Enter, Esc.
-In menus, F2 reads the current control details and F4 reads the page content.
-
-Solo controls in Gamepad mode: arrows move by cell, J confirms or plants, K cancels, Q/E change cards. With empty hands, hold K for over one second, then release to dig. U performs the level action, Z/C use the configured trigger action, and Enter pauses.
-Queries: F1 repeat, F2 current cell, F3 sun and coins, F4 wave, F5 zombies in this row, F6 current card. F9 help, F10 stop narration.
-Multiplayer keeps existing controls. Narration requires an installed voice for your language and can be disabled under Controls.
+Read menus and battle information aloud. Requires a system voice for the language. Enabling selects Gamepad keyboard mode; disabling selects Shortcuts. Keyboard mode can be changed separately.
+Menus: Arrows/Tab to move, Enter to confirm, Esc to go back. F2: control details; F4: page contents.
+Solo battle (Gamepad mode): Arrows move, J confirms/plants, K cancels, Q/E change cards, Z/C use trigger actions, U performs level actions, Enter pauses. With empty hands, hold K over 1 second and release to shovel.
+Queries: F1 repeat, F2 current cell, F3 sun and coins, F4 waves, F5 zombies in this row, F6 current card.
+F9: controls help. F10: stop speaking. Multiplayer controls stay unchanged.
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYVOLUME]
-Adjust narration volume independently of music and sound effects.
+Adjust narration volume. Music and sound effects stay unchanged.
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYRATE]
-Adjust narration speed. Zero is normal; positive values are faster and negative values slower.
+Set narration speed: 0 is default, positive is faster, negative is slower.
 
 [A11Y_GRAVE]
 gravestone
@@ -12266,14 +12270,14 @@ Shortcuts
 Gamepad
 
 [NEW_OPTIONS_HELP_KEYBOARDMODE]
-Choose Shortcuts (default) or Gamepad for solo battles. Only this choice determines keyboard controls. Toggling narration selects Gamepad when enabled and Shortcuts when disabled; you can then change the mode here separately. Gamepad mode uses fixed keys:
-WASD: left stick (move); arrows: D-pad
-J / K / U / I: A / B / X / Y
-Q / E: LB / RB (cards); Z / C: LT / RT
-Numpad 8 / 2 / 4 / 6: right stick
-Enter: Start; Backspace: Back; Esc: existing menu
-In standard battles, J plants and K cancels. With empty hands, hold K over a plant for more than one second, then release to dig it up. U performs the level action.
-Local two-player mode follows lobby device assignments; online play keeps existing shortcuts. Mapping pauses in text fields, dialogs and while paused. Release all mapped keys before resuming.
+Use shortcuts or emulate a gamepad in solo battles. Gamepad keys:
+WASD: left stick; Arrows: D-pad
+J/K/U/I: A/B/X/Y; Q/E: LB/RB (cards)
+Z/C: LT/RT; Numpad 8/2/4/6: right stick
+Enter: pause; Backspace: Back; Esc: menu; Tab: speed
+Solo gamepad mode also allows top-row 1–0 for cards/tools and Space to pause; other legacy shortcuts are disabled.
+J plants, K cancels; with empty hands, hold K over 1 second and release to shovel. U performs level actions.
+Toggling narration changes this setting. Online play uses shortcuts; local co-op follows lobby assignments.
 
 [NEW_OPTIONS_SECTION_INPUT]
 Input
@@ -12294,7 +12298,7 @@ Loading…
 Unavailable
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYVOICE]
-Choose an installed system voice. Automatic follows the game language and is used if your selected voice becomes unavailable. You can choose while narration is off. Saved on this device.
+Choose a system voice. Automatic matches the game language, including when your chosen voice is unavailable.
 
 [NEW_OPTIONS_CURRENCY]
 Currency
@@ -12303,7 +12307,7 @@ Currency
 Generic
 
 [NEW_OPTIONS_HELP_CURRENCY]
-Change the currency appearance of coins, money bags, coin banks and sell icons without changing amounts or prices.
+Change coin and other currency icons. Amounts and prices stay unchanged.
 
 [MUSIC_BOX_TUNE_CREDITSZOMBIESONYOURLAWNJP]
 Zombies on Your Lawn (Japanese)
@@ -12318,7 +12322,10 @@ Show MV lyric translations
 日本語
 
 [NEW_OPTIONS_HELP_MUSICVIDEOLANGUAGE]
-Choose English or Japanese vocals and subtitles for the music video. Defaults to English and applies the next time you open the MV; the interface language stays unchanged.
+Choose the MV vocal and subtitle language. Applies next time you open the MV.
+
+[NEW_OPTIONS_HELP_MUSICVIDEOTRANSLATION]
+Show MV lyric translations in the interface language. Hidden when it matches the original subtitles.
 
 [NEW_OPTIONS_LANGUAGE_FRENCH]
 Français
@@ -12460,3 +12467,33 @@ I've got a screen door, too
 
 [CREDITS_LYRIC_GIVE_TRICYCLE]
 Give me that tricycle
+
+[ALMANAC_TITLE_HERO]
+Suburban Almanac - Heroes
+
+[HERO_SKILL_POINTS]
+Skill points left
+
+[HERO_MAX_LEVEL]
+Max level
+
+[HERO_REQUIRED_LEVEL]
+Level %s required
+
+[HERO_HEALTH]
+Health
+
+[HERO_ATTACK]
+Attack
+
+[HERO_SPEED]
+Speed
+
+[HERO_POINTS_REMAINING]
+Remaining
+
+[A11Y_HIGH_CONTRAST]
+High contrast
+
+[NEW_OPTIONS_HELP_HIGHCONTRAST]
+Darken the battlefield background and highlight plants, zombies and other objects with distinct colors.

@@ -1336,7 +1336,7 @@ Questa volta sceglierò io un po' di semi per te!
 Ho scelto... questi tre!
 
 [CRAZY_DAVE_1700]
-{NO_CLICK}Ti darò ${SELL_PRICE} per questa pianta: {PLANT_TYPE}!
+{NO_CLICK}Ti darò {CURRENCY_SYMBOL}{SELL_PRICE} per questa pianta: {PLANT_TYPE}!
 
 [CRAZY_DAVE_2000]
 {NO_SOUND}{NO_CLICK}Pianta questi semi sulle super sparasemi per trasformarle in mitragliasemi e sparare quattro semi per volta!
@@ -5712,18 +5712,18 @@ Il Vaso di porcellana permette di piantare sulla Grande Muraglia.
 {FLAVOR}«Sono un vaso di porcellana antico, ma anche una pianta. Sorpreso?»
 
 [WEST_FIRE_GOURD]
-Zucchetta di fuoco
+Peperone sputafuoco
 
 [WEST_FIRE_GOURD_TOOLTIP]
 Incendia gli zombi infliggendo danni nel tempo
 
 [WEST_FIRE_GOURD_DESCRIPTION]
-La Zucchetta di fuoco sputa fiamme che incendiano gli zombi, infliggendo danni nel tempo. Bruciano ancora per un po' dopo la fine dell'attacco.
+Il Peperone sputafuoco sputa fiamme che incendiano gli zombi, infliggendo danni nel tempo. Bruciano ancora per un po' dopo la fine dell'attacco.
 {SHORTLINE}
 {KEYWORD}Danno:{STAT} elevato, attraversa le porte a rete
 {KEYWORD}Portata:{STAT} tutti gli zombi avvolti dalle fiamme
 {SHORTLINE}
-{FLAVOR}«Hai visto una Zucchetta di fuoco anche nel mondo del kung fu?» dice. «È mio cugino minore.»
+{FLAVOR}«Hai visto una Zucchetta di fuoco nel mondo del kung fu?» dice. «È mio cugino minore.»
 
 [WEST_BAMBOO_SHOOT]
 Germoglio di bambù
@@ -5737,6 +5737,20 @@ Il Germoglio di bambù blocca gli attacchi degli zombi.
 {KEYWORD}Resistenza:{STAT} medio
 {SHORTLINE}
 {FLAVOR}Sai perché il Germoglio di bambù blocca gli attacchi? Perché non ha un'animazione d'attacco.
+
+[WALL_WINE_GOURD]
+Zucca del Vino
+
+[WALL_WINE_GOURD_TOOLTIP]
+Accelera temporaneamente le altre piante sulla stessa casella
+
+[WALL_WINE_GOURD_DESCRIPTION]
+Zucca del Vino fluttua sul prato e offre da bere alle altre piante nella sua casella per accelerarle brevemente.
+{SHORTLINE}
+{KEYWORD}Specialità: {STAT}vola e accelera brevemente le piante nella sua casella
+{KEYWORD}Raggio: {STAT}piante nella sua casella
+{SHORTLINE}
+{FLAVOR}Zucca del Vino chiama ogni uscita una «visita ai vicini». Le sue visite sono sempre gradite, ma poi i vicini hanno così tanto da fare che si dimenticano di ringraziarlo.
 
 [ENDLESS_SPEW_ANEMONE]
 Erba idropistola
@@ -6193,7 +6207,7 @@ Il feroce Zombi orco dalle sopracciglia gialle possiede molti tesori potenti. La
 {FLAVOR}Perché può evocare zombi occidentali? Perché sono convinti che sia Buddha.
 
 [LINKAGE_DLC_1]
-Foresta – 1
+Battaglia nel bosco
 
 [LINKAGE_DLC_2]
 Luci spente
@@ -6344,29 +6358,21 @@ Aggiornamento
 [UPDATE_CONTENT]
 È disponibile la versione %s. Aprire la pagina di aggiornamento?
 
-[HERO_CONSOLE_TITLE_PROPERTY]
-Statistiche
 
-[HERO_CONSOLE_TITLE_SKILL]
-Abilità
 
-[HERO_CONSOLE_BUTTON_UPGRADE]
+[HERO_BUTTON_UPGRADE]
 Potenzia
 
-[HERO_CONSOLE_BUTTON_PURCHASE]
+[HERO_BUTTON_PURCHASE]
 Acquista
 
-[HERO_CONSOLE_BUTTON_RESET]
+[HERO_BUTTON_RESET]
 Reimposta
 
-[HERO_CONSOLE_BUTTON_TRAIN]
+[HERO_BUTTON_TRAIN]
 Allena
 
-[HERO_CONSOLE_BUTTON_SKILL]
-Abilità
 
-[HERO_CONSOLE_BUTTON_BACK]
-Indietro
 
 [MAIN_MENU_BUTTON_HERO]
 Eroi
@@ -6633,9 +6639,6 @@ Ogni 45 secondi crea uno scudo con %s punti salute.
 
 [HEROPLANT_UNLOCK_DIAMOND]
 Acquista per %d
-
-[HEROPLANT_LVLUP_CONFIRM]
-Vuoi spendere %d lingotti d'oro per potenziare subito l'eroe?
 
 [HEROPLANT_RESETSKILL_CONFIRM]
 Vuoi spendere %d lingotti d'oro per reimpostare le abilità dell'eroe?
@@ -8343,7 +8346,7 @@ Raccolta automatica soli
 Raccolta automatica monete
 
 [NEW_OPTIONS_HELP_GAMEPADTRIGGERS]
-Scegli la funzione di LT/RT (ZL/ZR su Switch) in battaglia. «Usa oggetti» predefinito: seleziona un oggetto in alto e conferma. «Raccolta automatica»: premi un grilletto per raccogliere risorse sul campo. Tenerlo premuto non ripete l'azione. La croce verso l'alto raggiunge ancora gli oggetti. Pagine di menu, carte e giardino e impostazioni di raccolta soli/monete restano invariate.
+Scegli cosa fanno LT/RT (ZL/ZR su Switch) in battaglia: selezionare oggetti e confermarne l’uso, oppure premere una volta per raccogliere soli e monete sul campo. Tenere premuto non ripete. Croce direzionale su seleziona ancora gli oggetti.
 
 [NEW_OPTIONS_GAMEPAD_TRIGGERS]
 Grilletti controller
@@ -8361,8 +8364,7 @@ Pianta trascinando
 Abilita Zombolino volante
 
 [NEW_OPTIONS_HELP_ENABLEENDLESSSTAR]
-Se disattivato, Zombolino volante e stella sul prato non appaiono nei livelli interessati di Avventura e Viaggio in Occidente. Si possono ottenere al massimo due stelle.
-Non cambia la battaglia in corso. Si applica riavviando il livello. Continuare un salvataggio mantiene lo stato precedente; i record di stelle restano.
+Disattivato: nei livelli interessati di Avventura e Viaggio in Occidente non compaiono il diavoletto volante e la stella a terra, con massimo due stelle. Vale iniziando da capo; battaglie salvate e valutazioni restano invariate.
 
 [NEW_OPTIONS_DRAW_CROSSHAIR]
 Mirino di semina
@@ -8414,13 +8416,13 @@ Lo schermo è stretto: la barra a sinistra può coprire campo o comandi. Vuoi sp
 Allungamento schermo
 
 [NEW_OPTIONS_HELP_SCREENSTRETCH]
-0% mantiene il rapporto originale. 100% estende un layout 4:3 a tutto lo schermo. I valori intermedi interpolano; vale anche per schermi verticali, sempre fino a 4:3. Cambiano forme e area visibile. Trascina e rilascia per applicare; tastiera e controller agiscono subito. Salvato solo su questo dispositivo.
+0% mantiene le proporzioni; 100% allarga una disposizione 4:3 a tutto schermo, deformando le forme.
 
 [NEW_OPTIONS_MOUSE_CURSOR_SIZE]
 Dimensione cursore
 
 [NEW_OPTIONS_HELP_MOUSECURSORSIZE]
-Dimensione: 0, 0.5, 1, 1.5, 2, 2.5 o 3 (predefinito 1). A 0 usa il cursore di sistema: il gioco indica solo normale, collegamento o testo, mentre il sistema decide aspetto e dimensioni. Effetto immediato.
+Regola la dimensione del cursore. 1 è il valore predefinito; 0 usa il cursore di sistema.
 
 [NEW_OPTIONS_UI_LEFT_OFFSET]
 Margine sinistro
@@ -8483,183 +8485,142 @@ Esplosione di caramelle
 Licenze open source
 
 [NEW_OPTIONS_HELP_LANGUAGE]
-Scegli la lingua dell’interfaccia. Riavvia il gioco per applicare la modifica. I tuoi progressi vengono conservati.
+Scegli la lingua dell’interfaccia. Richiede il riavvio.
 
 [NEW_OPTIONS_HELP_MUSICVOLUME]
-Regola la musica dallo 0% al 100%. Trascina per ascoltare la variazione.
-0% spegne la musica; aumentandolo si riattiva. Suoni di piante, zombi e pulsanti dipendono dal volume effetti.
+Regola il volume della musica. 0% la silenzia.
 
 [NEW_OPTIONS_HELP_SOUNDVOLUME]
-Regola suoni di piante, zombi, pulsanti e altri effetti dallo 0% al 100%.
-0% disattiva gli effetti. La musica si regola separatamente.
+Regola i suoni di piante, zombi, pulsanti e altri effetti. 0% li silenzia.
 
 [NEW_OPTIONS_HELP_FULLSCREEN]
-Passa da finestra a schermo intero, che usa tutta l'area dello schermo.
-Disponibile solo sulle piattaforme che consentono il cambio. Non appare sui dispositivi bloccati a schermo intero.
+Alterna tra finestra e schermo intero.
 
 [NEW_OPTIONS_HELP_RUNLOCKED]
-Lascia il gioco attivo quando la finestra perde il focus o è ridotta. Utile per attendere l'avanzamento del livello.
-Se disattivato, valgono le pause normali alla perdita di focus. In background consuma risorse; un sistema mobile può sospenderlo.
+Continua con la finestra inattiva o ridotta a icona. I sistemi mobili possono comunque sospendere le app in background.
 
 [NEW_OPTIONS_HELP_VIBRATION]
-Consente vibrazioni di dispositivo o controller attivo durante gli eventi. L'interruttore vale per entrambi.
-Richiede hardware compatibile. Attivarlo non aggiunge vibrazione a un controller che ne è privo. Disattivarlo ferma la vibrazione in corso.
+Attiva o disattiva la vibrazione di dispositivo e controller.
 
 [NEW_OPTIONS_HELP_LOWLATENCYAUDIO]
-L'audio a bassa latenza riduce il buffer e il ritardo tra azione e suono.
-Riavvia dopo la modifica. Alcuni dispositivi o driver non supportano la modalità.
+Riduce il ritardo tra azioni e suoni. Richiede il riavvio.
 
 [NEW_OPTIONS_HELP_CAMERASIZE]
-Regola lo zoom del campo. A sinistra piante e zombi appaiono più grandi, a destra vedi più scena. Carte e menu non cambiano dimensione.
+A sinistra avvicina la visuale; a destra mostra più campo. Carte e menu mantengono la stessa dimensione.
 
 [NEW_OPTIONS_HELP_TOPSEEDBANK]
-Posiziona la barra semi a sinistra o in alto. Cambia la disposizione, non il numero di carte.
-Su schermi stretti, la barra sinistra può coprire campo o comandi. Il gioco chiede conferma quando serve.
+Posiziona le carte a sinistra o in alto. A sinistra possono coprire parte degli schermi stretti.
 
 [NEW_OPTIONS_HELP_BOARDLEFTOFFSET]
-Sposta gli elementi a sinistra nello spazio extra degli schermi larghi. Vale per i layout pertinenti di menu e battaglia.
-Regola in base ai bordi e alla comodità. Senza spazio orizzontale extra, l'effetto può essere minimo.
+Sposta i controlli di sinistra nello spazio extra degli schermi larghi. Poco effetto senza spazio orizzontale aggiuntivo.
 
 [NEW_OPTIONS_HELP_BOARDRIGHTOFFSET]
-Sposta gli elementi a destra nello spazio extra, indipendentemente dal margine sinistro.
-Posiziona i comandi a destra più comodamente. Lo spazio dipende da proporzioni e layout.
+Sposta i controlli di destra nello spazio extra degli schermi larghi. Poco effetto senza spazio orizzontale aggiuntivo.
 
 [NEW_OPTIONS_HELP_COVERLAYER]
-Scegli la copertura in primo piano: nessuna, erba o oggetti.
-Scegli aspetto e visibilità preferiti. Le posizioni degli zombi in strada nella scelta semi si adattano alla copertura.
+Scegli la copertura in primo piano: nessuna, erba o oggetti. Alcune scene non supportano la copertura scelta.
 
 [NEW_OPTIONS_HELP_DRAWCROSSHAIR]
-Mostra un mirino per identificare riga e colonna, utile con tocco o controller.
-È solo una guida visiva: non pianta automaticamente e non cambia le regole.
+Mostra un mirino per allineare le piante a righe e colonne.
 
 [NEW_OPTIONS_HELP_SHOWGAMEPADHINTS]
-Mostra le azioni di gamepad e tastiera in modalità controller, con i veri nomi dei tasti. In locale a due restano visibili i suggerimenti per P1/P2: il mouse non aggiunge icone, ogni gamepad ha le sue. Le azioni condivise usano un'etichetta.
-Applicato e salvato subito. Nascondere i suggerimenti non cambia comandi, contorni di focus o guida tastiera.
+Mostra i tasti del controller o della tastiera in modalità Gamepad. In locale a due segue il dispositivo di ciascuno; il mouse non mostra icone dei tasti.
 
 [NEW_OPTIONS_HELP_SHOWTOOLTIPS]
-Consente suggerimenti per carte, oggetti e comandi supportati sotto il puntatore.
-La disponibilità dipende da schermata, bersaglio e metodo di input. Disattiva per ridurre i riquadri.
+Mostra descrizioni di carte, oggetti e pulsanti.
 
 [NEW_OPTIONS_HELP_MAINMENUZOMBIEHAND]
-Riproduce l'animazione della mano zombi avviando Avventura dal menu.
-Disattivare salta l'animazione normale. Alcune situazioni, come il primo avvio, possono ancora riprodurla.
+Riproduce la mano zombi entrando in Avventura. La prima partita e alcune sequenze la mostrano comunque.
 
 [NEW_OPTIONS_HELP_ZOMBIEAPPEARANCE]
-Scegli teste zombi grandi o piccole.
-Solo aspetto: non cambia salute, attacco o difficoltà.
+Alterna tra zombi con testa grande o piccola.
 
 [NEW_OPTIONS_HELP_DANCERAPPEARANCE]
-Alterna ballerini e accompagnatori tra MJ e Disco.
-Gli stili cambiano anche il comportamento, inclusa la distanza di movimento, e possono influenzare il livello.
+Scegli lo stile MJ o Disco per ballerini e accompagnatori. Cambiano anche distanze di movimento e alcuni comportamenti.
 
 [NEW_OPTIONS_HELP_SPECIALSHADERS]
-Abilita piscina e fiamme animate e visuale dai bordi morbidi con più puntatori.
-Se disattivato o non supportato, niente effetti piscina, fiamme statiche e visuale limitata a un solo cerchio netto.
-Effetto immediato. I filtri colore integrati non cambiano.
+Controlla piscina animata, fiamme e visuale multipunto dai bordi morbidi. Disattivato: niente effetti piscina, fiamme statiche e un solo cerchio visivo dai bordi netti.
 
 [NEW_OPTIONS_HELP_ENHANCEDISPLAY]
-Mostra ricarica carte e salute di piante/zombi per valutare la battaglia e il tempismo.
-Aggiunge numeri e informazioni. I dettagli dipendono da modalità e tipo di oggetto.
+Mostra ricariche delle carte e salute di piante e zombi.
 
 [NEW_OPTIONS_HELP_GRAPHICSBACKEND]
-Scegli un backend grafico supportato. Automatico è un buon inizio; cambiarlo può risolvere problemi grafici o di compatibilità.
-Riavvia dopo la modifica. Compatibilità e prestazioni dipendono da dispositivo e driver.
+Scegli il motore grafico. Di norma usa Automatico; prova un altro in caso di problemi visivi. Richiede il riavvio.
 
 [NEW_OPTIONS_APPLY_SPEED_ON_NEW_LEVEL]
 Avvia con accelerazione
 
 [NEW_OPTIONS_HELP_APPLYSPEEDONNEWLEVEL]
-Se attivo, i nuovi livelli usano subito la velocità scelta. Di default è spento: partono a 1x e il pulsante velocità attiva quella configurata.
-Non cambia la velocità del livello attuale.
+Avvia i nuovi livelli alla velocità impostata. Se disattivato, iniziano a 1x; usa il pulsante in partita per cambiare.
 
 [NEW_OPTIONS_HELP_SPEED]
-Regola la velocità da 1x a 10x. 1x è normale. Più velocità riduce attese e tempo per reagire.
-Alcune modalità o regole multigiocatore possono limitare la velocità effettiva.
+Imposta la velocità da 1x a 10x. Alcune modalità e partite online possono limitarla.
 
 [NEW_OPTIONS_HELP_AUTOCOLLECTSUN]
-Raccoglie automaticamente i soli per ridurre i clic. Se disattivato, raccoglili manualmente.
+Raccoglie automaticamente i soli sul campo.
 
 [NEW_OPTIONS_HELP_AUTOCOLLECTCOIN]
-Raccoglie automaticamente le monete. Se disattivato, raccoglile manualmente.
+Raccoglie automaticamente le monete sul campo.
 
 [NEW_OPTIONS_HELP_DRAGPLANTING]
-Permette di trascinare una carta sulla destinazione e rilasciare per piantare.
-Se spento, seleziona la carta e poi clicca il posto. Servono comunque soli, carta pronta e posizione valida.
+Trascina una carta sul punto scelto e rilasciala per piantare. Se disattivato, scegli la carta e poi fai clic sul punto.
 
 [NEW_OPTIONS_HELP_ONLYORIGINALFEATURES]
-Usa menu e accessi del contenuto originale, nascondendo o sostituendo quelli delle espansioni.
-Riavvia dopo la modifica. I progressi restano. Disattiva e riavvia per riaccedere ai contenuti aggiuntivi.
+Nasconde o sostituisce gli accessi ai contenuti aggiuntivi per privilegiare quelli originali. Richiede il riavvio; progressi conservati.
 
 [NEW_OPTIONS_HELP_SHOWTOOLS]
-Mostra potenziamenti come +500 soli, Tempesta di ciliegie e azzeramento ricariche.
-Mostrare i pulsanti non rende gratuiti i potenziamenti. I costi restano; la gratuità permanente è separata.
+Mostra aiuti come +500 soli e azzeramento delle ricariche. I normali costi in lingotti restano validi.
 
 [NEW_OPTIONS_HELP_SHOWUNLOCKBUTTON]
-Mostra il pulsante di sblocco nel menu principale.
-Controlla solo l'accesso. Non sblocca direttamente livelli o contenuti; resta la procedura normale.
+Mostra il pulsante di sblocco nel menu principale. Fai clic per avviare la procedura.
 
 [NEW_OPTIONS_HELP_ENABLESL]
-Mostra S e L nelle impostazioni in partita. S salva il livello, L carica il salvataggio rapidamente.
-Caricare ripristina lo stato salvato e scarta i progressi non salvati. Disponibilità secondo modalità e limiti multigiocatore.
+Mostra S (salva) e L (carica) nelle impostazioni in battaglia. Caricare elimina i progressi non salvati. Non disponibile in alcune modalità e online.
 
 [NEW_OPTIONS_HELP_FREEGOLDFINGER]
-Rende i potenziamenti gratuiti per sempre per il giocatore attuale, senza costo in lingotti. Richiede conferma.
-Permanente: non disattivabile dalle impostazioni dopo l'attivazione. La visibilità dei pulsanti è separata.
+Elimina per sempre i costi in lingotti degli aiuti per questo giocatore. Non disattivabile dopo l’attivazione.
 
 [NEW_OPTIONS_HELP_IMPORTINTERNALDATA]
-Scegli uno ZIP esportato dal gioco. Dopo la verifica sarà importato al prossimo avvio. Prima esporta un backup.
-Sostituisce solo profili, progressi, livelli personalizzati e immagini Zombatar.
+Ripristina profili, progressi, livelli personalizzati e avatar da uno ZIP esportato dal gioco al prossimo avvio. Sostituisce i dati esistenti; esporta prima una copia.
 
 [NEW_OPTIONS_HELP_EXPORTINTERNALDATA]
-Crea uno ZIP specifico del gioco per backup o trasferimento. Prima tenta di salvare livello e dati giocatore.
-Include solo profili, progressi, livelli personalizzati e immagini Zombatar. Ripristina con Importa salvataggio.
+Esporta profili, progressi, livelli personalizzati e avatar in ZIP per copia o trasferimento. Ripristina tramite l’importazione dei salvataggi.
 
 [NEW_OPTIONS_HELP_OPENINTERNALFOLDER]
-Apre la cartella interna nel gestore file per controlli o backup manuali.
-Modificare, spostare o eliminare può influire su salvataggi e contenuti personali. Fai prima un backup. Solo su piattaforme supportate.
+Apre la cartella dei dati per consultazione o copia. Crea una copia prima di modificare i file.
 
 [NEW_OPTIONS_HELP_USERDATAFORMAT]
-Formato dati giocatore: MessagePack binario compatto o JSON leggibile e modificabile.
-MessagePack va bene per giocare. Cambiare non converte subito tutti i file e non sostituisce importazione/esportazione backup.
+Formato dei profili: MessagePack è compatto (predefinito); JSON è leggibile e modificabile.
 
 [NEW_OPTIONS_HELP_LEVELDATAFORMAT]
-Salva il livello in MessagePack compatto o JSON leggibile e modificabile.
-Riguarda stati di gioco, non l'importazione di definizioni dei livelli. Non serve cambiarlo per giocare. Fai backup prima di modificare file.
+Formato delle battaglie salvate: MessagePack è compatto (predefinito); JSON è leggibile e modificabile.
 
 [NEW_OPTIONS_HELP_CHRISTMAS]
-Attiva decorazioni natalizie: cappelli su alcuni zombi e calze in alcune scene.
+Mostra decorazioni natalizie come cappelli e calze.
 
 [NEW_OPTIONS_HELP_MUSTACHE]
-Aggiunge baffi estetici senza cambiare capacità. Attivabile anche digitando mustache.
-Non viene salvato permanentemente.
+Aggiunge baffi ad alcuni zombi. Attivabile anche digitando mustache. Si azzera al riavvio.
 
 [NEW_OPTIONS_HELP_TRICKEDOUT]
-Dà un aspetto da corsa ai tosaerba supportati. Effetto estetico attivabile con trickedout.
-Non viene salvato permanentemente.
+Dà ai tosaerba normali un aspetto hot rod. Attivabile anche digitando trickedout. Si azzera al riavvio.
 
 [NEW_OPTIONS_HELP_FUTURE]
-Aggiunge occhiali futuristici senza cambiare capacità. Attivabile con future.
-Non viene salvato permanentemente.
+Aggiunge occhiali futuristici ad alcuni zombi. Attivabile anche digitando future. Si azzera al riavvio.
 
 [NEW_OPTIONS_HELP_DAISIES]
-Lascia fiori alla morte di certi zombi. Solo effetto visivo, non una pianta controllabile. Attivabile con daisies.
-Richiede un Albero della saggezza di almeno 100 piedi. Alcuni zombi o terreni non generano fiori. Non persistente.
+Alcuni zombi lasciano fiori morendo. Richiede l’Albero della saggezza a 100 piedi. Digita daisies per alternare. Si azzera al riavvio.
 
 [NEW_OPTIONS_HELP_DANCE]
-Fa ballare gli zombi supportati mentre camminano. Attivabile con dance.
-Richiede un Albero di almeno 500 piedi. Non ogni zombi o azione è compatibile. Non persistente.
+Alcuni zombi ballano camminando. Richiede l’Albero della saggezza a 500 piedi. Digita dance per alternare. Si azzera al riavvio.
 
 [NEW_OPTIONS_HELP_PINATA]
-Fa esplodere caramelle alla morte di certi zombi. Solo effetto visivo, senza monete o premi raccoglibili. Attivabile con pinata.
-Richiede un Albero della saggezza di almeno 1000 piedi. Non persistente.
+Alcuni zombi spargono caramelle morendo. Richiede l’Albero della saggezza a 1000 piedi. Digita pinata per alternare. Si azzera al riavvio.
 
 [NEW_OPTIONS_HELP_SUKHBIR]
-Sostituisce i versi di alcuni zombi con suoni alternativi. Attivabile con sukhbir.
-Non cambia capacità di combattimento. Non persistente.
+Cambia i versi di alcuni zombi. Attivabile anche digitando sukhbir. Si azzera al riavvio.
 
 [NEW_OPTIONS_HELP_RESOURCEPACKLUASCRIPTS]
-Consente script Lua dei pacchetti. Possono estendere interfaccia e gioco, accedere a file, inviare richieste di rete o modificare salvataggi. Abilita solo fonti fidate.
-Separato dall'attivazione del pacchetto. Riavvia se richiesto dopo modifiche. In multigiocatore verifica configurazioni script compatibili.
+Esegue gli script Lua dei pacchetti risorse. Possono ampliare il gioco, accedere a file e rete e modificare i salvataggi. Attiva solo script fidati e riavvia quando richiesto.
 
 [NEW_OPTIONS_SWITCH_ON]
 Attivo
@@ -9927,6 +9888,9 @@ Versus: Tieba
 [VS_CLASSIC]
 Versus: Classico
 
+[VS_ALL_ZOMBIES]
+Versus: tutti gli zombi (test)
+
 [VS_NIGHT]
 Versus: Notte
 
@@ -11136,7 +11100,7 @@ Corrida
 Modalità Halloween
 
 [NEW_OPTIONS_HELP_HALLOWEEN]
-Attiva Halloween: cappelli da strega su alcuni zombi e lanterne di zucca in alcune scene.
+Mostra decorazioni di Halloween come cappelli da strega e lanterne di zucca.
 
 [HELP_GAMEPAD_XBOX]
 Controller Xbox
@@ -11301,13 +11265,13 @@ Burro (tieni)
 Entrambi i mazzi sono pieni. Premi Avvia.
 
 [MULTIPLAYER_LOCAL_VS_PICK]
-P{0} · {1}: scegli una carta
+G{0} · {1}: scegli una carta
 
 [MULTIPLAYER_LOCAL_COOP_PICK]
-Quattro carte a testa. Il puntatore riempie P1, poi P2.
+Quattro carte a testa. Il puntatore riempie G1, poi G2.
 
 [MULTIPLAYER_LOCAL_SHARED_PICK]
-Mazzo condiviso · P1 sceglie per entrambi
+Mazzo condiviso · G1 sceglie per entrambi
 
 [MULTIPLAYER_ACCOUNT]
 Account server
@@ -11423,6 +11387,15 @@ Registrazione disabilitata su questo server.
 [MULTIPLAYER_LOGIN_REQUIRED]
 Accedi o ripeti l'accesso se la sessione è scaduta.
 
+[MULTIPLAYER_SESSION_EXPIRED]
+La tua sessione è scaduta. Accedi di nuovo.
+
+[MULTIPLAYER_SESSION_REPLACED]
+È stato effettuato l'accesso a questo account su un altro dispositivo. Accedi di nuovo.
+
+[MULTIPLAYER_SERVER_SWITCHED]
+Hai cambiato server. Accedi di nuovo.
+
 [MULTIPLAYER_ACCOUNT_ALREADY_IN_ROOM]
 L'account ha già un posto. Riconnettiti con la sessione originale.
 
@@ -11460,25 +11433,59 @@ Controller 1
 Controller 2
 
 [LOCAL_INPUT_PLAYER]
-P{0}: {1}
+G{0}: {1}
 
 [LOCAL_INPUT_DISCONNECTED]
  (disconnesso)
 
 [LOCAL_INPUT_CONNECT]
-Collega {1} per P{0} o scegli un altro dispositivo.
+Collega {1} per G{0} o scegli un altro dispositivo.
 
 [LOCAL_INPUT_SELECT]
-Scegli dispositivo per P{0}
+Scegli dispositivo per G{0}
 
 [LOCAL_INPUT_OCCUPIED]
- (usato da P{0})
+ (usato da G{0})
 
 [LOCAL_INPUT_SHARED_DESCRIPTION]
 Mouse / tocco condivisi · Entrambe le barre disponibili
 
 [SHUFFLE]
 Mescola
+
+[HOMERUN_DERBY_TUTORIAL]
+Gara di fuoricampo 2
+
+[HOMERUN_TUTORIAL_START]
+Inizia l’allenamento
+
+[HOMERUN_TUTORIAL_RETRY]
+Riprova
+
+[HOMERUN_TUTORIAL_BALLS_TO_GO]
+LANCI
+RIMASTI
+
+[HOMERUN_TUTORIAL_STATUS]
+Punteggio: {SCORE}  Lancio: {ROUND} / 20  Tentativi: {LIVES}
+
+[HOMERUN_TUTORIAL_SWIPE]
+Tieni premuta la palla a sinistra, poi scorri verso l’alto a destra per battere!
+
+[HOMERUN_TUTORIAL_READY]
+Preparati!
+
+[HOMERUN_TUTORIAL_WON]
+Allenamento completato!
+
+[HOMERUN_TUTORIAL_LOST]
+Tentativi esauriti. Riprova!
+
+[HOMERUN_TUTORIAL_REPLAY]
+Un altro lancio!
+
+[HOMERUN_TUTORIAL_MISS]
+Eliminato
 
 [SHUFFLE_SELECT_STAKE]
 Metti una moneta d'argento, d'oro o un diamante in un vaso. Trovalo 10 volte di fila per vincere 10 volte la puntata.
@@ -12011,20 +12018,17 @@ Rompicapo
 Sopravvivenza
 
 [NEW_OPTIONS_HELP_ACCESSIBILITY]
-Attivare la lettura seleziona la modalità tastiera Gamepad; disattivarla sceglie Scorciatoie. Poi puoi cambiarla in Comandi. Solo quella scelta determina i controlli. Volume e velocità regolabili anche senza lettura.
-
-Menu: frecce, Tab, Enter, Esc.
-Nei menu F2 legge i dettagli del controllo, F4 la pagina.
-
-In solo, modalità Gamepad: frecce per casella, J conferma/pianta, K annulla, Q/E cambiano carta. A mani vuote tieni K su una pianta per oltre un secondo e rilascia per scavare. U azione livello, Z/C azione grilletti, Enter pausa.
-Info: F1 ripeti, F2 casella, F3 soli/monete, F4 ondata, F5 zombi riga, F6 carta. F9 aiuto, F10 ferma.
-Il multigiocatore mantiene i comandi. Serve una voce installata per la lingua; disattiva in Comandi.
+Legge interfaccia e battaglia. Richiede una voce di sistema per la lingua. Attivare sceglie Gamepad, disattivare Scorciatoie. La modalità tastiera è modificabile separatamente.
+Menu: frecce/Tab per muoversi, Enter per confermare, Esc per tornare. F2: dettagli del controllo; F4: contenuto della pagina.
+Battaglia singola (Gamepad): frecce per muoversi, J conferma/pianta, K annulla, Q/E cambiano carte, Z/C usano i grilletti, U esegue azioni del livello, Enter mette in pausa. A mani vuote, tieni K oltre 1 secondo e rilascia per usare la pala.
+Consultazioni: F1 ripeti, F2 casella attuale, F3 soli e monete, F4 ondate, F5 zombi della fila, F6 carta attuale.
+F9: guida comandi. F10: interrompi lettura. Comandi multigiocatore invariati.
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYVOLUME]
-Regola la voce separatamente da musica ed effetti.
+Regola il volume della lettura. Musica ed effetti invariati.
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYRATE]
-Regola la velocità: zero normale, positiva più rapida, negativa più lenta.
+Velocità di lettura: 0 predefinita, valori positivi più veloci, negativi più lenti.
 
 [A11Y_GRAVE]
 lapide
@@ -12231,14 +12235,14 @@ Scorciatoie
 Gamepad
 
 [NEW_OPTIONS_HELP_KEYBOARDMODE]
-Scegli Scorciatoie (predefinito) o Gamepad in solo. Solo questa scelta determina i tasti. La lettura attiva sceglie Gamepad, spenta sceglie Scorciatoie; poi puoi cambiare qui. Tasti fissi Gamepad:
-WASD: stick sinistro (movimento); frecce: croce direzionale
-J / K / U / I: A / B / X / Y
-Q / E: LB / RB (carte); Z / C: LT / RT
-Tastierino 8 / 2 / 4 / 6: stick destro
-Enter: Start; Backspace: Indietro; Esc: menu normale
-In battaglia normale J pianta, K annulla. A mani vuote tieni K su una pianta oltre un secondo e rilascia per scavare. U esegue l'azione del livello.
-In locale a due valgono i dispositivi della lobby; online restano le scorciatoie esistenti. Mappatura sospesa in campi testo, dialoghi e pausa. Rilascia tutti i tasti mappati prima di riprendere.
+Usa scorciatoie o emula un gamepad nelle battaglie singole. Tasti gamepad:
+WASD: levetta sinistra; frecce: croce direzionale
+J/K/U/I: A/B/X/Y; Q/E: LB/RB (carte)
+Z/C: LT/RT; tastierino 8/2/4/6: levetta destra
+Enter: pausa; Backspace: indietro; Esc: menu; Tab: velocità
+In modalità gamepad singolo, 1–0 della fila superiore selezionano carte/strumenti e Spazio mette in pausa; le altre scorciatoie precedenti sono disattivate.
+J pianta, K annulla. A mani vuote, tieni K oltre 1 secondo e rilascia per usare la pala. U: azione del livello.
+Cambiare la lettura modifica questa scelta. Online: scorciatoie; locale a due: assegnazioni della sala.
 
 [NEW_OPTIONS_SECTION_INPUT]
 Input
@@ -12259,7 +12263,7 @@ Caricamento…
 Non disponibile
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYVOICE]
-Scegli una voce di sistema installata. Automatico segue la lingua e sostituisce una voce non disponibile. Puoi scegliere anche a lettura spenta. Salvato sul dispositivo.
+Scegli una voce di sistema. Automatico segue la lingua del gioco, anche quando la voce scelta non è disponibile.
 
 [NEW_OPTIONS_CURRENCY]
 Valuta
@@ -12268,7 +12272,7 @@ Valuta
 Generica
 
 [NEW_OPTIONS_HELP_CURRENCY]
-Cambia l'aspetto di monete, sacchi, contatori e icone vendita, senza cambiare importi o prezzi.
+Cambia l’aspetto delle monete e delle altre icone valutarie. Importi e prezzi invariati.
 
 [MUSIC_BOX_TUNE_CREDITSZOMBIESONYOURLAWNJP]
 Zombi sul tuo prato (giapponese)
@@ -12283,7 +12287,10 @@ Mostra la traduzione del testo del video musicale
 日本語
 
 [NEW_OPTIONS_HELP_MUSICVIDEOLANGUAGE]
-Scegli voce e sottotitoli inglesi o giapponesi per il video. Inglese predefinito, applicato al prossimo avvio del video. L'interfaccia non cambia.
+Scegli la lingua di canto e sottotitoli del video musicale. Vale alla prossima apertura.
+
+[NEW_OPTIONS_HELP_MUSICVIDEOTRANSLATION]
+Mostra la traduzione del testo nella lingua dell’interfaccia, tranne quando coincide con i sottotitoli originali.
 
 [NEW_OPTIONS_LANGUAGE_FRENCH]
 Français
@@ -12425,3 +12432,33 @@ Ho anche una porta a zanzariera
 
 [CREDITS_LYRIC_GIVE_TRICYCLE]
 Dammi quel triciclo
+
+[ALMANAC_TITLE_HERO]
+Almanacco suburbano – Eroi
+
+[HERO_SKILL_POINTS]
+Punti abilità rimasti
+
+[HERO_MAX_LEVEL]
+Livello max.
+
+[HERO_REQUIRED_LEVEL]
+Richiede livello %s
+
+[HERO_HEALTH]
+Vita
+
+[HERO_ATTACK]
+Attacco
+
+[HERO_SPEED]
+Velocità
+
+[HERO_POINTS_REMAINING]
+Rimanenti
+
+[A11Y_HIGH_CONTRAST]
+Contrasto elevato
+
+[NEW_OPTIONS_HELP_HIGHCONTRAST]
+Scurisce lo sfondo e mette in risalto piante, zombi e oggetti con colori visibili.

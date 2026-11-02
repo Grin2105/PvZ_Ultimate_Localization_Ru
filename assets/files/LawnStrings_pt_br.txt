@@ -1194,7 +1194,7 @@ Bem, isso não é muito legal!
 VOCÊ ACHOU MEU TACO MÁGICO!!{SCREAM2}
 
 [CRAZY_DAVE_602]
-{SHOW_MONEYBAG}Preciso dele! Pago $1.000!
+{SHOW_MONEYBAG}Preciso dele! Pago {CURRENCY_SYMBOL}1.000!
 
 [CRAZY_DAVE_603]
 SIM! O TACO É MEU!{SCREAM}
@@ -1341,7 +1341,7 @@ Desta vez, quero escolher algumas sementes para você!
 Escolho... essas três!
 
 [CRAZY_DAVE_1700]
-{NO_CLICK}Pago ${SELL_PRICE} pela planta {PLANT_TYPE}!
+{NO_CLICK}Pago {CURRENCY_SYMBOL}{SELL_PRICE} pela planta {PLANT_TYPE}!
 
 [CRAZY_DAVE_2000]
 {NO_CLICK}Plante sobre Duplervilha para transformar em Metralhervilha! Dispara quatro ervilhas de uma vez!
@@ -5701,7 +5701,7 @@ Permite plantar na Grande Muralha.
 {FLAVOR}"Sou um vaso de porcelana antigo, mas também uma planta. Surpreso?"
 
 [WEST_FIRE_GOURD]
-cabaça de fogo
+Pimentão lança-chamas
 
 [WEST_FIRE_GOURD_TOOLTIP]
 Incendeia zumbis, causando dano contínuo
@@ -5726,6 +5726,20 @@ Bloqueia ataques de zumbis.
 {KEYWORD}Resistência: {STAT}média
 {SHORTLINE}
 {FLAVOR}Sabe por que ele defende? Na verdade, falta a animação de ataque.
+
+[WALL_WINE_GOURD]
+Cabaça de Vinho
+
+[WALL_WINE_GOURD_TOOLTIP]
+Acelera temporariamente as outras plantas na mesma casa
+
+[WALL_WINE_GOURD_DESCRIPTION]
+Cabaça de Vinho flutua sobre o gramado e serve as outras plantas da sua casa para acelerá-las por um breve período.
+{SHORTLINE}
+{KEYWORD}Especial: {STAT}voa e acelera brevemente as plantas da sua casa
+{KEYWORD}Alcance: {STAT}plantas da sua casa
+{SHORTLINE}
+{FLAVOR}Cabaça de Vinho chama cada passeio de “visita aos vizinhos”. Suas visitas são sempre bem-vindas, mas depois os vizinhos ficam tão ocupados que se esquecem de agradecer.
 
 [ENDLESS_SPEW_ANEMONE]
 Aquanêmona
@@ -6181,7 +6195,7 @@ O terrível rei carrega tesouros poderosos, sobretudo uma clava gigantesca.
 {FLAVOR}Por que invoca zumbis ocidentais? Eles acreditam firmemente que ele é Buda.
 
 [LINKAGE_DLC_1]
-Floresta - 1
+Batalha na floresta
 
 [LINKAGE_DLC_2]
 Apagando as luzes
@@ -6332,29 +6346,21 @@ Atualização
 [UPDATE_CONTENT]
 Nova versão %s encontrada. Deseja abrir a página de atualização?
 
-[HERO_CONSOLE_TITLE_PROPERTY]
-Atributos
 
-[HERO_CONSOLE_TITLE_SKILL]
-Habilidade
 
-[HERO_CONSOLE_BUTTON_UPGRADE]
+[HERO_BUTTON_UPGRADE]
 Melhorar
 
-[HERO_CONSOLE_BUTTON_PURCHASE]
+[HERO_BUTTON_PURCHASE]
 Comprar
 
-[HERO_CONSOLE_BUTTON_RESET]
+[HERO_BUTTON_RESET]
 Redefinir
 
-[HERO_CONSOLE_BUTTON_TRAIN]
+[HERO_BUTTON_TRAIN]
 Treinar
 
-[HERO_CONSOLE_BUTTON_SKILL]
-Habilidade
 
-[HERO_CONSOLE_BUTTON_BACK]
-Voltar
 
 [MAIN_MENU_BUTTON_HERO]
 Heróis
@@ -6621,9 +6627,6 @@ A cada 45 segundos, cria um escudo com %s de vida.
 
 [HEROPLANT_UNLOCK_DIAMOND]
 Comprar por %d
-
-[HEROPLANT_LVLUP_CONFIRM]
-Usar %d lingotes para subir imediatamente o nível da planta heroica?
 
 [HEROPLANT_RESETSKILL_CONFIRM]
 Usar %d lingotes para redefinir as habilidades do herói?
@@ -8332,7 +8335,7 @@ Coletar sol automaticamente
 Coletar moedas automaticamente
 
 [NEW_OPTIONS_HELP_GAMEPADTRIGGERS]
-Define LT/RT (ZL/ZR no Switch) durante batalhas. O padrão, “Usar itens”, alterna os itens no topo; confirme para usar. Em “Coleta automática”, cada toque em um gatilho coleta sol, moedas e outros recursos; segurar não repete a ação. O direcional para cima ainda acessa os itens. Não altera a troca de páginas em menus, seleção de plantas ou jardim, nem as opções de coleta automática de sol e moedas.
+Escolha a função de LT/RT (ZL/ZR no Switch) em batalha: selecionar itens e confirmar o uso, ou pressionar uma vez para coletar sóis e moedas do campo. Segurar não repete. Cima no direcional ainda seleciona itens.
 
 [NEW_OPTIONS_GAMEPAD_TRIGGERS]
 Função dos gatilhos
@@ -8350,8 +8353,7 @@ Plantar arrastando
 Ativar zumbi pequeno espírito
 
 [NEW_OPTIONS_HELP_ENABLEENDLESSSTAR]
-Ao desativar, fases de Aventura e Jornada ao Oeste que normalmente têm o pequeno espírito não terão esse zumbi nem estrelas no chão, permitindo no máximo duas estrelas.
-A mudança não afeta a batalha atual e vale ao reiniciar a fase. Ao continuar um save, mantém-se o estado anterior. Recordes de estrelas existentes não mudam.
+Desativado: as fases afetadas de Aventura e Jornada ao Oeste ficam sem o zumbinho voador e a estrela no chão, com no máximo duas estrelas. Vale ao começar de novo; batalhas salvas e avaliações anteriores são mantidas.
 
 [NEW_OPTIONS_DRAW_CROSSHAIR]
 Mira de plantio
@@ -8402,13 +8404,13 @@ A tela está estreita. A barra à esquerda pode cobrir o campo ou áreas de cont
 Esticar imagem
 
 [NEW_OPTIONS_HELP_SCREENSTRETCH]
-0% mantém a proporção da tela. 100% ajusta o layout para 4:3 e o estica para preencher a tela. Valores intermediários fazem uma transição gradual; telas largas e altas usam 4:3 como destino. Isso altera formas e área visível. Ao arrastar, aplica ao soltar; teclado e controle aplicam imediatamente. Salvo apenas neste dispositivo.
+0% mantém a proporção da tela; 100% estica um layout 4:3 para preencher a tela, deformando a imagem.
 
 [NEW_OPTIONS_MOUSE_CURSOR_SIZE]
 Tamanho do cursor
 
 [NEW_OPTIONS_HELP_MOUSECURSORSIZE]
-Ajusta o cursor do jogo para 0, 0.5, 1, 1.5, 2, 2.5 ou 3; o padrão é 1. Em 0, usa o cursor do sistema. O jogo só informa o tipo normal, link ou texto; aparência e tamanho ficam a cargo do sistema. Aplica imediatamente.
+Ajuste o tamanho do cursor. 1 é o padrão; 0 usa o cursor do sistema.
 
 [NEW_OPTIONS_UI_LEFT_OFFSET]
 Margem esquerda
@@ -8471,185 +8473,142 @@ Chuva de doces
 Licenças de código aberto
 
 [NEW_OPTIONS_HELP_LANGUAGE]
-Escolha o idioma da interface do jogo.
-Reinicie o jogo para aplicar. Mudar o idioma não apaga seu progresso nem altera o conteúdo das fases.
+Escolha o idioma da interface. Reinicie para aplicar.
 
 [NEW_OPTIONS_HELP_MUSICVOLUME]
-Ajusta a música de fundo de 0% a 100%. Arraste para ouvir a mudança.
-0% desliga a música; aumente para restaurá-la. Não controla efeitos de plantas, zumbis ou botões.
+Ajuste o volume da música. 0% silencia.
 
 [NEW_OPTIONS_HELP_SOUNDVOLUME]
-Ajusta os efeitos de plantas, zumbis e botões de 0% a 100%.
-0% silencia esses efeitos. A música de fundo é controlada separadamente em “Volume da música”.
+Ajuste os sons de plantas, zumbis, botões e outros efeitos. 0% silencia.
 
 [NEW_OPTIONS_HELP_FULLSCREEN]
-Alterna entre janela e tela cheia. Tela cheia ocupa toda a área de exibição.
-Disponível apenas em plataformas que permitem alternar; dispositivos com tela cheia fixa não mostram esta opção.
+Alterne entre janela e tela cheia.
 
 [NEW_OPTIONS_HELP_RUNLOCKED]
-Permite continuar com a janela sem foco ou minimizada, útil para aguardar a partida avançar.
-Desativado, segue as regras normais de pausa. Ativado, continua usando recursos; sistemas móveis ainda podem suspender aplicativos em segundo plano.
+Continue executando com a janela inativa ou minimizada. Sistemas móveis ainda podem pausar aplicativos em segundo plano.
 
 [NEW_OPTIONS_HELP_VIBRATION]
-Permite que eventos do jogo façam o dispositivo ou controle vibrar. Ambos compartilham esta opção.
-Só funciona em hardware com vibração; não adiciona esse recurso a controles incompatíveis. Desativar interrompe a vibração atual do controle.
+Ative ou desative a vibração do dispositivo e do controle.
 
 [NEW_OPTIONS_HELP_LOWLATENCYAUDIO]
-Reduz o buffer de áudio para diminuir o atraso entre ações e sons.
-Exige reiniciar o jogo. Alguns dispositivos ou drivers podem não oferecer suporte.
+Reduza o atraso entre ações e sons. Reinicie para aplicar.
 
 [NEW_OPTIONS_HELP_CAMERASIZE]
-Ajusta o zoom do campo. À esquerda, aproxima e aumenta plantas e zumbis; à direita, afasta e mostra mais da cena. Não altera o tamanho da barra de sementes ou dos menus.
+À esquerda aproxima a visão; à direita mostra mais do campo. Cartas e menus mantêm o tamanho.
 
 [NEW_OPTIONS_HELP_TOPSEEDBANK]
-Coloca a barra de sementes à esquerda ou no topo. Muda apenas o layout, não a quantidade de cartas.
-Em telas estreitas, a barra à esquerda pode cobrir o campo ou controles; o jogo pedirá confirmação quando necessário.
+Posicione as cartas à esquerda ou no topo. À esquerda podem cobrir parte de telas estreitas.
 
 [NEW_OPTIONS_HELP_BOARDLEFTOFFSET]
-Ajusta os elementos à esquerda no espaço extra de telas largas, no menu principal e nas batalhas.
-Adapte às bordas da tela e ao seu uso. Sem espaço horizontal extra, o efeito pode ser pequeno.
+Mova os controles à esquerda no espaço extra de telas largas. Pouco efeito sem espaço horizontal adicional.
 
 [NEW_OPTIONS_HELP_BOARDRIGHTOFFSET]
-Ajusta os elementos à direita no espaço extra de telas largas, separadamente da margem esquerda.
-Afasta botões da borda ou aproveita mais espaço. O alcance depende da proporção da tela e do layout atual.
+Mova os controles à direita no espaço extra de telas largas. Pouco efeito sem espaço horizontal adicional.
 
 [NEW_OPTIONS_HELP_COVERLAYER]
-Escolha a cobertura em primeiro plano: nenhuma, mato ou objetos.
-Ajuste ao visual e à visibilidade desejados. Também muda a posição dos zumbis na rua durante a transição da seleção de plantas.
+Escolha a cobertura em primeiro plano: nenhuma, grama ou objetos. Algumas cenas não aceitam a cobertura selecionada.
 
 [NEW_OPTIONS_HELP_DRAWCROSSHAIR]
-Mostra uma mira ao escolher onde plantar, ajudando a alinhar linhas e colunas, especialmente no toque ou controle.
-É apenas uma indicação de posição; não planta automaticamente nem altera as regras.
+Mostre uma mira ao plantar para alinhar linhas e colunas.
 
 [NEW_OPTIONS_HELP_SHOWGAMEPADHINTS]
-Mostra botões e ações ao usar controle ou modo de controle pelo teclado, com os nomes reais das teclas. No modo local para dois, mantém dicas dos dispositivos de P1 e P2. O mouse não ocupa espaço; cada controle usa seus ícones, e ações iguais compartilham a descrição.
-Aplica e salva imediatamente. Desativar não afeta os comandos, o destaque de foco ou a ajuda de funções do teclado.
+Mostre os botões do controle ou do teclado no modo Controle. No modo local para dois, segue o dispositivo de cada um; o mouse não mostra ícones de botões.
 
 [NEW_OPTIONS_HELP_SHOWTOOLTIPS]
-Permite mostrar dicas de cartas, objetos e botões.
-A exibição depende da tela, do objeto apontado e do método de entrada. Desativar reduz as caixas de dica na tela.
+Mostre descrições de cartas, objetos e botões.
 
 [NEW_OPTIONS_HELP_MAINMENUZOMBIEHAND]
-Mostra a mão zumbi saindo do chão ao escolher Aventura no menu principal.
-Desativar pula a abertura habitual e acelera a entrada. Situações especiais, como o primeiro início do jogo, ainda podem exibir a animação.
+Reproduza a introdução da mão zumbi ao entrar na Aventura. A primeira partida e certas sequências ainda a exibem.
 
 [NEW_OPTIONS_HELP_ZOMBIEAPPEARANCE]
-Escolha cabeças grandes ou pequenas para os zumbis.
-É apenas visual; não altera vida, ataque ou dificuldade das fases.
+Alterne entre zumbis de cabeça grande ou pequena.
 
 [NEW_OPTIONS_HELP_DANCERAPPEARANCE]
-Alterna entre MJ e disco para o dançarino e seus acompanhantes.
-Além do visual, há diferenças de comportamento, como distância percorrida, que afetam a partida.
+Escolha o estilo MJ ou Disco dos dançarinos e acompanhantes. Distâncias de movimento e alguns comportamentos também mudam.
 
 [NEW_OPTIONS_HELP_SPECIALSHADERS]
-Ativa piscina dinâmica, chamas e campos de visão multitoque com bordas suaves.
-Desativado ou sem suporte do backend, os efeitos da piscina param e as chamas usam imagens fixas.
-O modo de visão limitada passa a usar um único círculo de borda rígida por toque.
-Aplica imediatamente e não afeta os filtros de cor internos.
+Controle piscina animada, chamas e visão multiponto de bordas suaves. Desativado: sem efeitos da piscina, chamas estáticas e um só círculo de visão com bordas nítidas.
 
 [NEW_OPTIONS_HELP_ENHANCEDISPLAY]
-Mostra recarga das cartas e vida de plantas e zumbis para ajudar a avaliar a batalha e agir na hora certa.
-Aumenta a quantidade de números e informações; o conteúdo depende do modo e do tipo de objeto.
+Mostre a recarga das cartas e a vida de plantas e zumbis.
 
 [NEW_OPTIONS_HELP_GRAPHICSBACKEND]
-Escolha um backend gráfico compatível com a plataforma. “Automático” costuma bastar; tente outro se houver problemas de imagem ou compatibilidade.
-Exige reiniciar. Desempenho e compatibilidade dependem do dispositivo e do driver.
+Escolha o renderizador gráfico. Geralmente use Automático; tente outro se a imagem apresentar problemas. Reinicie para aplicar.
 
 [NEW_OPTIONS_APPLY_SPEED_ON_NEW_LEVEL]
 Velocidade ao iniciar fase
 
 [NEW_OPTIONS_HELP_APPLYSPEEDONNEWLEVEL]
-Ativado, aplica a velocidade configurada ao iniciar uma nova fase. Por padrão fica desativado: novas fases começam em 1×, e o botão de velocidade ativa o valor escolhido.
-Não altera o estado de velocidade da fase atual.
+Inicie novas fases na velocidade configurada. Desativado: começam em 1x; altere pelo botão de velocidade durante a partida.
 
 [NEW_OPTIONS_HELP_SPEED]
-Ajusta a partida de 1× a 10×. 1× é normal; velocidades maiores reduzem a espera e o tempo para reagir.
-Alguns modos ou regras online podem limitar a velocidade real.
+Ajuste a velocidade de 1x a 10x. Alguns modos e partidas online podem limitá-la.
 
 [NEW_OPTIONS_HELP_AUTOCOLLECTSUN]
-Coleta automaticamente o sol disponível, reduzindo cliques. Desativado, você pode coletar manualmente.
+Colete automaticamente os sóis do campo.
 
 [NEW_OPTIONS_HELP_AUTOCOLLECTCOIN]
-Coleta automaticamente as moedas disponíveis, reduzindo cliques. Desativado, você pode coletar manualmente.
+Colete automaticamente as moedas do campo.
 
 [NEW_OPTIONS_HELP_DRAGPLANTING]
-Segure uma carta, arraste até o alvo e solte para plantar conforme as regras.
-Desativado, o método principal é selecionar a carta e depois clicar no local. Ainda é preciso atender aos requisitos de sol, recarga e terreno.
+Arraste uma carta até o destino e solte para plantar. Desativado: selecione a carta e depois clique no local.
 
 [NEW_OPTIONS_HELP_ONLYORIGINALFEATURES]
-Prioriza o conteúdo original no menu principal e acessos relacionados, ocultando ou substituindo entradas de expansões.
-Exige reiniciar e não apaga o progresso. Desative e reinicie para acessar novamente as expansões.
+Oculte ou substitua acessos ao conteúdo extra para priorizar o original. Reinicie para aplicar; o progresso é mantido.
 
 [NEW_OPTIONS_HELP_SHOWTOOLS]
-Controla a exibição dos botões Sol +500, tempestade de cerejas, remover recarga e outros.
-Ativar não torna os itens gratuitos; seus custos continuam valendo. “Itens grátis para sempre” é uma função separada.
+Mostre itens como +500 sóis e zerar recargas. Os custos normais em lingotes continuam valendo.
 
 [NEW_OPTIONS_HELP_SHOWUNLOCKBUTTON]
-Controla a exibição do botão de desbloqueio no menu principal.
-Só mostra o acesso; não desbloqueia fases ou conteúdo diretamente. É preciso concluir o processo correspondente.
+Mostre o botão de desbloqueio no menu principal. Clique para iniciar o processo.
 
 [NEW_OPTIONS_HELP_ENABLESL]
-Mostra S e L nas opções da partida. S salva a partida atual; L carrega a partida salva.
-Carregar retorna ao estado salvo e perde o progresso não salvo. A disponibilidade depende do modo e das restrições online.
+Mostre S (salvar) e L (carregar) nas configurações da batalha. Carregar descarta o progresso não salvo. Indisponível em alguns modos e online.
 
 [NEW_OPTIONS_HELP_FREEGOLDFINGER]
-Torna os itens permanentemente gratuitos para o jogador atual, sem gastar lingotes. Pede confirmação antes de ativar.
-É permanente e não pode ser desativado nas opções. É separado da exibição dos botões de itens.
+Remova para sempre o custo em lingotes dos itens deste jogador. Não pode ser desativado depois.
 
 [NEW_OPTIONS_HELP_IMPORTINTERNALDATA]
-Selecione um ZIP de saves exportado pelo jogo. Após a validação, será importado na próxima inicialização. Exporte um backup antes.
-Substitui apenas perfis, progresso, fases personalizadas e imagens de avatar.
+Restaure perfis, progresso, fases próprias e avatares de um ZIP exportado pelo jogo na próxima execução. Substitui os dados atuais; exporte antes uma cópia.
 
 [NEW_OPTIONS_HELP_EXPORTINTERNALDATA]
-Empacota os dados atuais num ZIP do jogo para backup ou transferência. Tenta salvar a partida e o perfil antes de exportar.
-Inclui apenas perfis, progresso, fases personalizadas e imagens de avatar. Restaure usando “Importar saves”.
+Exporte perfis, progresso, fases próprias e avatares em ZIP para backup ou transferência. Restaure pela importação de dados salvos.
 
 [NEW_OPTIONS_HELP_OPENINTERNALFOLDER]
-Abre a pasta interna do jogo no gerenciador de arquivos para consultar ou fazer backups manuais.
-Alterar, mover ou excluir arquivos pode afetar saves e conteúdo personalizado; faça backup antes. Só aparece em plataformas compatíveis.
+Abra a pasta de dados para consultar ou copiar arquivos. Faça backup antes de editar.
 
 [NEW_OPTIONS_HELP_USERDATAFORMAT]
-Escolha o formato dos perfis: MessagePack é binário compacto; JSON é texto fácil de ler e editar.
-Normalmente, mantenha MessagePack. A troca não converte todos os arquivos antigos imediatamente nem substitui importação ou exportação de backups.
+Formato dos perfis: MessagePack é compacto (padrão); JSON pode ser lido e editado.
 
 [NEW_OPTIONS_HELP_LEVELDATAFORMAT]
-Escolha o formato do estado da partida: MessagePack é binário compacto; JSON facilita leitura e edição.
-Não é uma configuração de importação de fases personalizadas. Em geral, mantenha o padrão e faça backup antes de editar manualmente.
+Formato das batalhas salvas: MessagePack é compacto (padrão); JSON pode ser lido e editado.
 
 [NEW_OPTIONS_HELP_CHRISTMAS]
-Ativa enfeites de Natal: gorros em alguns zumbis e meias natalinas em alguns cenários.
+Mostre enfeites de Natal, como gorros e meias.
 
 [NEW_OPTIONS_HELP_MUSTACHE]
-Dá bigodes aos zumbis compatíveis sem alterar suas habilidades. Também pode alternar digitando mustache no jogo.
-Não é salvo como configuração permanente.
+Dê bigodes a alguns zumbis. Digite mustache para alternar. Reiniciar redefine a opção.
 
 [NEW_OPTIONS_HELP_TRICKEDOUT]
-Muda o visual dos cortadores comuns compatíveis para um estilo especial. Também pode alternar digitando trickedout.
-Não é salvo permanentemente.
+Dê um visual hot rod aos cortadores comuns. Digite trickedout para alternar. Reiniciar redefine a opção.
 
 [NEW_OPTIONS_HELP_FUTURE]
-Dá óculos futuristas aos zumbis compatíveis sem alterar suas habilidades. Também pode alternar digitando future.
-Não é salvo permanentemente.
+Dê óculos futuristas a alguns zumbis. Digite future para alternar. Reiniciar redefine a opção.
 
 [NEW_OPTIONS_HELP_DAISIES]
-Faz zumbis compatíveis deixarem flores ao morrer. É visual, sem criar plantas controláveis. Também pode alternar digitando daisies.
-Exige a Árvore da Sabedoria com 100 pés. Não funciona com todos os zumbis ou terrenos. Não é salvo permanentemente.
+Alguns zumbis deixam flores ao morrer. Requer a Árvore da Sabedoria com 100 pés. Digite daisies para alternar. Reiniciar redefine a opção.
 
 [NEW_OPTIONS_HELP_DANCE]
-Faz zumbis compatíveis dançarem enquanto andam. Também pode alternar digitando dance.
-Exige a Árvore da Sabedoria com 500 pés; nem todos os tipos ou movimentos são compatíveis. Não é salvo permanentemente.
+Alguns zumbis dançam ao andar. Requer a Árvore da Sabedoria com 500 pés. Digite dance para alternar. Reiniciar redefine a opção.
 
 [NEW_OPTIONS_HELP_PINATA]
-Faz doces voarem quando zumbis compatíveis morrem. Os doces são partículas visuais, não moedas ou recompensas coletáveis. Também pode alternar digitando pinata.
-Exige a Árvore da Sabedoria com 1000 pés. Não é salvo permanentemente.
+Alguns zumbis espalham doces ao morrer. Requer a Árvore da Sabedoria com 1000 pés. Digite pinata para alternar. Reiniciar redefine a opção.
 
 [NEW_OPTIONS_HELP_SUKHBIR]
-Substitui os sons habituais de alguns zumbis por outros. Também pode alternar digitando sukhbir.
-Não altera habilidades e não é salvo permanentemente.
+Troque os gemidos de alguns zumbis. Digite sukhbir para alternar. Reiniciar redefine a opção.
 
 [NEW_OPTIONS_HELP_RESOURCEPACKLUASCRIPTS]
-Permite executar scripts Lua dos pacotes. Eles podem ampliar a interface e a jogabilidade, mas também acessar arquivos, fazer requisições de rede ou alterar saves. Use apenas scripts confiáveis.
-É separado da ativação do pacote. Reinicie conforme o aviso de recarga. Online, confira se ambos usam as mesmas configurações de scripts.
+Execute scripts Lua dos pacotes de recursos. Eles podem ampliar o jogo, acessar arquivos e a rede e alterar dados salvos. Ative apenas scripts confiáveis e reinicie quando solicitado.
 
 [NEW_OPTIONS_SWITCH_ON]
 Ligado
@@ -9917,6 +9876,9 @@ Confronto: Tieba
 [VS_CLASSIC]
 Confronto clássico
 
+[VS_ALL_ZOMBIES]
+Confronto: todos os zumbis (teste)
+
 [VS_NIGHT]
 Confronto: noite
 
@@ -11126,7 +11088,7 @@ Guerrilha contra o rei touro
 Modo de Halloween
 
 [NEW_OPTIONS_HELP_HALLOWEEN]
-Ativa enfeites de Halloween: chapéus de bruxa em alguns zumbis e abóboras iluminadas em alguns cenários.
+Mostre enfeites de Halloween, como chapéus de bruxa e lanternas de abóbora.
 
 [HELP_GAMEPAD_XBOX]
 Controle Xbox
@@ -11291,13 +11253,13 @@ Manteiga (segurar)
 Os dois conjuntos estão completos. Clique em Iniciar.
 
 [MULTIPLAYER_LOCAL_VS_PICK]
-P{0} · {1}: escolha uma carta
+J{0} · {1}: escolha uma carta
 
 [MULTIPLAYER_LOCAL_COOP_PICK]
-Cada um escolhe quatro cartas. O ponteiro escolhe primeiro para P1 e, ao completar, para P2.
+Cada um escolhe quatro cartas. O ponteiro escolhe primeiro para J1 e, ao completar, para J2.
 
 [MULTIPLAYER_LOCAL_SHARED_PICK]
-Conjunto compartilhado · P1 escolhe, ambos usam
+Conjunto compartilhado · J1 escolhe, ambos usam
 
 [MULTIPLAYER_ACCOUNT]
 Conta do servidor
@@ -11413,6 +11375,15 @@ O cadastro está desativado neste servidor.
 [MULTIPLAYER_LOGIN_REQUIRED]
 Entre na conta ou faça login novamente se a sessão expirou.
 
+[MULTIPLAYER_SESSION_EXPIRED]
+Sua sessão expirou. Faça login novamente.
+
+[MULTIPLAYER_SESSION_REPLACED]
+Esta conta foi acessada em outro dispositivo. Faça login novamente.
+
+[MULTIPLAYER_SERVER_SWITCHED]
+Você mudou de servidor. Faça login novamente.
+
 [MULTIPLAYER_ACCOUNT_ALREADY_IN_ROOM]
 Esta conta já ocupa um lugar na sala. Se a conexão caiu, retome a conexão original.
 
@@ -11450,25 +11421,59 @@ Controle 1
 Controle 2
 
 [LOCAL_INPUT_PLAYER]
-P{0}: {1}
+J{0}: {1}
 
 [LOCAL_INPUT_DISCONNECTED]
 (não conectado)
 
 [LOCAL_INPUT_CONNECT]
-Conecte {1} usado por P{0} ou escolha outro dispositivo.
+Conecte {1} usado por J{0} ou escolha outro dispositivo.
 
 [LOCAL_INPUT_SELECT]
-Escolher dispositivo de P{0}
+Escolher dispositivo de J{0}
 
 [LOCAL_INPUT_OCCUPIED]
-(em uso por P{0})
+(em uso por J{0})
 
 [LOCAL_INPUT_SHARED_DESCRIPTION]
 Mouse / toque compartilhado · controla as duas barras
 
 [SHUFFLE]
 Embaralhar
+
+[HOMERUN_DERBY_TUTORIAL]
+Homerun Derby 2
+
+[HOMERUN_TUTORIAL_START]
+Começar o treino
+
+[HOMERUN_TUTORIAL_RETRY]
+Tentar de novo
+
+[HOMERUN_TUTORIAL_BALLS_TO_GO]
+BOLAS
+RESTANTES
+
+[HOMERUN_TUTORIAL_STATUS]
+Pontos: {SCORE}  Bola: {ROUND} / 20  Chances: {LIVES}
+
+[HOMERUN_TUTORIAL_SWIPE]
+Segure a bola à esquerda e deslize para cima e à direita para rebater!
+
+[HOMERUN_TUTORIAL_READY]
+Prepare-se!
+
+[HOMERUN_TUTORIAL_WON]
+Treino concluído!
+
+[HOMERUN_TUTORIAL_LOST]
+As chances acabaram. Tente de novo!
+
+[HOMERUN_TUTORIAL_REPLAY]
+Mais um arremesso!
+
+[HOMERUN_TUTORIAL_MISS]
+Eliminado
 
 [SHUFFLE_SELECT_STAKE]
 Coloque uma moeda de prata, de ouro ou um diamante no vaso. Acerte 10 rodadas seguidas para ganhar dez vezes a aposta.
@@ -12001,20 +12006,17 @@ Quebra-cabeças
 Sobrevivência
 
 [NEW_OPTIONS_HELP_ACCESSIBILITY]
-Ativar a leitura muda a função do teclado para Controle; desativar muda para Atalhos. Depois, ajuste separadamente em Controles → Função do teclado. Só essa opção determina os comandos. Volume e velocidade podem ser ajustados com a leitura desligada.
-
-Menus: setas, Tab, Enter, Esc.
-F2 lê os detalhes do controle atual; F4 lê a página.
-
-Modo de controle em partidas solo: setas movem por casas, J confirma ou planta, K cancela, Q/E troca cartas. Com as mãos vazias, segure K por mais de um segundo e solte para remover. U executa a ação da fase; Z/C usa a função dos gatilhos; Enter pausa.
-Consultas: F1 repete, F2 lê a casa, F3 sol e moedas, F4 ondas, F5 zumbis da fileira, F6 carta atual. F9 ajuda, F10 para a leitura.
-O multijogador mantém os comandos existentes. É preciso ter a voz do idioma instalada no sistema. Desative a leitura nas opções de controle.
+Leia a interface e a batalha em voz alta. Requer uma voz do sistema no idioma. Ativar seleciona Controle; desativar, Atalhos. O modo do teclado pode ser alterado separadamente.
+Menus: setas/Tab para mover, Enter para confirmar, Esc para voltar. F2: detalhes do controle; F4: conteúdo da página.
+Batalha solo (Controle): setas movem, J confirma/planta, K cancela, Q/E trocam cartas, Z/C usam gatilhos, U executa ações da fase, Enter pausa. Com as mãos vazias, segure K por mais de 1 segundo e solte para usar a pá.
+Consultas: F1 repetir, F2 casa atual, F3 sóis e moedas, F4 ondas, F5 zumbis da linha, F6 carta atual.
+F9: ajuda dos comandos. F10: parar leitura. Comandos multijogador não mudam.
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYVOLUME]
-Ajusta apenas o volume da leitura, sem alterar música ou efeitos do jogo.
+Ajuste o volume da leitura. Música e efeitos não mudam.
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYRATE]
-Ajusta a velocidade da leitura. 0 é o padrão; valores positivos aceleram e negativos desaceleram.
+Velocidade da leitura: 0 é o padrão, valores positivos aceleram e negativos desaceleram.
 
 [A11Y_GRAVE]
 Lápide
@@ -12221,14 +12223,14 @@ Atalhos
 Controle
 
 [NEW_OPTIONS_HELP_KEYBOARDMODE]
-Escolha Atalhos ou Controle para batalhas solo; Atalhos é o padrão. Só essa opção determina os comandos. Ligar/desligar a leitura muda para Controle/Atalhos; depois você pode alterar aqui. Teclas fixas do modo Controle:
-WASD: analógico esquerdo (movimento), setas: direcional
-J / K / U / I: A / B / X / Y
-Q / E: LB / RB (trocar cartas), Z / C: LT / RT
-Teclado numérico 8 / 2 / 4 / 6: analógico direito
-Enter: Start, Backspace: Back, Esc: menu habitual
-Na batalha comum, J planta e K cancela. Com as mãos vazias, mire numa planta, segure K por mais de um segundo e solte para remover. U executa a ação da fase.
-O modo local segue os dispositivos definidos na sala; online mantém os atalhos habituais. O mapeamento pausa em campos de texto, janelas e pausas. Solte todas as teclas mapeadas antes de retomar.
+Use atalhos ou simule um controle nas batalhas solo. Teclas do controle:
+WASD: analógico esquerdo; setas: direcional
+J/K/U/I: A/B/X/Y; Q/E: LB/RB (cartas)
+Z/C: LT/RT; teclado numérico 8/2/4/6: analógico direito
+Enter: pausa; Backspace: voltar; Esc: menu; Tab: velocidade
+No modo controle solo, 1–0 da fileira superior selecionam cartas/ferramentas e Espaço pausa; os demais atalhos antigos ficam desativados.
+J planta, K cancela. Com as mãos vazias, segure K por mais de 1 segundo e solte para usar a pá. U: ação da fase.
+Alternar a leitura muda esta opção. Online usa atalhos; local para dois segue a atribuição da sala.
 
 [NEW_OPTIONS_SECTION_INPUT]
 Entrada
@@ -12249,7 +12251,7 @@ Carregando…
 Indisponível
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYVOICE]
-Escolha uma voz instalada no sistema. A seleção automática segue o idioma do jogo; se a voz escolhida estiver indisponível, outra será usada automaticamente. Pode escolher com a leitura desligada. A configuração é salva por dispositivo.
+Escolha uma voz do sistema. Automático segue o idioma do jogo, inclusive se a voz escolhida estiver indisponível.
 
 [NEW_OPTIONS_CURRENCY]
 Moeda
@@ -12258,7 +12260,7 @@ Moeda
 Genérica
 
 [NEW_OPTIONS_HELP_CURRENCY]
-Muda o visual da moeda em moedas, bolsas, barra de saldo e ícones de venda. Não altera valores ou preços.
+Mude a aparência de moedas e outros ícones monetários. Valores e preços não mudam.
 
 [MUSIC_BOX_TUNE_CREDITSZOMBIESONYOURLAWNJP]
 Zumbis no seu gramado (japonês)
@@ -12273,7 +12275,10 @@ Mostrar tradução da letra do MV
 日本語
 
 [NEW_OPTIONS_HELP_MUSICVIDEOLANGUAGE]
-Escolha o idioma do canto e das legendas do clipe, inglês por padrão. Vale na próxima reprodução e não altera o idioma da interface.
+Escolha o idioma do canto e das legendas do videoclipe. Vale na próxima vez que abrir.
+
+[NEW_OPTIONS_HELP_MUSICVIDEOTRANSLATION]
+Mostre a tradução da letra no idioma da interface, exceto quando for o mesmo das legendas originais.
 
 [NEW_OPTIONS_LANGUAGE_FRENCH]
 Français
@@ -12415,3 +12420,33 @@ Também trouxe uma porta de tela
 
 [CREDITS_LYRIC_GIVE_TRICYCLE]
 Me dá esse triciclo
+
+[ALMANAC_TITLE_HERO]
+Almanaque - Heróis
+
+[HERO_SKILL_POINTS]
+Pontos de habilidade restantes
+
+[HERO_MAX_LEVEL]
+Nível máx.
+
+[HERO_REQUIRED_LEVEL]
+Requer nível %s
+
+[HERO_HEALTH]
+Vida
+
+[HERO_ATTACK]
+Ataque
+
+[HERO_SPEED]
+Velocidade
+
+[HERO_POINTS_REMAINING]
+Restantes
+
+[A11Y_HIGH_CONTRAST]
+Alto contraste
+
+[NEW_OPTIONS_HELP_HIGHCONTRAST]
+Escureça o fundo do campo e destaque plantas, zumbis e objetos com cores visíveis.

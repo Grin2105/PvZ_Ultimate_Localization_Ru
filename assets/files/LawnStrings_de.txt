@@ -1331,7 +1331,7 @@ Diesmal wähle ich ein paar Samen für dich aus!
 Ich wähle ... diese drei!
 
 [CRAZY_DAVE_1700]
-{NO_CLICK}Ich gebe dir ${SELL_PRICE} für diese Pflanze: {PLANT_TYPE}!
+{NO_CLICK}Ich gebe dir {CURRENCY_SYMBOL}{SELL_PRICE} für diese Pflanze: {PLANT_TYPE}!
 
 [CRAZY_DAVE_2000]
 {NO_SOUND}{NO_CLICK}Pflanze sie auf deinen Duplinatoren, um MG-Erbsen draus zu machen! Sie verschießen vier Erbsen auf einmal!
@@ -5709,18 +5709,18 @@ Der Porzellantopf ermöglicht das Pflanzen auf der Großen Mauer.
 {FLAVOR}„Ich bin ein Porzellantopf aus alter Zeit, aber auch eine Pflanze. Überrascht?“
 
 [WEST_FIRE_GOURD]
-Feuerkürbis
+Feuerspeiende Paprika
 
 [WEST_FIRE_GOURD_TOOLTIP]
 Setzt Zombies in Brand und verursacht fortlaufenden Schaden
 
 [WEST_FIRE_GOURD_DESCRIPTION]
-Feuerkürbis speit Flammen, die Zombies entzünden und fortlaufend verletzen. Auch nach Ende des Angriffs brennen sie noch eine Weile.
+Feuerspeiende Paprika speit Flammen, die Zombies entzünden und fortlaufend verletzen. Auch nach Ende des Angriffs brennen sie noch eine Weile.
 {SHORTLINE}
 {KEYWORD}Schaden:{STAT} hoch, durchdringt Gittertüren
 {KEYWORD}Reichweite:{STAT} alle Zombies in den Flammen
 {SHORTLINE}
-{FLAVOR}„Du hast auch in der Kung-Fu-Welt einen Feuerkürbis gesehen?“, fragt er. „Das ist mein jüngerer Cousin.“
+{FLAVOR}„Du hast in der Kung-Fu-Welt einen Feuerkürbis gesehen?“, fragt sie. „Das ist mein jüngerer Cousin.“
 
 [WEST_BAMBOO_SHOOT]
 Bambusspross
@@ -5734,6 +5734,20 @@ Der Bambusspross hält Zombieangriffe ab.
 {KEYWORD}Ausdauer:{STAT} mittel
 {SHORTLINE}
 {FLAVOR}Weißt du, warum der Bambusspross Angriffe abwehrt? Ganz einfach: Er hat keine Angriffsanimation.
+
+[WALL_WINE_GOURD]
+Weinkürbis
+
+[WALL_WINE_GOURD_TOOLTIP]
+Beschleunigt vorübergehend andere Pflanzen auf demselben Feld
+
+[WALL_WINE_GOURD_DESCRIPTION]
+Weinkürbis schwebt über dem Rasen und schenkt den anderen Pflanzen auf seinem Feld ein, damit sie kurzzeitig schneller werden.
+{SHORTLINE}
+{KEYWORD}Besonderheit: {STAT}fliegt und beschleunigt kurzzeitig Pflanzen auf seinem Feld
+{KEYWORD}Reichweite: {STAT}Pflanzen auf seinem Feld
+{SHORTLINE}
+{FLAVOR}Weinkürbis nennt jeden Ausflug einen „Nachbarschaftsbesuch“. Er ist immer gern gesehen, doch hinterher sind seine Nachbarn meist so beschäftigt, dass sie ganz vergessen, sich zu bedanken.
 
 [ENDLESS_SPEW_ANEMONE]
 Wasserpistolengras
@@ -6190,7 +6204,7 @@ Der grausame Gelbbrauen-Gargantua trägt viele mächtige Schätze bei sich. Beso
 {FLAVOR}Warum kann er westliche Zombies beschwören? Weil sie fest glauben, er sei Buddha.
 
 [LINKAGE_DLC_1]
-Wald – 1
+Waldgefecht
 
 [LINKAGE_DLC_2]
 Licht aus
@@ -6341,29 +6355,21 @@ Aktualisierung
 [UPDATE_CONTENT]
 Version %s ist verfügbar. Zur Update-Seite wechseln?
 
-[HERO_CONSOLE_TITLE_PROPERTY]
-Werte
 
-[HERO_CONSOLE_TITLE_SKILL]
-Fähigkeiten
 
-[HERO_CONSOLE_BUTTON_UPGRADE]
+[HERO_BUTTON_UPGRADE]
 Verbessern
 
-[HERO_CONSOLE_BUTTON_PURCHASE]
+[HERO_BUTTON_PURCHASE]
 Kaufen
 
-[HERO_CONSOLE_BUTTON_RESET]
+[HERO_BUTTON_RESET]
 Zurücksetzen
 
-[HERO_CONSOLE_BUTTON_TRAIN]
+[HERO_BUTTON_TRAIN]
 Trainieren
 
-[HERO_CONSOLE_BUTTON_SKILL]
-Fähigkeiten
 
-[HERO_CONSOLE_BUTTON_BACK]
-Zurück
 
 [MAIN_MENU_BUTTON_HERO]
 Helden
@@ -6630,9 +6636,6 @@ Erzeugt alle 45 Sekunden einen Schild mit %s Gesundheit.
 
 [HEROPLANT_UNLOCK_DIAMOND]
 Für %d kaufen
-
-[HEROPLANT_LVLUP_CONFIRM]
-Möchtest du deinen Helden für %d Goldbarren sofort verbessern?
 
 [HEROPLANT_RESETSKILL_CONFIRM]
 Möchtest du die Fähigkeiten deines Helden für %d Goldbarren zurücksetzen?
@@ -8340,7 +8343,7 @@ Sonnen automatisch sammeln
 Münzen automatisch sammeln
 
 [NEW_OPTIONS_HELP_GAMEPADTRIGGERS]
-Bestimme die Funktion von LT/RT (Switch: ZL/ZR) im Kampf. Standard „Gegenstände verwenden“: oben einen Gegenstand wählen, dann bestätigen. „Automatisch sammeln“: ein Druck auf einen Trigger sammelt Sonnen, Münzen und ähnliche Ressourcen auf dem Feld. Gedrückthalten wiederholt dies nicht. Mit Steuerkreuz oben erreichst du weiterhin die Gegenstände. Menü-, Karten- und Gartenseitenwechsel sowie der automatische Sonnen-/Münzensammler bleiben unverändert.
+LT/RT im Kampf (ZL/ZR auf Switch): Gegenstände wählen und mit Bestätigen nutzen oder einmal drücken, um Sonne und Münzen auf dem Feld zu sammeln. Halten wiederholt nicht. Steuerkreuz oben wählt weiterhin Gegenstände.
 
 [NEW_OPTIONS_GAMEPAD_TRIGGERS]
 Controller-Trigger
@@ -8358,8 +8361,7 @@ Pflanzen per Ziehen
 Flugwicht aktivieren
 
 [NEW_OPTIONS_HELP_ENABLEENDLESSSTAR]
-Wenn aus, erscheinen Flugwicht und Rasenstern in den entsprechenden Abenteuer- und Reise-nach-Westen-Levels nicht. Dort sind dann höchstens zwei Sterne erreichbar.
-Laufende Kämpfe ändern sich nicht. Die Einstellung wirkt beim Neustart eines Levels. Fortgesetzte Spielstände behalten ihren Zustand; frühere Sternrekorde bleiben erhalten.
+Aus: In betroffenen Abenteuer- und Reise-nach-Westen-Leveln erscheinen weder Flug-Imp noch Bodenstern; maximal zwei Sterne. Gilt bei neuem Start. Gespeicherte Kämpfe und bisherige Wertungen bleiben erhalten.
 
 [NEW_OPTIONS_DRAW_CROSSHAIR]
 Pflanz-Fadenkreuz
@@ -8411,13 +8413,13 @@ Der Bildschirm ist schmal. Die linke Samenleiste könnte Spielfeld oder Bedienel
 Bildschirmstreckung
 
 [NEW_OPTIONS_HELP_SCREENSTRETCH]
-0% behält das ursprüngliche Seitenverhältnis. 100% streckt eine 4:3-Anordnung auf den ganzen Bildschirm. Zwischenwerte bilden Übergänge; auch hochformatige Bildschirme verwenden 4:3 als Endpunkt. Formen und sichtbarer Bereich ändern sich. Ziehen und loslassen zum Anwenden; Tastatur und Controller wirken sofort. Nur auf diesem Gerät gespeichert.
+0% behält das Bildschirmformat bei. 100% streckt ein 4:3-Layout auf den ganzen Bildschirm und verzerrt Formen.
 
 [NEW_OPTIONS_MOUSE_CURSOR_SIZE]
 Zeigergröße
 
 [NEW_OPTIONS_HELP_MOUSECURSORSIZE]
-Zeigergröße: 0, 0.5, 1, 1.5, 2, 2.5 oder 3 (Standard 1). Bei 0 wird der Systemzeiger verwendet: Das Spiel meldet nur Normal-, Link- oder Texttyp, Aussehen und Größe bestimmt das System. Änderungen wirken sofort.
+Größe des Spielzeigers einstellen. Standard ist 1; 0 nutzt den Systemzeiger.
 
 [NEW_OPTIONS_UI_LEFT_OFFSET]
 Linker UI-Rand
@@ -8480,183 +8482,142 @@ Bonbonregen
 Open-Source-Lizenzen
 
 [NEW_OPTIONS_HELP_LANGUAGE]
-Wähle die Sprache der Benutzeroberfläche. Starte das Spiel neu, um die Änderung anzuwenden. Dein Fortschritt bleibt erhalten.
+Sprache der Oberfläche wählen. Neustart erforderlich.
 
 [NEW_OPTIONS_HELP_MUSICVOLUME]
-Regle die Hintergrundmusik zwischen 0% und 100%. Beim Ziehen hörst du die Änderung.
-0% schaltet Musik aus, ein höherer Wert wieder ein. Pflanzen-, Zombie- und Tastengeräusche regelt die separate Effektlautstärke.
+Lautstärke der Hintergrundmusik. 0% schaltet sie stumm.
 
 [NEW_OPTIONS_HELP_SOUNDVOLUME]
-Regle Pflanzen-, Zombie-, Tasten- und andere Effekte zwischen 0% und 100%.
-0% schaltet Effekte stumm. Hintergrundmusik wird separat geregelt.
+Lautstärke von Pflanzen, Zombies, Tasten und anderen Effekten. 0% schaltet sie stumm.
 
 [NEW_OPTIONS_HELP_FULLSCREEN]
-Wechsle zwischen Fenster und Vollbild. Vollbild nutzt die gesamte Anzeigefläche.
-Nur auf Plattformen mit umschaltbarem Vollbild verfügbar. Bei dauerhaftem Vollbild wird die Option nicht angezeigt.
+Zwischen Fenster und Vollbild wechseln.
 
 [NEW_OPTIONS_HELP_RUNLOCKED]
-Lässt das Spiel weiterlaufen, wenn das Fenster nicht aktiv oder minimiert ist. Praktisch beim Warten auf Levelereignisse.
-Wenn aus, gelten die normalen Pausenregeln bei Fokusverlust. Hintergrundbetrieb verbraucht Ressourcen; mobile Systeme können die App trotzdem anhalten.
+Bei inaktivem oder minimiertem Fenster weiterspielen. Mobile Systeme können Hintergrund-Apps trotzdem anhalten.
 
 [NEW_OPTIONS_HELP_VIBRATION]
-Erlaubt Vibrationen durch Spielereignisse auf Gerät oder aktivem Controller. Der Schalter gilt für beide.
-Erfordert unterstützte Hardware. Der Schalter rüstet keine fehlende Vibration nach. Ausschalten beendet laufende Controller-Vibration.
+Vibration von Gerät und Controller ein- oder ausschalten.
 
 [NEW_OPTIONS_HELP_LOWLATENCYAUDIO]
-Verkürzt im Modus geringer Audiolatenz den Ausgabepuffer und die Verzögerung zwischen Aktion und Ton.
-Nach Änderung neu starten. Manche Geräte oder Treiber unterstützen diesen Modus nicht.
+Verzögerung zwischen Aktion und Ton verringern. Neustart erforderlich.
 
 [NEW_OPTIONS_HELP_CAMERASIZE]
-Regelt den Zoom des Schlachtfelds. Links erscheinen Pflanzen und Zombies größer, rechts siehst du mehr Umgebung. Samenleiste und Menüs behalten ihre Größe.
+Links heranzoomen, rechts mehr vom Schlachtfeld sehen. Kartenleiste und Menüs bleiben gleich groß.
 
 [NEW_OPTIONS_HELP_TOPSEEDBANK]
-Platziert die Samenleiste links oder oben. Das ändert die Anordnung, nicht die Kartenanzahl.
-Auf schmalen Bildschirmen kann die linke Leiste Spielfeld oder Bedienung verdecken. Bei Bedarf fragt das Spiel nach.
+Kartenleiste links oder oben platzieren. Links kann sie auf schmalen Bildschirmen das Bild verdecken.
 
 [NEW_OPTIONS_HELP_BOARDLEFTOFFSET]
-Verschiebt linke Oberflächenelemente im zusätzlichen Platz breiter Bildschirme. Wirkt auf passende Hauptmenü- und Kampfanordnungen.
-Passe den Regler an Bildschirmrand und Erreichbarkeit an. Ohne zusätzliche Breite fällt die Wirkung gering aus.
+Linke Bedienelemente im zusätzlichen Breitbildbereich verschieben. Ohne seitlichen Freiraum kaum Wirkung.
 
 [NEW_OPTIONS_HELP_BOARDRIGHTOFFSET]
-Verschiebt rechte Oberflächenelemente im Breitbildplatz unabhängig vom linken Rand.
-Platziere rechte Bedienelemente bequemer. Bewegungsraum hängt von Seitenverhältnis und Anordnung ab.
+Rechte Bedienelemente im zusätzlichen Breitbildbereich verschieben. Ohne seitlichen Freiraum kaum Wirkung.
 
 [NEW_OPTIONS_HELP_COVERLAYER]
-Wähle die Vordergrundabdeckung: keine, Gras oder Objekte.
-Wähle Aussehen und Sichtbarkeit nach Wunsch. Die Zombiepositionen auf der Straße bei der Kartenauswahl passen sich der Abdeckung an.
+Vordergrund wählen: keine Abdeckung, Gras oder Gegenstände. Manche Szenen unterstützen die gewählte Abdeckung nicht.
 
 [NEW_OPTIONS_HELP_DRAWCROSSHAIR]
-Zeigt beim Pflanzen ein Fadenkreuz, um Zielreihe und -spalte besser zu erkennen, besonders mit Touch oder Controller.
-Nur eine Sichtführung: pflanzt nicht automatisch und ändert keine Platzierungsregeln.
+Beim Pflanzen ein Fadenkreuz zum Ausrichten auf Reihen und Spalten anzeigen.
 
 [NEW_OPTIONS_HELP_SHOWGAMEPADHINTS]
-Zeigt verfügbare Aktionen für Gamepads und Tastaturen im Gamepad-Modus, bei Tastaturen mit echten Tastennamen. Im lokalen Zweispielermodus bleiben Hinweise für P1/P2-Geräte sichtbar: Maus ohne Symbol, jedes Gamepad mit eigenen Symbolen. Gemeinsame Aktionen erhalten eine Beschriftung.
-Wird sofort angewendet und gespeichert. Ausblenden verändert weder Steuerung noch Fokusrahmen oder Tastaturhilfe.
+Tastenhinweise für Controller und den Gamepad-Tastaturmodus anzeigen. Lokal zu zweit richten sie sich nach dem jeweiligen Gerät; die Maus zeigt keine Tastensymbole.
 
 [NEW_OPTIONS_HELP_SHOWTOOLTIPS]
-Erlaubt Hinweise für unterstützte Karten, Objekte und Bedienelemente, auf die du zeigst.
-Verfügbarkeit hängt von Bildschirm, Ziel und Eingabemethode ab. Ausschalten reduziert Hinweisfelder.
+Hinweise zu Karten, Objekten und Schaltflächen anzeigen.
 
 [NEW_OPTIONS_HELP_MAINMENUZOMBIEHAND]
-Spielt beim Start des Abenteuers im Hauptmenü die Zombiehand-Animation ab.
-Aus überspringt die übliche Animation. Bestimmte Abläufe, etwa der allererste Start, können sie weiterhin abspielen.
+Beim Abenteuerstart die Zombiehand-Animation abspielen. Beim ersten Spiel und in bestimmten Abläufen erscheint sie trotzdem.
 
 [NEW_OPTIONS_HELP_ZOMBIEAPPEARANCE]
-Wähle große oder kleine Zombie-Kopfproportionen.
-Ändert nur das Aussehen, nicht Gesundheit, Angriff oder Schwierigkeit.
+Zwischen großen und kleinen Zombieköpfen wechseln.
 
 [NEW_OPTIONS_HELP_DANCERAPPEARANCE]
-Wechselt Tänzer- und Begleittänzer-Zombies zwischen MJ- und Disco-Stil.
-Die Stile unterscheiden sich auch im Verhalten, etwa der Laufstrecke. Die Wahl kann den Levelablauf beeinflussen.
+MJ- oder Disco-Stil für Tänzer und Begleittänzer wählen. Auch Bewegungsstrecken und manche Verhaltensweisen unterscheiden sich.
 
 [NEW_OPTIONS_HELP_SPECIALSHADERS]
-Aktiviert animierte Pool- und Flammeneffekte sowie weich begrenzte Sicht für mehrere Zeiger.
-Wenn aus oder nicht unterstützt, verschwinden Pooleffekte, Flammen werden statisch und begrenzte Sicht nutzt einen hart begrenzten Kreis.
-Wirkt sofort. Integrierte Farbfilter bleiben unverändert.
+Animierte Pool-, Flammen- und weiche Mehrpunkt-Sichteffekte steuern. Aus: keine Pooleffekte, statische Flammen und ein einzelner Sichtkreis mit harter Kante.
 
 [NEW_OPTIONS_HELP_ENHANCEDISPLAY]
-Zeigt zusätzliche Karten-Abklingzeiten und Lebenspunkte von Pflanzen/Zombies, damit du Kampf und Timing besser einschätzen kannst.
-Fügt mehr Zahlen und Informationen hinzu. Der genaue Umfang hängt von Modus und Objekttyp ab.
+Karten-Abklingzeiten sowie Lebenspunkte von Pflanzen und Zombies anzeigen.
 
 [NEW_OPTIONS_HELP_GRAPHICSBACKEND]
-Wähle ein unterstütztes Grafik-Backend. Automatisch ist ein guter Ausgangspunkt; ein anderes Backend kann Darstellungs- oder Kompatibilitätsprobleme beheben.
-Nach Änderung neu starten. Kompatibilität und Leistung hängen von Gerät und Treibern ab.
+Grafik-Backend wählen. Meist passt Automatisch; bei Bildfehlern andere Optionen versuchen. Neustart erforderlich.
 
 [NEW_OPTIONS_APPLY_SPEED_ON_NEW_LEVEL]
 Mit Beschleunigung starten
 
 [NEW_OPTIONS_HELP_APPLYSPEEDONNEWLEVEL]
-Neue Level beginnen sofort mit deiner eingestellten Geschwindigkeit. Standardmäßig aus: Start bei 1x, der Spielknopf aktiviert deine gewählte Geschwindigkeit.
-Ändert nicht die Geschwindigkeit des laufenden Levels.
+Neue Level mit der eingestellten Geschwindigkeit starten. Aus: Start mit 1x, Umschalten über die Geschwindigkeitstaste im Spiel.
 
 [NEW_OPTIONS_HELP_SPEED]
-Regelt das Spieltempo von 1x bis 10x. 1x ist normal. Höhere Werte verkürzen Wartezeit, aber auch Reaktionszeit.
-Einzelne Modi oder Mehrspielerregeln können das tatsächliche Tempo begrenzen.
+Spielgeschwindigkeit von 1x bis 10x einstellen. Manche Modi und Onlinepartien begrenzen sie.
 
 [NEW_OPTIONS_HELP_AUTOCOLLECTSUN]
-Sammelt verfügbare Sonnen automatisch. Wenn aus, sammelst du sie wie gewohnt selbst.
+Sonne auf dem Feld automatisch einsammeln.
 
 [NEW_OPTIONS_HELP_AUTOCOLLECTCOIN]
-Sammelt verfügbare Münzen automatisch. Wenn aus, sammelst du sie selbst.
+Münzen auf dem Feld automatisch einsammeln.
 
 [NEW_OPTIONS_HELP_DRAGPLANTING]
-Erlaubt, eine Karte zum Ziel zu ziehen und zum Pflanzen loszulassen.
-Wenn aus, erst Karte wählen, dann Ziel anklicken. Genug Sonnen, eine aufgeladene Karte und ein gültiger Platz bleiben erforderlich.
+Karte zum Ziel ziehen und zum Pflanzen loslassen. Aus: erst Karte, dann Ziel anklicken.
 
 [NEW_OPTIONS_HELP_ONLYORIGINALFEATURES]
-Verwendet Originalmenüs und zugehörige Zugänge. Entsprechende Erweiterungseinträge werden ausgeblendet oder ersetzt.
-Nach Änderung neu starten. Fortschritt bleibt erhalten. Ausschalten und Neustart stellen die Erweiterungseinträge wieder her.
+Erweiterte Inhalte im Menü ausblenden oder ersetzen, um Originalinhalte hervorzuheben. Neustart erforderlich; Fortschritt bleibt erhalten.
 
 [NEW_OPTIONS_HELP_SHOWTOOLS]
-Zeigt Hilfsmittel wie +500 Sonnen, Kirschsturm und das Zurücksetzen von Abklingzeiten.
-Die Anzeige macht Hilfsmittel nicht kostenlos. Normale Kosten gelten weiter; dauerhaft kostenlose Hilfsmittel sind eine eigene Funktion.
+Hilfsmittel wie +500 Sonne und Abklingzeit-Reset anzeigen. Die üblichen Goldbarrenkosten gelten weiterhin.
 
 [NEW_OPTIONS_HELP_SHOWUNLOCKBUTTON]
-Zeigt den Freischaltknopf im Hauptmenü für den entsprechenden Ablauf.
-Steuert nur den Zugang. Level oder Inhalte werden dadurch nicht direkt freigeschaltet; der normale Ablauf gilt.
+Freischaltknopf im Hauptmenü anzeigen. Anklicken startet den Freischaltvorgang.
 
 [NEW_OPTIONS_HELP_ENABLESL]
-Zeigt S und L in den Spieleinstellungen. S speichert das laufende Level; L lädt den gespeicherten Stand.
-Laden stellt den gespeicherten Zustand wieder her und verwirft ungespeicherten Fortschritt. Verfügbarkeit hängt von Modus und Mehrspielerregeln ab.
+S (Speichern) und L (Laden) in den Kampfeinstellungen anzeigen. Laden verwirft ungespeicherten Fortschritt. In manchen Modi und online nicht verfügbar.
 
 [NEW_OPTIONS_HELP_FREEGOLDFINGER]
-Macht Hilfsmittel für den aktuellen Spieler dauerhaft kostenlos, ohne Goldbarrenkosten. Vorher erscheint eine Bestätigung.
-Dauerhaft und nach Aktivierung nicht in den Einstellungen abschaltbar. Die Anzeige der Hilfsmittelknöpfe wird separat gesteuert.
+Goldbarrenkosten für Hilfsmittel dieses Spielers dauerhaft entfernen. Nach Aktivierung nicht abschaltbar.
 
 [NEW_OPTIONS_HELP_IMPORTINTERNALDATA]
-Wähle eine vom Spiel exportierte Spielstand-ZIP. Nach Prüfung wird sie beim nächsten Start importiert. Exportiere vorher eine Sicherung.
-Ersetzt nur Spielerprofile, Fortschritt, eigene Level und Zombatar-Bilder.
+Profile, Fortschritt, eigene Level und Avatarbilder aus einer vom Spiel exportierten ZIP beim nächsten Start wiederherstellen. Ersetzt vorhandene Daten; vorher Sicherung exportieren.
 
 [NEW_OPTIONS_HELP_EXPORTINTERNALDATA]
-Packt aktuelle Speicherdaten in eine spielinterne ZIP zur Sicherung oder Übertragung. Zuvor versucht der Export, Level und Spielerdaten zu speichern.
-Enthält nur Profile, Fortschritt, eigene Level und Zombatar-Bilder. Über „Spielstand importieren“ wiederherstellen.
+Profile, Fortschritt, eigene Level und Avatarbilder als ZIP sichern oder übertragen. Über Spielstand importieren wiederherstellen.
 
 [NEW_OPTIONS_HELP_OPENINTERNALFOLDER]
-Öffnet den internen Datenordner im Dateimanager zum Prüfen oder manuellen Sichern.
-Ändern, Verschieben oder Löschen kann Spielstände und eigene Inhalte beeinträchtigen. Vorher sichern. Nur auf unterstützten Plattformen sichtbar.
+Spieldatenordner zum Prüfen oder Sichern öffnen. Vor Änderungen eine Sicherung erstellen.
 
 [NEW_OPTIONS_HELP_USERDATAFORMAT]
-Wähle das Spieler-Speicherformat: kompaktes binäres MessagePack oder lesbares, bearbeitbares JSON.
-Für normales Spielen eignet sich der Standard MessagePack. Änderungen konvertieren nicht sofort alle Dateien und ersetzen keinen Sicherungsimport/-export.
+Profilformat wählen: MessagePack ist kompakt (Standard), JSON lesbar und bearbeitbar.
 
 [NEW_OPTIONS_HELP_LEVELDATAFORMAT]
-Speichere laufende Level als kompaktes binäres MessagePack oder lesbares, bearbeitbares JSON.
-Betrifft Spielstände, nicht den Import eigener Leveldefinitionen. Für normales Spielen unverändert lassen. Vor manuellen Eingriffen sichern.
+Format für gespeicherte Kämpfe wählen: MessagePack ist kompakt (Standard), JSON lesbar und bearbeitbar.
 
 [NEW_OPTIONS_HELP_CHRISTMAS]
-Aktiviert Weihnachtsdeko: Mützen für einige Zombies und Strümpfe in manchen Szenen.
+Weihnachtsdeko wie Mützen und Strümpfe anzeigen.
 
 [NEW_OPTIONS_HELP_MUSTACHE]
-Gibt passenden Zombies kosmetische Schnurrbärte, ohne Kampffähigkeiten zu ändern. Auch durch Eingabe von mustache umschaltbar.
-Wird nicht dauerhaft gespeichert.
+Einigen Zombies Schnurrbärte geben. Auch mit mustache umschaltbar. Nach Neustart zurückgesetzt.
 
 [NEW_OPTIONS_HELP_TRICKEDOUT]
-Verleiht passenden Rasenmähern Rennwagenoptik. Ein kosmetisches Easter Egg, auch mit trickedout aktivierbar.
-Wird nicht dauerhaft gespeichert.
+Normalen Rasenmähern einen Hotrod-Look geben. Auch mit trickedout umschaltbar. Nach Neustart zurückgesetzt.
 
 [NEW_OPTIONS_HELP_FUTURE]
-Gibt passenden Zombies Zukunftsbrillen, ohne Fähigkeiten zu ändern. Auch mit future umschaltbar.
-Wird nicht dauerhaft gespeichert.
+Einigen Zombies Zukunftsbrillen geben. Auch mit future umschaltbar. Nach Neustart zurückgesetzt.
 
 [NEW_OPTIONS_HELP_DAISIES]
-Lässt bei passenden Zombietoden Blumen zurück. Nur ein Effekt, keine steuerbare Pflanze. Auch mit daisies umschaltbar.
-Benötigt einen mindestens 100 Fuß hohen Baum der Weisheit. Manche Zombies oder Böden erzeugen keine Blumen. Nicht dauerhaft gespeichert.
+Einige Zombies hinterlassen beim Tod Blumen. Benötigt einen 100 Fuß hohen Baum der Weisheit. Mit daisies umschalten. Nach Neustart zurückgesetzt.
 
 [NEW_OPTIONS_HELP_DANCE]
-Lässt passende Zombies beim Gehen tanzen. Auch mit dance umschaltbar.
-Benötigt einen mindestens 500 Fuß hohen Baum der Weisheit. Nicht alle Zombies oder Aktionen unterstützen dies. Nicht dauerhaft gespeichert.
+Einige Zombies tanzen beim Gehen. Benötigt einen 500 Fuß hohen Baum der Weisheit. Mit dance umschalten. Nach Neustart zurückgesetzt.
 
 [NEW_OPTIONS_HELP_PINATA]
-Lässt bei passenden Zombietoden Bonbons spritzen. Nur ein Effekt, keine Münzen oder sammelbaren Belohnungen. Auch mit pinata umschaltbar.
-Benötigt einen mindestens 1000 Fuß hohen Baum der Weisheit. Nicht dauerhaft gespeichert.
+Einige Zombies versprühen beim Tod Süßigkeiten. Benötigt einen 1000 Fuß hohen Baum der Weisheit. Mit pinata umschalten. Nach Neustart zurückgesetzt.
 
 [NEW_OPTIONS_HELP_SUKHBIR]
-Ersetzt manche Zombiegeräusche durch alternative Stimmen. Auch mit sukhbir umschaltbar.
-Ändert keine Kampffähigkeiten. Wird nicht dauerhaft gespeichert.
+Einige Zombie-Laute ersetzen. Auch mit sukhbir umschaltbar. Nach Neustart zurückgesetzt.
 
 [NEW_OPTIONS_HELP_RESOURCEPACKLUASCRIPTS]
-Erlaubt Lua-Skripte aus Ressourcenpaketen. Sie können Oberfläche und Spiel erweitern, auf Dateien zugreifen, Netzwerkanfragen senden oder Spielstände ändern. Nur vertrauenswürdige Skripte aktivieren.
-Vom Aktivieren des Ressourcenpakets getrennt. Nach Paketänderungen bei Aufforderung neu starten. Im Mehrspieler müssen die Skriptkonfigurationen kompatibel sein.
+Lua-Skripte aus Ressourcenpaketen ausführen. Sie können das Spiel erweitern, auf Dateien und Netzwerk zugreifen und Spielstände ändern. Nur vertrauenswürdige Skripte aktivieren und bei Aufforderung neu starten.
 
 [NEW_OPTIONS_SWITCH_ON]
 Ein
@@ -9924,6 +9885,9 @@ Duell: Tieba
 [VS_CLASSIC]
 Duell: Klassisch
 
+[VS_ALL_ZOMBIES]
+Duell: Alle Zombies (Test)
+
 [VS_NIGHT]
 Duell: Nacht
 
@@ -11133,7 +11097,7 @@ Stierkampf
 Halloweenmodus
 
 [NEW_OPTIONS_HELP_HALLOWEEN]
-Aktiviert Halloween-Deko: Hexenhüte für manche Zombies und Kürbislaternen in einigen Szenen.
+Halloween-Deko wie Hexenhüte und Kürbislaternen anzeigen.
 
 [HELP_GAMEPAD_XBOX]
 Xbox-Controller
@@ -11298,13 +11262,13 @@ Butter (halten)
 Beide Decks sind voll. Start drücken.
 
 [MULTIPLAYER_LOCAL_VS_PICK]
-P{0} · {1}: Karte wählen
+S{0} · {1}: Karte wählen
 
 [MULTIPLAYER_LOCAL_COOP_PICK]
-Je vier Karten. Zeiger füllt zuerst P1, dann P2.
+Je vier Karten. Zeiger füllt zuerst S1, dann S2.
 
 [MULTIPLAYER_LOCAL_SHARED_PICK]
-Gemeinsames Deck · P1 wählt für beide
+Gemeinsames Deck · S1 wählt für beide
 
 [MULTIPLAYER_ACCOUNT]
 Serverkonto
@@ -11420,6 +11384,15 @@ Registrierung ist auf diesem Server gesperrt.
 [MULTIPLAYER_LOGIN_REQUIRED]
 Melde dich an; bei abgelaufener Sitzung erneut anmelden.
 
+[MULTIPLAYER_SESSION_EXPIRED]
+Deine Anmeldung ist abgelaufen. Bitte melde dich erneut an.
+
+[MULTIPLAYER_SESSION_REPLACED]
+Dieses Konto wurde auf einem anderen Gerät angemeldet. Bitte melde dich erneut an.
+
+[MULTIPLAYER_SERVER_SWITCHED]
+Du hast den Server gewechselt. Bitte melde dich erneut an.
+
 [MULTIPLAYER_ACCOUNT_ALREADY_IN_ROOM]
 Dieses Konto hat bereits einen Platz. Verbinde dich mit der ursprünglichen Sitzung erneut.
 
@@ -11457,25 +11430,59 @@ Gamepad 1
 Gamepad 2
 
 [LOCAL_INPUT_PLAYER]
-P{0}: {1}
+S{0}: {1}
 
 [LOCAL_INPUT_DISCONNECTED]
  (getrennt)
 
 [LOCAL_INPUT_CONNECT]
-Verbinde {1} für P{0} oder wähle ein anderes Gerät.
+Verbinde {1} für S{0} oder wähle ein anderes Gerät.
 
 [LOCAL_INPUT_SELECT]
-Gerät für P{0} wählen
+Gerät für S{0} wählen
 
 [LOCAL_INPUT_OCCUPIED]
- (von P{0} belegt)
+ (von S{0} belegt)
 
 [LOCAL_INPUT_SHARED_DESCRIPTION]
 Maus / Touch geteilt · Beide Kartenleisten nutzbar
 
 [SHUFFLE]
 Mischen
+
+[HOMERUN_DERBY_TUTORIAL]
+Homerun-Wettkampf 2
+
+[HOMERUN_TUTORIAL_START]
+Training starten
+
+[HOMERUN_TUTORIAL_RETRY]
+Noch einmal versuchen
+
+[HOMERUN_TUTORIAL_BALLS_TO_GO]
+BÄLLE
+ÜBRIG
+
+[HOMERUN_TUTORIAL_STATUS]
+Punkte: {SCORE}  Ball: {ROUND} / 20  Versuche: {LIVES}
+
+[HOMERUN_TUTORIAL_SWIPE]
+Halte den Ball links gedrückt und wische dann nach rechts oben, um zu schlagen!
+
+[HOMERUN_TUTORIAL_READY]
+Mach dich bereit!
+
+[HOMERUN_TUTORIAL_WON]
+Training abgeschlossen!
+
+[HOMERUN_TUTORIAL_LOST]
+Keine Versuche mehr. Versuch es noch einmal!
+
+[HOMERUN_TUTORIAL_REPLAY]
+Noch ein Wurf!
+
+[HOMERUN_TUTORIAL_MISS]
+Aus
 
 [SHUFFLE_SELECT_STAKE]
 Lege Silbermünze, Goldmünze oder Diamant in eine Vase. Finde sie 10-mal in Folge und gewinne den zehnfachen Einsatz.
@@ -12008,20 +12015,17 @@ Rätsel
 Überleben
 
 [NEW_OPTIONS_HELP_ACCESSIBILITY]
-Einschalten wählt den Tastaturmodus Gamepad, Ausschalten die Tastenkürzel. Danach kannst du den Modus unter Steuerung separat ändern. Nur diese Auswahl bestimmt die Tastatursteuerung. Lautstärke und Tempo sind auch bei ausgeschalteter Ansage einstellbar.
-
-Menüs: Pfeiltasten, Tab, Enter, Esc.
-In Menüs liest F2 Details des aktuellen Elements, F4 den Seiteninhalt.
-
-Solo im Gamepad-Modus: Pfeile bewegen feldweise, J bestätigt/pflanzt, K bricht ab, Q/E wechseln Karten. Mit leeren Händen K über einer Pflanze länger als eine Sekunde halten und zum Ausgraben loslassen. U führt die Levelaktion aus, Z/C die gewählte Triggeraktion, Enter pausiert.
-Abfragen: F1 wiederholen, F2 Feld, F3 Sonnen/Münzen, F4 Welle, F5 Zombies der Reihe, F6 Karte. F9 Hilfe, F10 stumm.
-Im Mehrspieler bleibt die Steuerung unverändert. Eine installierte passende Stimme ist nötig; Abschalten unter Steuerung.
+Oberfläche und Kampfgeschehen vorlesen. Benötigt eine Systemstimme für die Sprache. Einschalten wählt den Gamepad-Tastaturmodus, Ausschalten Tastenkürzel. Tastaturmodus separat änderbar.
+Menüs: Pfeile/Tab bewegen, Enter bestätigen, Esc zurück. F2: Elementdetails; F4: Seiteninhalt.
+Einzelkampf (Gamepad-Modus): Pfeile bewegen, J bestätigt/pflanzt, K bricht ab, Q/E wechseln Karten, Z/C nutzen Triggeraktionen, U führt Levelaktionen aus, Enter pausiert. Mit leeren Händen K über 1 Sekunde halten und zum Schaufeln loslassen.
+Abfragen: F1 wiederholen, F2 aktuelles Feld, F3 Sonne und Münzen, F4 Wellen, F5 Zombies dieser Reihe, F6 aktuelle Karte.
+F9: Bedienhilfe. F10: Vorlesen stoppen. Mehrspielersteuerung bleibt gleich.
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYVOLUME]
-Regle die Sprachlautstärke unabhängig von Musik und Effekten.
+Vorleselautstärke einstellen. Musik und Effekte bleiben unverändert.
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYRATE]
-Regle das Sprechtempo. Null ist normal, positive Werte schneller, negative langsamer.
+Vorlesetempo: 0 ist Standard, positive Werte schneller, negative langsamer.
 
 [A11Y_GRAVE]
 Grabstein
@@ -12228,14 +12232,14 @@ Tastenkürzel
 Gamepad
 
 [NEW_OPTIONS_HELP_KEYBOARDMODE]
-Wähle für Solokämpfe Tastenkürzel (Standard) oder Gamepad. Nur diese Auswahl bestimmt die Tastatursteuerung. Sprachausgabe an wählt Gamepad, aus wählt Tastenkürzel; danach kannst du hier unabhängig wechseln. Gamepad-Modus verwendet feste Tasten:
-WASD: linker Stick (Bewegung); Pfeile: Steuerkreuz
-J / K / U / I: A / B / X / Y
-Q / E: LB / RB (Karten); Z / C: LT / RT
-Ziffernblock 8 / 2 / 4 / 6: rechter Stick
-Enter: Start; Backspace: Zurück; Esc: bisheriges Menü
-Im normalen Kampf pflanzt J, K bricht ab. Mit leeren Händen K über einer Pflanze länger als eine Sekunde halten und zum Ausgraben loslassen. U führt die Levelaktion aus.
-Lokal zu zweit gelten die Gerätezuweisungen der Lobby; online bleiben bisherige Kürzel. In Textfeldern, Dialogen und Pausen ruht die Zuordnung. Vor Fortsetzung alle zugeordneten Tasten loslassen.
+Im Einzelkampf Tastenkürzel oder Gamepad-Emulation nutzen. Gamepad-Tasten:
+WASD: linker Stick; Pfeile: Steuerkreuz
+J/K/U/I: A/B/X/Y; Q/E: LB/RB (Karten)
+Z/C: LT/RT; Ziffernblock 8/2/4/6: rechter Stick
+Enter: Pause; Backspace: Zurück; Esc: Menü; Tab: Tempo
+Im Einzelspieler-Gamepad-Modus: obere Zahlenreihe 1–0 für Karten/Werkzeuge, Leertaste für Pause; andere bisherige Tastenkürzel sind deaktiviert.
+J pflanzt, K bricht ab. Mit leeren Händen K über 1 Sekunde halten und zum Schaufeln loslassen. U: Levelaktion.
+Vorlesen umschalten ändert diese Einstellung. Online gelten Tastenkürzel, lokal zu zweit die Lobby-Zuweisungen.
 
 [NEW_OPTIONS_SECTION_INPUT]
 Eingabe
@@ -12256,7 +12260,7 @@ Wird geladen…
 Nicht verfügbar
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYVOICE]
-Wähle eine installierte Systemstimme. Automatisch folgt der Spielsprache und dient als Ersatz bei fehlender Wunschstimme. Auswahl auch ohne aktive Ansage möglich. Wird auf diesem Gerät gespeichert.
+Systemstimme wählen. Automatisch passt zur Spielsprache, auch wenn die gewählte Stimme nicht verfügbar ist.
 
 [NEW_OPTIONS_CURRENCY]
 Währung
@@ -12265,7 +12269,7 @@ Währung
 Allgemein
 
 [NEW_OPTIONS_HELP_CURRENCY]
-Ändert die Währungsoptik von Münzen, Geldsäcken, Münzleisten und Verkaufssymbolen, nicht Beträge oder Preise.
+Aussehen von Münzen und anderen Währungssymbolen ändern. Beträge und Preise bleiben gleich.
 
 [MUSIC_BOX_TUNE_CREDITSZOMBIESONYOURLAWNJP]
 Zombies auf deinem Rasen (Japanisch)
@@ -12280,7 +12284,10 @@ MV-Liedübersetzung anzeigen
 日本語
 
 [NEW_OPTIONS_HELP_MUSICVIDEOLANGUAGE]
-Wähle englischen oder japanischen Gesang samt Untertiteln für das Musikvideo. Standard: Englisch. Gilt beim nächsten Öffnen des Videos; die Oberflächensprache bleibt gleich.
+Gesangs- und Untertitelsprache des Musikvideos wählen. Gilt beim nächsten Öffnen.
+
+[NEW_OPTIONS_HELP_MUSICVIDEOTRANSLATION]
+Liedtextübersetzung in der Oberflächensprache anzeigen. Bei gleicher Sprache wie die Originaluntertitel ausgeblendet.
 
 [NEW_OPTIONS_LANGUAGE_FRENCH]
 Français
@@ -12422,3 +12429,33 @@ Ich habe auch eine Fliegengittertür dabei
 
 [CREDITS_LYRIC_GIVE_TRICYCLE]
 Gib mir das Dreirad
+
+[ALMANAC_TITLE_HERO]
+Vorstadtlexikon – Helden
+
+[HERO_SKILL_POINTS]
+Übrige Fähigkeitspunkte
+
+[HERO_MAX_LEVEL]
+Max. Stufe
+
+[HERO_REQUIRED_LEVEL]
+Ab Stufe %s
+
+[HERO_HEALTH]
+Leben
+
+[HERO_ATTACK]
+Angriff
+
+[HERO_SPEED]
+Tempo
+
+[HERO_POINTS_REMAINING]
+Übrig
+
+[A11Y_HIGH_CONTRAST]
+Hoher Kontrast
+
+[NEW_OPTIONS_HELP_HIGHCONTRAST]
+Schlachtfeldhintergrund abdunkeln und Pflanzen, Zombies und andere Objekte farbig hervorheben.

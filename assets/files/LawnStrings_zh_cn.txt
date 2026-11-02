@@ -1306,7 +1306,7 @@
 我选……这三种！
 
 [CRAZY_DAVE_1700]
-{NO_CLICK}我给你${SELL_PRICE}来换{PLANT_TYPE}！
+{NO_CLICK}我给你{CURRENCY_SYMBOL}{SELL_PRICE}来换{PLANT_TYPE}！
 
 [CRAZY_DAVE_2000]
 {NO_CLICK}把这些种在你的双重射手上，把它变成机枪射手！机枪射手一次能射出4颗豌豆！
@@ -4597,7 +4597,7 @@ It's a sprout.
 倍速
 
 [CRAZY_DAVE_9988]
-{NO_CLICK}{MOUTH_BIG_OH}你已经在我的商店里花费了$25,000金币，可真是个富哥！
+{NO_CLICK}{MOUTH_BIG_OH}你已经在我的商店里花费了{CURRENCY_SYMBOL}25,000金币，可真是个富哥！
 
 [CRAZY_DAVE_9989]
 {NO_CLICK}{SCREAM}恭喜你达成了成就——散财童子！
@@ -5718,18 +5718,18 @@ It's a sprout.
 {FLAVOR}“我是个来自古代的瓷盆，但我也是一棵植物。是不是很意外？”
 
 [WEST_FIRE_GOURD]
-火葫芦
+喷火甜椒
 
 [WEST_FIRE_GOURD_TOOLTIP]
 点燃僵尸造成持续伤害
 
 [WEST_FIRE_GOURD_DESCRIPTION]
-火葫芦能喷火，点燃僵尸造成持续伤害。即使停止攻击，灼烧伤害仍会持续一段时间。
+喷火甜椒能喷火，点燃僵尸造成持续伤害。即使停止攻击，灼烧伤害仍会持续一段时间。
 {SHORTLINE}
 {KEYWORD}伤害：{STAT}高，能穿透铁丝网门
 {KEYWORD}范围：{STAT}被火焰喷中的僵尸
 {SHORTLINE}
-{FLAVOR}“你说你在功夫世界也见到过火葫芦？”火葫芦说，“那是我的表弟。”
+{FLAVOR}“你说你在功夫世界见到过火葫芦？”喷火甜椒说，“那是我的表弟。”
 
 [WEST_BAMBOO_SHOOT]
 竹笋
@@ -5743,6 +5743,20 @@ It's a sprout.
 {KEYWORD}强度：{STAT}中等
 {SHORTLINE}
 {FLAVOR}你知道竹笋为什么可以抵挡僵尸伤害吗？其实是因为缺少攻击动画。
+
+[WALL_WINE_GOURD]
+酒葫芦
+
+[WALL_WINE_GOURD_TOOLTIP]
+使同格的其他植物暂时加速
+
+[WALL_WINE_GOURD_DESCRIPTION]
+酒葫芦飞在空中，定时为同格的其他植物斟酒，让它们暂时加速。
+{SHORTLINE}
+{KEYWORD}特点：{STAT}飞行植物，暂时加速同格的伙伴
+{KEYWORD}范围：{STAT}同格植物
+{SHORTLINE}
+{FLAVOR}酒葫芦把每次出门都称作“走访邻居”。他的拜访总是很受欢迎，只是邻居们常常还没来得及道谢，就已经忙得停不下来了。
 
 [ENDLESS_SPEW_ANEMONE]
 水枪草
@@ -6200,7 +6214,7 @@ It's a sprout.
 {FLAVOR}你问他为什么能召唤西方僵尸？因为西方僵尸坚信他是佛祖。
 
 [LINKAGE_DLC_1]
-树林：第一关
+林间激战
 
 [LINKAGE_DLC_2]
 管中窥豹
@@ -6351,29 +6365,21 @@ It's a sprout.
 [UPDATE_CONTENT]
 检测到新版本%s，是否前往更新？
 
-[HERO_CONSOLE_TITLE_PROPERTY]
-属 性
 
-[HERO_CONSOLE_TITLE_SKILL]
-技 能
 
-[HERO_CONSOLE_BUTTON_UPGRADE]
+[HERO_BUTTON_UPGRADE]
 升级
 
-[HERO_CONSOLE_BUTTON_PURCHASE]
+[HERO_BUTTON_PURCHASE]
 购买
 
-[HERO_CONSOLE_BUTTON_RESET]
+[HERO_BUTTON_RESET]
 重置
 
-[HERO_CONSOLE_BUTTON_TRAIN]
+[HERO_BUTTON_TRAIN]
 训练
 
-[HERO_CONSOLE_BUTTON_SKILL]
-技能
 
-[HERO_CONSOLE_BUTTON_BACK]
-返回
 
 [MAIN_MENU_BUTTON_HERO]
 英雄
@@ -6642,9 +6648,6 @@ It's a sprout.
 
 [HEROPLANT_UNLOCK_DIAMOND]
 %d购买
-
-[HEROPLANT_LVLUP_CONFIRM]
-你确定使用%d个元宝立刻升级英雄植物吗？
 
 [HEROPLANT_RESETSKILL_CONFIRM]
 你确定使用%d个元宝来重置英雄技能吗？
@@ -8342,7 +8345,7 @@ Español
 自动收集金币
 
 [NEW_OPTIONS_HELP_GAMEPADTRIGGERS]
-设置战斗中 LT/RT（Switch 为 ZL/ZR）的功能。默认“使用道具”：切换顶部道具，按确认键使用。“自动收集”：每次按下任一扳机，收集场上的阳光和钱币等资源；长按不连发。仍可用十字键向上进入道具区。此设置不影响菜单、选卡和花园的翻页，也不改变自动收集阳光／金币开关。
+设置战斗中 LT/RT（Switch 为 ZL/ZR）的功能：切换道具后按确认键使用，或按一次收集全场阳光和钱币。长按不连发，十字键向上仍可选道具。
 
 [NEW_OPTIONS_GAMEPAD_TRIGGERS]
 手柄扳机功能
@@ -8360,8 +8363,7 @@ Español
 启用小灵僵尸
 
 [NEW_OPTIONS_HELP_ENABLEENDLESSSTAR]
-关闭后，冒险模式和西天取经中原本有小灵僵尸的关卡不再出现小灵和地面星星，通关最多获得两星。
-修改此设置不会影响战斗中的对局，重新开始关卡后生效。继续存档时保留原有状态，已有的星级纪录不受影响。
+关闭后，冒险模式和西天取经的相关关卡不再出现小灵僵尸和地面星星，最多两星。重新开局生效，继续存档和已有星级不变。
 
 [NEW_OPTIONS_DRAW_CROSSHAIR]
 种植十字线
@@ -8412,13 +8414,13 @@ MJ
 画面拉伸
 
 [NEW_OPTIONS_HELP_SCREENSTRETCH]
-0% 保持屏幕原比例，100% 将画面布局调整为 4:3，再拉伸铺满屏幕。中间值逐渐过渡；宽屏和高屏均适用，高屏也以 4:3 为终点。拉伸会改变物体形状和可见范围。拖动后松手生效，键盘或手柄调整立即生效，设置仅保存在当前设备。
+0% 保持屏幕比例，100% 按 4:3 布局拉伸铺满屏幕，画面会变形。
 
 [NEW_OPTIONS_MOUSE_CURSOR_SIZE]
 鼠标大小
 
 [NEW_OPTIONS_HELP_MOUSECURSORSIZE]
-调整游戏光标的大小：0、0.5、1、1.5、2、2.5、3，默认 1。设为 0 时使用系统光标，游戏只提示普通、链接或文本类型，外观和大小由系统决定。修改后立即生效。
+调整游戏光标大小，1 为默认大小，0 使用系统光标。
 
 [NEW_OPTIONS_UI_LEFT_OFFSET]
 界面左边距
@@ -8481,184 +8483,142 @@ JSON
 开源许可
 
 [NEW_OPTIONS_HELP_LANGUAGE]
-选择游戏界面语言。更改后需要重启游戏，游戏进度会保留。
+选择界面语言，重启游戏后生效。
 
 [NEW_OPTIONS_HELP_MUSICVOLUME]
-调整背景音乐的音量，范围为 0% 至 100%。拖动滑块即可试听变化。
-调到 0% 会关闭音乐；重新调高可恢复音乐。此项不控制植物、僵尸和按钮等音效。
+调整背景音乐音量，0% 静音。
 
 [NEW_OPTIONS_HELP_SOUNDVOLUME]
-调整植物、僵尸、按钮等音效的音量，范围为 0% 至 100%。
-调到 0% 可静音这些音效。背景音乐的音量由“音乐音量”单独控制。
+调整植物、僵尸和按钮等音效的音量，0% 静音。
 
 [NEW_OPTIONS_HELP_FULLSCREEN]
-在窗口显示与全屏显示之间切换。全屏可让游戏占用整个显示区域。
-只有允许切换全屏的平台才会提供此项；系统固定全屏的设备不会显示这个开关。
+切换窗口或全屏显示。
 
 [NEW_OPTIONS_HELP_RUNLOCKED]
-允许游戏窗口失去焦点或最小化后继续运行。需要等待对局进程时可以开启。
-关闭后，失去焦点时会按游戏的暂停规则处理。开启会继续消耗计算资源；移动系统仍可能暂停后台应用。
+窗口失去焦点或最小化后继续运行。移动系统仍可能暂停后台应用。
 
 [NEW_OPTIONS_HELP_VIBRATION]
-允许游戏事件触发设备或手柄震动。设备和当前手柄共用这个开关。
-只有支持震动的硬件才会产生反馈；开启此项不会让不支持震动的手柄获得震动能力。关闭开关会停止当前手柄震动。
+开关设备和手柄的震动反馈。
 
 [NEW_OPTIONS_HELP_LOWLATENCYAUDIO]
-启用音频低延迟模式，缩短声音播放的缓冲时间，减少操作与声音反馈之间的延迟。
-更改后需要重启游戏才能生效；部分设备或驱动可能不支持此模式。
+减少操作与声音之间的延迟，重启游戏后生效。
 
 [NEW_OPTIONS_HELP_CAMERASIZE]
-调整战场镜头的远近。向左拉近，植物和僵尸显示得更大；向右拉远，可以看到更多场景。种子栏和菜单大小不受影响。
+向左拉近战场，向右拉远以看到更多场景。种子栏和菜单大小不变。
 
 [NEW_OPTIONS_HELP_TOPSEEDBANK]
-选择把种子栏放在画面左侧或上方。它只改变卡片栏布局，不增加可携带的卡片数量。
-较窄屏幕使用左侧种子栏时可能遮挡画面或操作区域，游戏会在需要时提示确认。
+将种子栏放在左侧或上方。窄屏使用左侧布局可能遮挡画面。
 
 [NEW_OPTIONS_HELP_BOARDLEFTOFFSET]
-调整宽屏额外空间中左侧界面元素的位置，主菜单和对局中的相关布局会使用这个设置。
-根据屏幕边缘和操作习惯拖动滑块；屏幕没有额外横向空间时，调整效果可能不明显。
+调整宽屏中左侧界面的位置，屏幕没有额外横向空间时效果不明显。
 
 [NEW_OPTIONS_HELP_BOARDRIGHTOFFSET]
-调整宽屏额外空间中右侧界面元素的位置，与左边距分别设置。
-可用它让右侧按钮远离屏幕边缘，或利用更多宽屏空间。实际移动范围取决于屏幕比例和当前布局。
+调整宽屏中右侧界面的位置，屏幕没有额外横向空间时效果不明显。
 
 [NEW_OPTIONS_HELP_COVERLAYER]
-选择场景前景遮挡物的表现：无、草丛或物品。
-可根据画面风格和视野需要选择；更改也会调整选卡过场中街道僵尸的相关站位，以配合所选遮挡物。
+选择前景遮挡物：无、草丛或物品。部分场景不支持指定遮挡物。
 
 [NEW_OPTIONS_HELP_DRAWCROSSHAIR]
-在选择种植位置时显示十字线，帮助对准草坪上的行和列。触屏或手柄操作时尤其便于确认目标位置。
-它只提供位置提示，不会自动种植，也不会改变植物的种植规则。
+种植时显示十字线，帮助对准行列。
 
 [NEW_OPTIONS_HELP_SHOWGAMEPADHINTS]
-使用手柄或键盘手柄模式时，显示当前可用操作的按键与说明，键盘显示实际键名。本地双人按 P1、P2 选择的设备常驻显示提示：鼠标不占提示位，每只手柄显示自己的图标；相同动作共用说明。
-更改后立即生效并保存。关闭提示不影响操作、焦点框或键盘作用的帮助。
+显示手柄或键盘手柄模式的按键提示。本地双人按各自设备显示，鼠标不显示按键图标。
 
 [NEW_OPTIONS_HELP_SHOWTOOLTIPS]
-允许界面显示相应的提示信息，帮助查看卡片、对象或按钮的说明。
-提示是否出现取决于当前界面、所指向的对象和输入方式；关闭后可减少画面上的提示栏。
+显示卡片、对象和按钮的提示说明。
 
 [NEW_OPTIONS_HELP_MAINMENUZOMBIEHAND]
-点击主菜单的冒险模式时，播放僵尸手破土而出的开场动画。
-关闭可跳过通常的冒险开场动画，更快进入后续流程；首次开始游戏等特定流程仍可能保留这段动画。
+进入冒险模式时播放僵尸手开场动画。首次游戏等特定流程仍会播放。
 
 [NEW_OPTIONS_HELP_ZOMBIEAPPEARANCE]
-在大头和小头两种僵尸头型之间切换，选择你喜欢的外观比例。
-这是外观设置，不改变僵尸的血量、攻击力或关卡难度。
+切换僵尸的大头或小头造型。
 
 [NEW_OPTIONS_HELP_DANCERAPPEARANCE]
-在 MJ 和迪斯科两种舞者风格之间切换，影响对应的舞王及伴舞僵尸。
-两种风格除了外观不同，移动距离等行为也存在差异，会影响实际对局表现。
+切换 MJ 或迪斯科舞王及伴舞造型，两者的移动距离等行为也有差异。
 
 [NEW_OPTIONS_HELP_SPECIALSHADERS]
-开启后显示动态泳池、火焰及柔边多触点视野。
-关闭或后端不支持时，泳池特效停绘，火焰改用固定贴图。
-管中窥豹改为单触点硬边圆形视野。
-切换立即生效，内置变色滤镜不受影响。
+控制动态泳池、火焰和柔边多触点视野。关闭后泳池特效停绘，火焰改用静态贴图，视野变为单触点硬边圆形。
 
 [NEW_OPTIONS_HELP_ENHANCEDISPLAY]
-额外显示卡片冷却以及植物、僵尸的血量信息，便于观察战况和判断操作时机。
-开启后画面上的数字和信息会增多。具体显示内容随当前模式和对象类型而定。
+显示卡片冷却和植物、僵尸的血量。
 
 [NEW_OPTIONS_HELP_GRAPHICSBACKEND]
-选择游戏使用的图形渲染后端，只列出当前平台支持的选项。一般可使用“自动”；遇到画面或兼容性问题时可尝试其他后端。
-更改后需要重启游戏。后端之间的兼容性和性能取决于设备与驱动。
+选择图形后端，通常用“自动”，画面异常时可尝试其他选项。重启游戏后生效。
 
 [NEW_OPTIONS_APPLY_SPEED_ON_NEW_LEVEL]
 开局倍速
 
 [NEW_OPTIONS_HELP_APPLYSPEEDONNEWLEVEL]
-开启后，进入新关卡时立即使用设置的倍速。默认关闭，新关卡以 1 倍速开始，可通过局内倍速按钮启用已设置的倍速。
-此设置不改变当前关卡的倍速状态。
+新关卡直接使用设置的倍速。关闭时以 1 倍速开始，可用局内倍速按钮切换。
 
 [NEW_OPTIONS_HELP_SPEED]
-调整对局运行倍速，范围为 1 至 10 倍。1 倍为正常速度，更高倍速可缩短等待时间，也会减少反应时间。
-特定模式或联机规则可能限制实际采用的速度。
+设置 1 至 10 倍游戏速度，部分模式和联机可能限制倍速。
 
 [NEW_OPTIONS_HELP_AUTOCOLLECTSUN]
-自动收集可收取的阳光，减少逐个点击的操作；关闭后可按通常方式手动收集。
+自动收集场上的阳光。
 
 [NEW_OPTIONS_HELP_AUTOCOLLECTCOIN]
-自动收集可收取的金币，减少逐个点击的操作；关闭后可手动收集。
+自动收集场上的金币。
 
 [NEW_OPTIONS_HELP_DRAGPLANTING]
-允许按住卡片并拖到目标位置，松开后按种植规则进行放置。
-关闭后主要使用先选择卡片、再点击目标位置的操作方式。种植仍需满足阳光、冷却和地形等条件。
+按住卡片拖到目标位置，松开种植；关闭时先选卡，再点位置。
 
 [NEW_OPTIONS_HELP_ONLYORIGINALFEATURES]
-让主菜单和相关内容入口以原版内容为主，隐藏或替换相应的扩展入口。
-更改后需要重启游戏。它不会删除已有进度；关闭并重启后可重新访问原有的扩展入口。
+隐藏或替换扩展内容入口，以原版内容为主。重启游戏后生效，已有进度保留。
 
 [NEW_OPTIONS_HELP_SHOWTOOLS]
-控制阳光+500、樱桃风雷、清除冷却等道具按钮的显示。
-开启这个开关不等于免费使用道具，具体消耗仍按道具规则处理。“永久免费道具”是另一项独立功能。
+显示阳光+500、樱桃风雷、清除冷却等道具按钮，使用时仍按规则消耗元宝。
 
 [NEW_OPTIONS_HELP_SHOWUNLOCKBUTTON]
-控制主菜单解锁按钮是否显示，方便需要时打开相关解锁流程。
-这个开关只控制入口的显示，不会直接解锁关卡或其他内容，实际解锁仍需完成对应流程。
+显示主菜单的解锁按钮，点击后进入解锁流程。
 
 [NEW_OPTIONS_HELP_ENABLESL]
-在对局设置中显示 S 和 L 按钮。S 表示保存当前对局，L 表示加载已经保存的对局，可用于快速存读档。
-加载会回到存档中的状态，尚未保存的对局进展会丢失。按钮是否可用仍受当前模式和联机限制影响。
+在局内设置中显示 S（保存）和 L（读档）。读档会丢弃未保存的进展，部分模式和联机不可用。
 
 [NEW_OPTIONS_HELP_FREEGOLDFINGER]
-为当前玩家启用永久免费道具，使道具使用不再消耗元宝。启用前会有确认步骤。
-这是永久功能，启用后无法通过设置关闭。它与“道具按钮”的显示开关分别控制。
+为当前玩家永久免除道具的元宝消耗，启用后无法关闭。
 
 [NEW_OPTIONS_HELP_IMPORTINTERNALDATA]
-选择由本游戏导出的存档 ZIP，校验通过后在下次启动时导入。导入前请先导出备份。
-仅替换用户资料、游戏进度、自定义关卡和大头贴图片。
+从本游戏导出的 ZIP 恢复资料、进度、自定义关卡和大头贴，下次启动生效。会替换现有数据，请先导出备份。
 
 [NEW_OPTIONS_HELP_EXPORTINTERNALDATA]
-把当前存档打包为游戏专用 ZIP，用于备份或迁移到另一台设备。导出时会尝试保存当前对局和玩家资料。
-仅包含用户资料、游戏进度、自定义关卡和大头贴图片。请通过“导入存档”恢复这种 ZIP。
+将资料、进度、自定义关卡和大头贴导出为 ZIP，用于备份或迁移，可通过“导入存档”恢复。
 
 [NEW_OPTIONS_HELP_OPENINTERNALFOLDER]
-在系统文件管理器中打开游戏的内部数据目录，便于查看或手动备份文件。
-修改、移动或删除其中的文件可能影响存档和自定义内容，操作前建议保留备份。此入口只在平台支持时显示。
+打开游戏数据文件夹，便于查看和备份。修改文件前请先备份。
 
 [NEW_OPTIONS_HELP_USERDATAFORMAT]
-选择用户资料保存时使用的格式：MessagePack 为紧凑的二进制格式，JSON 为便于阅读和编辑的文本格式。
-通常可保持默认的 MessagePack。切换格式不会立即批量转换全部旧文件，也不代替导入或导出备份。
+选择用户资料的保存格式：MessagePack 体积小（默认），JSON 便于查看和编辑。
 
 [NEW_OPTIONS_HELP_LEVELDATAFORMAT]
-选择保存当前关卡状态时使用的格式：MessagePack 为紧凑的二进制格式，JSON 便于查看和编辑。
-此项针对对局存档，不是自定义关卡文件的导入设置。通常无需修改默认格式；手动编辑前请保留备份。
+选择对局存档格式：MessagePack 体积小（默认），JSON 便于查看和编辑。
 
 [NEW_OPTIONS_HELP_CHRISTMAS]
-开启圣诞节装饰：部分僵尸的圣诞帽，以及部分场景中的圣诞袜。
+显示圣诞帽、圣诞袜等节日装饰。
 
 [NEW_OPTIONS_HELP_MUSTACHE]
-让支持该效果的僵尸长出胡子，是不改变战斗能力的外观彩蛋。也可在游戏中输入 mustache 切换。
-不作为长期设置保存。
+让部分僵尸长出胡子，也可输入 mustache 切换。重启后不保留。
 
 [NEW_OPTIONS_HELP_TRICKEDOUT]
-将适用的普通割草机切换为炫酷造型，属于外观彩蛋。也可输入 trickedout 切换。
-不作为长期设置保存。
+让普通割草机换上炫酷造型，也可输入 trickedout 切换。重启后不保留。
 
 [NEW_OPTIONS_HELP_FUTURE]
-让支持该效果的僵尸戴上未来风格的眼镜，不改变它们的战斗能力。也可输入 future 切换。
-不作为长期设置保存。
+让部分僵尸戴上未来眼镜，也可输入 future 切换。重启后不保留。
 
 [NEW_OPTIONS_HELP_DAISIES]
-让符合条件的僵尸死亡时留下菊花，是视觉彩蛋，不会种出可操作的植物。也可输入 daisies 切换。
-需要智慧树达到 100 英尺；部分僵尸或地形不会产生花朵。不作为长期设置保存。
+让部分僵尸死后留下菊花，需要智慧树 100 英尺。也可输入 daisies 切换，重启后不保留。
 
 [NEW_OPTIONS_HELP_DANCE]
-让支持该效果的僵尸边走边跳舞。也可输入 dance 切换。
-需要智慧树达到 500 英尺，并非所有僵尸类型和动作状态都支持。不作为长期设置保存。
+让部分僵尸边走边跳舞，需要智慧树 500 英尺。也可输入 dance 切换，重启后不保留。
 
 [NEW_OPTIONS_HELP_PINATA]
-让符合条件的僵尸死亡时出现糖果飞溅效果。糖果是彩蛋粒子，不是额外的金币或可收集奖励。也可输入 pinata 切换。
-需要智慧树达到 1000 英尺。不作为长期设置保存。
+让部分僵尸死后飞出糖果，需要智慧树 1000 英尺。也可输入 pinata 切换，重启后不保留。
 
 [NEW_OPTIONS_HELP_SUKHBIR]
-把部分僵尸平时的叫声替换为另一组声音。也可在游戏中输入 sukhbir 切换。
-不改变战斗能力，不作为长期设置保存。
+替换部分僵尸的叫声，也可输入 sukhbir 切换。重启后不保留。
 
 [NEW_OPTIONS_HELP_RESOURCEPACKLUASCRIPTS]
-允许资源包中的 Lua 脚本运行。脚本可以扩展界面和玩法，也可能访问文件、发起网络请求或修改存档，请只启用可信来源的脚本。
-此项与资源包本身的启用开关分别控制。更改后按资源包重载提示重启游戏；联机时请留意双方脚本配置是否一致。
+运行资源包中的 Lua 脚本，可扩展玩法，也能访问文件和网络、修改存档。请只启用可信脚本，并按提示重启。
 
 [NEW_OPTIONS_SWITCH_ON]
 开
@@ -9927,6 +9887,9 @@ P{0}
 [VS_CLASSIC]
 对战经典
 
+[VS_ALL_ZOMBIES]
+对战 全僵尸测试
+
 [VS_NIGHT]
 对战 夜晚
 
@@ -11135,7 +11098,7 @@ James Level
 万圣节模式
 
 [NEW_OPTIONS_HELP_HALLOWEEN]
-开启万圣节装饰：部分僵尸的巫师帽，以及部分场景中的南瓜灯。
+显示巫师帽、南瓜灯等万圣节装饰。
 
 [HELP_GAMEPAD_XBOX]
 Xbox 手柄
@@ -11423,6 +11386,15 @@ P{0} · {1}：请选择一张卡片
 [MULTIPLAYER_LOGIN_REQUIRED]
 请先登录，或在会话过期后重新登录。
 
+[MULTIPLAYER_SESSION_EXPIRED]
+账号登录已过期，请重新登录。
+
+[MULTIPLAYER_SESSION_REPLACED]
+账号已在其他设备登录，请重新登录。
+
+[MULTIPLAYER_SERVER_SWITCHED]
+已切换服务器，请重新登录。
+
 [MULTIPLAYER_ACCOUNT_ALREADY_IN_ROOM]
 此账号已在该房间占用席位。断线时请恢复原连接。
 
@@ -11479,6 +11451,40 @@ P{0}：{1}
 
 [SHUFFLE]
 洗牌
+
+[HOMERUN_DERBY_TUTORIAL]
+本垒打大赛2
+
+[HOMERUN_TUTORIAL_START]
+开始练习
+
+[HOMERUN_TUTORIAL_RETRY]
+再试一次
+
+[HOMERUN_TUTORIAL_BALLS_TO_GO]
+剩余
+球数
+
+[HOMERUN_TUTORIAL_STATUS]
+得分：{SCORE}  回合：{ROUND} / 20  机会：{LIVES}
+
+[HOMERUN_TUTORIAL_SWIPE]
+在左侧区域按住球，向右上方划动挥棒！
+
+[HOMERUN_TUTORIAL_READY]
+准备接球！
+
+[HOMERUN_TUTORIAL_WON]
+练习完成！
+
+[HOMERUN_TUTORIAL_LOST]
+机会用完了，再试一次吧！
+
+[HOMERUN_TUTORIAL_REPLAY]
+再投一球！
+
+[HOMERUN_TUTORIAL_MISS]
+出局
 
 [SHUFFLE_SELECT_STAKE]
 将银币、金币或钻石放进罐子，连续猜对10轮可获得十倍奖金。
@@ -12013,20 +12019,17 @@ P{0}：{1}
 生存模式
 
 [NEW_OPTIONS_HELP_ACCESSIBILITY]
-开启无障碍朗读时，键盘作用切换为“手柄”；关闭时切换为“快捷键”。之后可在“控制 → 键盘作用”单独修改，实际操作只按该选项执行。朗读关闭时也可调整音量和速度。
-
-菜单：方向键、Tab、回车、Esc。
-界面中，F2 朗读当前控件详情，F4 朗读页面内容。
-
-手柄模式下的单人操作：方向键逐格移动，J 确认或种植，K 取消，Q/E 切卡，空手时长按 K 超过一秒后松开铲除，U 执行关卡动作，Z/C 使用设置的扳机功能，回车暂停。
-查询：F1 重读，F2 当前格，F3 阳光与金币，F4 波次，F5 本行僵尸，F6 当前卡片。F9 帮助，F10 停止朗读。
-多人沿用原有操作。朗读需要系统安装对应语言的语音包，可在控制设置中关闭。
+朗读界面和战况，需要对应语言的系统语音。开启时键盘切为“手柄”，关闭时切为“快捷键”，也可单独修改“键盘作用”。
+菜单：方向键/Tab 移动，Enter 确认，Esc 返回；F2 控件详情，F4 页面内容。
+单人战斗（手柄模式）：方向键移动，J 确认/种植，K 取消，Q/E 换卡，Z/C 扳机功能，U 关卡动作，Enter 暂停。空手长按 K 超过 1 秒后松开可铲除。
+查询：F1 重读，F2 当前格，F3 阳光与金币，F4 波次，F5 本行僵尸，F6 当前卡片。
+F9 操作帮助，F10 停止朗读。多人操作不变。
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYVOLUME]
-调整朗读音量，不改变游戏音乐和音效的音量。
+调整朗读音量，音乐和音效不变。
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYRATE]
-调整朗读速度。0 使用默认速度，正数加快，负数减慢。
+调整朗读速度：0 为默认，正数加快，负数减慢。
 
 [A11Y_GRAVE]
 墓碑
@@ -12233,14 +12236,14 @@ F2 朗读当前项目的详细介绍。
 手柄
 
 [NEW_OPTIONS_HELP_KEYBOARDMODE]
-单人战斗可选择“快捷键”或“手柄”，默认快捷键。实际操作只按此选项执行。切换无障碍朗读开关会相应切为手柄或快捷键，之后可在这里单独修改。手柄模式固定键位：
-WASD：左摇杆（移动）　方向键：十字键
-J / K / U / I：A / B / X / Y
-Q / E：LB / RB（换卡）　Z / C：LT / RT
-小键盘 8 / 2 / 4 / 6：右摇杆
-Enter：Start　Backspace：Back　Esc：原有菜单
-普通战斗 J 种植、K 取消，空手对准植物长按 K 超过一秒后松开铲除；U 执行关卡动作。
-本地双人仍按大厅设备分配使用键盘，联机保留原有快捷键。文本框、弹窗、暂停时暂停映射；恢复时先松开所有映射键。
+单人战斗可用快捷键或键盘模拟手柄。手柄键位：
+WASD：左摇杆　方向键：十字键
+J/K/U/I：A/B/X/Y　Q/E：LB/RB（换卡）
+Z/C：LT/RT　小键盘 8/2/4/6：右摇杆
+Enter：暂停　Backspace：返回　Esc：菜单　Tab：变速
+单人手柄模式还支持主键盘 1–0 选卡/工具、空格暂停；其余原有快捷键停用。
+J 种植，K 取消，空手长按 K 超过 1 秒后松开铲除；U 执行关卡动作。
+切换朗读开关会改变此项。联机沿用快捷键，本地双人按大厅分配。
 
 [NEW_OPTIONS_SECTION_INPUT]
 操作
@@ -12261,7 +12264,7 @@ Enter：Start　Backspace：Back　Esc：原有菜单
 不可用
 
 [NEW_OPTIONS_HELP_ACCESSIBILITYVOICE]
-选择系统已安装的语音。自动选择按游戏语言匹配；所选语音不可用时自动回退。关闭朗读时也可选择，设置按设备保存。
+选择系统语音。“自动”按游戏语言匹配，所选语音不可用时也会自动匹配。
 
 [NEW_OPTIONS_CURRENCY]
 货币
@@ -12270,7 +12273,7 @@ Enter：Start　Backspace：Back　Esc：原有菜单
 通用
 
 [NEW_OPTIONS_HELP_CURRENCY]
-切换金币、钱袋、金币栏和出售图标的货币外观，不改变金额或价格。
+切换金币等货币图标的外观，金额和价格不变。
 
 [MUSIC_BOX_TUNE_CREDITSZOMBIESONYOURLAWNJP]
 草坪上的僵尸（日文）
@@ -12285,7 +12288,10 @@ MV 语言
 日本語
 
 [NEW_OPTIONS_HELP_MUSICVIDEOLANGUAGE]
-选择 MV 的演唱和字幕语言，默认英文，下次进入 MV 时生效，不改变界面语言。
+选择 MV 的演唱和字幕语言，下次打开 MV 时生效。
+
+[NEW_OPTIONS_HELP_MUSICVIDEOTRANSLATION]
+按界面语言显示 MV 歌词译文，与原字幕同语言时不显示。
 
 [NEW_OPTIONS_LANGUAGE_FRENCH]
 Français
@@ -12427,3 +12433,33 @@ Svenska
 
 [CREDITS_LYRIC_GIVE_TRICYCLE]
 把那辆三轮车给我吧
+
+[ALMANAC_TITLE_HERO]
+大图鉴 - 英雄
+
+[HERO_SKILL_POINTS]
+剩余技能点
+
+[HERO_MAX_LEVEL]
+已满级
+
+[HERO_REQUIRED_LEVEL]
+%s级解锁
+
+[HERO_HEALTH]
+生命
+
+[HERO_ATTACK]
+攻击
+
+[HERO_SPEED]
+速度
+
+[HERO_POINTS_REMAINING]
+剩余
+
+[A11Y_HIGH_CONTRAST]
+高对比度
+
+[NEW_OPTIONS_HELP_HIGHCONTRAST]
+压暗战场背景，用醒目颜色突出植物、僵尸等对象。
