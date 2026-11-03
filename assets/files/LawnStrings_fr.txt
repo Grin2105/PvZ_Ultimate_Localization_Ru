@@ -9807,7 +9807,7 @@ Ouest difficile
 Multijoueur
 
 [LEVEL_TITLE_COOP]
-Niveaux coopératifs
+Niveaux Co-op
 
 [CHALLENGE_CATEGORY_ADVENTURE]
 Mode Aventure
@@ -9837,37 +9837,37 @@ Autres jeux
 Original Ultimate
 
 [COOP_DAY]
-Coop : Jour
+Co-op Jour
 
 [COOP_NIGHT]
-Coop : Nuit
+Co-op Nuit
 
 [COOP_POOL]
-Coop : Piscine
+Co-op Eau
 
 [COOP_ROOF]
-Coop : Toit
+Co-op Toit
 
 [COOP_BOWLING]
-Coop : Bowling
+Co-op Bowling
 
 [COOP_HARD_1]
-Coop : Jour difficile
+Co-op Jour (dur)
 
 [COOP_HARD_2]
-Coop : Nuit difficile
+Co-op Nuit (dur)
 
 [COOP_HARD_3]
-Coop : Piscine difficile
+Co-op Eau (dur)
 
 [COOP_HARD_4]
-Coop : Toit difficile
+Co-op Toit (dur)
 
 [COOP_FINAL_BOSS]
-Coop : Zomboss
+Co-op Dr. Zomboss
 
 [COOP_ENDLESS]
-Coop : Infini
+Co-op Sans fin
 
 [COOP_SUN_PLAYER]
 J{0}
@@ -9906,7 +9906,7 @@ Duel : Toit
 Niveaux de duel
 
 [MULTIPLAYER_CATEGORY_COOP]
-Niveaux coopératifs
+Niveaux Co-op
 
 [MULTIPLAYER_CATEGORY_KINGDOM]
 Monde du Royaume
@@ -12234,14 +12234,14 @@ Raccourcis
 Manette
 
 [NEW_OPTIONS_HELP_KEYBOARDMODE]
-Raccourcis ou émulation de manette en solo. Touches du mode manette :
+Raccourcis ou émulation de manette en solo et en ligne. Touches du mode manette :
 WASD : stick gauche ; flèches : croix
 J/K/U/I : A/B/X/Y ; Q/E : LB/RB (cartes)
 Z/C : LT/RT ; pavé numérique 8/2/4/6 : stick droit
-Enter : pause ; Backspace : retour ; Esc : menu ; Tab : vitesse
-En mode manette solo, 1–0 de la rangée supérieure sélectionnent les cartes/outils et Espace met en pause ; les autres anciens raccourcis sont désactivés.
+Enter : pause ; Backspace : retour ; Esc : menu ; Tab : vitesse en solo
+En mode manette, 1–0 de la rangée supérieure sélectionnent vos propres cartes/outils et Espace met en pause ; les autres anciens raccourcis sont désactivés.
 J plante, K annule. Les mains vides, maintenez K plus de 1 seconde puis relâchez pour déterrer. U : action du niveau.
-Changer la lecture vocale modifie ce choix. En ligne : raccourcis ; à deux en local : attribution du salon.
+Changer la lecture vocale modifie ce choix. À deux en local, les appareils sont attribués dans le salon ; en solo et en ligne, ce réglage s'applique.
 
 [NEW_OPTIONS_SECTION_INPUT]
 Saisie

@@ -9836,22 +9836,22 @@ Samarbete: tak
 Samarbete: bowlingbana
 
 [COOP_HARD_1]
-Allians: svår dag
+Samarbete: svår dag
 
 [COOP_HARD_2]
-Allians: svår natt
+Samarbete: svår natt
 
 [COOP_HARD_3]
-Allians: svår pool
+Samarbete: svår pool
 
 [COOP_HARD_4]
-Allians: svårt tak
+Samarbete: svårt tak
 
 [COOP_FINAL_BOSS]
-Allians: zombieboss
+Samarbete: zombieboss
 
 [COOP_ENDLESS]
-Allians: oändligt läge
+Samarbete: oändligt läge
 
 [COOP_SUN_PLAYER]
 S{0}
@@ -12218,14 +12218,14 @@ Kortkommandon
 Handkontroll
 
 [NEW_OPTIONS_HELP_KEYBOARDMODE]
-Använd kortkommandon eller emulera en handkontroll i solostrider. Knappar:
+Använd kortkommandon eller emulera en handkontroll i solo- och onlinestrider. Knappar:
 WASD: vänster spak; pilar: styrkors
 J/K/U/I: A/B/X/Y; Q/E: LB/RB (kort)
 Z/C: LT/RT; numeriskt 8/2/4/6: höger spak
-Enter: paus; Backspace: tillbaka; Esc: meny; Tab: hastighet
-I sololägets handkontrollsläge väljer övre sifferraden 1–0 kort/verktyg och mellanslag pausar; övriga gamla kortkommandon är avstängda.
+Enter: paus; Backspace: tillbaka; Esc: meny; Tab: hastighet i sololäge
+I handkontrollsläge väljer övre sifferraden 1–0 dina egna kort/verktyg och mellanslag pausar; övriga gamla kortkommandon är avstängda.
 J planterar, K avbryter. Med tomma händer, håll K över 1 sekund och släpp för att gräva. U: nivåhandling.
-Att växla uppläsning ändrar detta. Online använder kortkommandon; lokalt för två gäller lobbytilldelningen.
+Att växla uppläsning ändrar detta. Lokalt för två gäller lobbytilldelningen av enheter; solo och online följer denna inställning.
 
 [NEW_OPTIONS_SECTION_INPUT]
 Inmatning

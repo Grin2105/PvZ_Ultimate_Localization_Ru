@@ -9841,22 +9841,22 @@ Cooperação: telhado
 Cooperação: boliche
 
 [COOP_HARD_1]
-Aliança: dia difícil
+Cooperação: dia difícil
 
 [COOP_HARD_2]
-Aliança: noite difícil
+Cooperação: noite difícil
 
 [COOP_HARD_3]
-Aliança: piscina difícil
+Cooperação: piscina difícil
 
 [COOP_HARD_4]
-Aliança: telhado difícil
+Cooperação: telhado difícil
 
 [COOP_FINAL_BOSS]
-Aliança: chefe zumbi
+Cooperação: chefe zumbi
 
 [COOP_ENDLESS]
-Aliança: modo infinito
+Cooperação: modo infinito
 
 [COOP_SUN_PLAYER]
 J{0}
@@ -12223,14 +12223,14 @@ Atalhos
 Controle
 
 [NEW_OPTIONS_HELP_KEYBOARDMODE]
-Use atalhos ou simule um controle nas batalhas solo. Teclas do controle:
+Use atalhos ou simule um controle nas batalhas solo e online. Teclas do controle:
 WASD: analógico esquerdo; setas: direcional
 J/K/U/I: A/B/X/Y; Q/E: LB/RB (cartas)
 Z/C: LT/RT; teclado numérico 8/2/4/6: analógico direito
-Enter: pausa; Backspace: voltar; Esc: menu; Tab: velocidade
-No modo controle solo, 1–0 da fileira superior selecionam cartas/ferramentas e Espaço pausa; os demais atalhos antigos ficam desativados.
+Enter: pausa; Backspace: voltar; Esc: menu; Tab: velocidade no modo solo
+No modo controle, 1–0 da fileira superior selecionam suas próprias cartas/ferramentas e Espaço pausa; os demais atalhos antigos ficam desativados.
 J planta, K cancela. Com as mãos vazias, segure K por mais de 1 segundo e solte para usar a pá. U: ação da fase.
-Alternar a leitura muda esta opção. Online usa atalhos; local para dois segue a atribuição da sala.
+Alternar a leitura muda esta opção. No modo local para dois, valem os dispositivos atribuídos na sala; nos modos solo e online, vale esta configuração.
 
 [NEW_OPTIONS_SECTION_INPUT]
 Entrada

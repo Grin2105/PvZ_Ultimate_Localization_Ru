@@ -9805,7 +9805,7 @@ Westen – Schwer
 Mehrspieler
 
 [LEVEL_TITLE_COOP]
-Koop-Level
+Co-op-Level
 
 [CHALLENGE_CATEGORY_ADVENTURE]
 Abenteuer
@@ -9835,16 +9835,16 @@ Weitere Spiele
 Ultimate-Original
 
 [COOP_DAY]
-Koop: Tag
+Co-op: Tag
 
 [COOP_NIGHT]
-Koop: Nacht
+Co-op: Nacht
 
 [COOP_POOL]
-Koop: Pool
+Co-op: Pool
 
 [COOP_ROOF]
-Koop: Dach
+Co-op: Dach
 
 [COOP_BOWLING]
 Co-op: Bowling
@@ -9904,7 +9904,7 @@ Duell: Dach
 Duell-Level
 
 [MULTIPLAYER_CATEGORY_COOP]
-Koop-Level
+Co-op-Level
 
 [MULTIPLAYER_CATEGORY_KINGDOM]
 Königreich-Welt
@@ -12232,14 +12232,14 @@ Tastenkürzel
 Gamepad
 
 [NEW_OPTIONS_HELP_KEYBOARDMODE]
-Im Einzelkampf Tastenkürzel oder Gamepad-Emulation nutzen. Gamepad-Tasten:
+Im Einzel- und Onlinekampf Tastenkürzel oder Gamepad-Emulation nutzen. Gamepad-Tasten:
 WASD: linker Stick; Pfeile: Steuerkreuz
 J/K/U/I: A/B/X/Y; Q/E: LB/RB (Karten)
 Z/C: LT/RT; Ziffernblock 8/2/4/6: rechter Stick
-Enter: Pause; Backspace: Zurück; Esc: Menü; Tab: Tempo
-Im Einzelspieler-Gamepad-Modus: obere Zahlenreihe 1–0 für Karten/Werkzeuge, Leertaste für Pause; andere bisherige Tastenkürzel sind deaktiviert.
+Enter: Pause; Backspace: Zurück; Esc: Menü; Tab: Tempo im Einzelspiel
+Im Gamepad-Modus: obere Zahlenreihe 1–0 für eigene Karten/Werkzeuge, Leertaste für Pause; andere bisherige Tastenkürzel sind deaktiviert.
 J pflanzt, K bricht ab. Mit leeren Händen K über 1 Sekunde halten und zum Schaufeln loslassen. U: Levelaktion.
-Vorlesen umschalten ändert diese Einstellung. Online gelten Tastenkürzel, lokal zu zweit die Lobby-Zuweisungen.
+Vorlesen umschalten ändert diese Einstellung. Lokal zu zweit gelten die Lobby-Zuweisungen; allein und online gilt diese Einstellung.
 
 [NEW_OPTIONS_SECTION_INPUT]
 Eingabe

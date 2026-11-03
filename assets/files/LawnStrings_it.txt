@@ -9808,7 +9808,7 @@ Occidente difficile
 Multigiocatore
 
 [LEVEL_TITLE_COOP]
-Livelli cooperativi
+Livelli a due
 
 [CHALLENGE_CATEGORY_ADVENTURE]
 Modalità Avventura
@@ -9838,37 +9838,37 @@ Altri giochi
 Originale Ultimate
 
 [COOP_DAY]
-Coop: Giorno
+A due - Diurna
 
 [COOP_NIGHT]
-Coop: Notte
+A due - Notturna
 
 [COOP_POOL]
-Coop: Piscina
+A due - In piscina
 
 [COOP_ROOF]
-Coop: Tetto
+A due - Sul tetto
 
 [COOP_BOWLING]
-Coop: Bowling
+A due - Bowling
 
 [COOP_HARD_1]
-Coop: Giorno difficile
+A due - Diurna (difficile)
 
 [COOP_HARD_2]
-Coop: Notte difficile
+A due - Notturna (difficile)
 
 [COOP_HARD_3]
-Coop: Piscina difficile
+A due - In piscina (difficile)
 
 [COOP_HARD_4]
-Coop: Tetto difficile
+A due - Sul tetto (difficile)
 
 [COOP_FINAL_BOSS]
-Coop: Zombotron
+A due - Prof. Zombotron
 
 [COOP_ENDLESS]
-Coop: Infinita
+A due - Infinita
 
 [COOP_SUN_PLAYER]
 G{0}
@@ -9907,7 +9907,7 @@ Versus: Tetto
 Livelli Versus
 
 [MULTIPLAYER_CATEGORY_COOP]
-Livelli cooperativi
+Livelli a due
 
 [MULTIPLAYER_CATEGORY_KINGDOM]
 Mondo del Regno
@@ -12235,14 +12235,14 @@ Scorciatoie
 Gamepad
 
 [NEW_OPTIONS_HELP_KEYBOARDMODE]
-Usa scorciatoie o emula un gamepad nelle battaglie singole. Tasti gamepad:
+Usa scorciatoie o emula un gamepad nelle battaglie singole e online. Tasti gamepad:
 WASD: levetta sinistra; frecce: croce direzionale
 J/K/U/I: A/B/X/Y; Q/E: LB/RB (carte)
 Z/C: LT/RT; tastierino 8/2/4/6: levetta destra
-Enter: pausa; Backspace: indietro; Esc: menu; Tab: velocità
-In modalità gamepad singolo, 1–0 della fila superiore selezionano carte/strumenti e Spazio mette in pausa; le altre scorciatoie precedenti sono disattivate.
+Enter: pausa; Backspace: indietro; Esc: menu; Tab: velocità in singolo
+In modalità gamepad, 1–0 della fila superiore selezionano le tue carte/strumenti e Spazio mette in pausa; le altre scorciatoie precedenti sono disattivate.
 J pianta, K annulla. A mani vuote, tieni K oltre 1 secondo e rilascia per usare la pala. U: azione del livello.
-Cambiare la lettura modifica questa scelta. Online: scorciatoie; locale a due: assegnazioni della sala.
+Cambiare la lettura modifica questa scelta. In locale a due valgono le assegnazioni della sala; in singolo e online vale questa impostazione.
 
 [NEW_OPTIONS_SECTION_INPUT]
 Input

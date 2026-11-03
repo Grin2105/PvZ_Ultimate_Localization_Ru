@@ -12270,14 +12270,14 @@ Shortcuts
 Gamepad
 
 [NEW_OPTIONS_HELP_KEYBOARDMODE]
-Use shortcuts or emulate a gamepad in solo battles. Gamepad keys:
+Use shortcuts or emulate a gamepad in solo and online battles. Gamepad keys:
 WASD: left stick; Arrows: D-pad
 J/K/U/I: A/B/X/Y; Q/E: LB/RB (cards)
 Z/C: LT/RT; Numpad 8/2/4/6: right stick
-Enter: pause; Backspace: Back; Esc: menu; Tab: speed
-Solo gamepad mode also allows top-row 1–0 for cards/tools and Space to pause; other legacy shortcuts are disabled.
+Enter: pause; Backspace: Back; Esc: menu; Tab: solo speed
+Gamepad mode also allows top-row 1–0 to select your own cards/tools and Space to pause; other legacy shortcuts are disabled.
 J plants, K cancels; with empty hands, hold K over 1 second and release to shovel. U performs level actions.
-Toggling narration changes this setting. Online play uses shortcuts; local co-op follows lobby assignments.
+Toggling narration changes this setting. Local two-player games use lobby device assignments; solo and online games use this setting.
 
 [NEW_OPTIONS_SECTION_INPUT]
 Input

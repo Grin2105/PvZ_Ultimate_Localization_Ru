@@ -9878,7 +9878,7 @@ Viaje al Oeste (difícil)
 Multijugador
 
 [LEVEL_TITLE_COOP]
-Niveles Cooper.
+Niveles Coop
 
 [CHALLENGE_CATEGORY_ADVENTURE]
 Aventura
@@ -9908,37 +9908,37 @@ Más Modos
 Original del Mod
 
 [COOP_DAY]
-Día (Cooperativo)
+Coop: Día
 
 [COOP_NIGHT]
-Noche (Cooperativo)
+Coop: Noche
 
 [COOP_POOL]
-Piscina (Cooperativo)
+Coop: Piscina
 
 [COOP_ROOF]
-Tejado (Cooperativo)
+Coop: Tejado
 
 [COOP_BOWLING]
-La Bolera (Cooperativo)
+Coop: Bolos
 
 [COOP_HARD_1]
-Cooperativo difícil: Día
+Coop: Día (difícil)
 
 [COOP_HARD_2]
-Cooperativo difícil: Noche
+Coop: Noche (difícil)
 
 [COOP_HARD_3]
-Cooperativo difícil: Piscina
+Coop: Piscina (difícil)
 
 [COOP_HARD_4]
-Cooperativo difícil: Tejado
+Coop: Tejado (difícil)
 
 [COOP_FINAL_BOSS]
-Dr. Zombi cooperativo
+Coop: Dr. Zombi
 
 [COOP_ENDLESS]
-Cooperativo sin fin
+Coop: Infinito
 
 [COOP_SUN_PLAYER]
 J{0}
@@ -9977,7 +9977,7 @@ Modo VS (Tejado)
 Niveles VS
 
 [MULTIPLAYER_CATEGORY_COOP]
-Niveles Cooper.
+Niveles Coop
 
 [MULTIPLAYER_CATEGORY_KINGDOM]
 Los Reinos
@@ -12318,14 +12318,14 @@ Atajos
 Mando
 
 [NEW_OPTIONS_HELP_KEYBOARDMODE]
-Usa atajos o emula un mando en combates individuales. Teclas del mando:
+Usa atajos o emula un mando en combates individuales y en línea. Teclas del mando:
 WASD: palanca izquierda; flechas: cruceta
 J/K/U/I: A/B/X/Y; Q/E: LB/RB (cartas)
 Z/C: LT/RT; teclado numérico 8/2/4/6: palanca derecha
-Enter: pausa; Backspace: volver; Esc: menú; Tab: velocidad
-El modo mando individual también permite 1–0 de la fila superior para cartas/herramientas y Espacio para pausar; los demás atajos anteriores se desactivan.
+Enter: pausa; Backspace: volver; Esc: menú; Tab: velocidad en solitario
+El modo mando también permite 1–0 de la fila superior para elegir tus propias cartas/herramientas y Espacio para pausar; los demás atajos anteriores se desactivan.
 J planta, K cancela. Con las manos vacías, mantén K más de 1 segundo y suelta para cavar. U: acción del nivel.
-Cambiar la lectura modifica este ajuste. En línea: atajos; en local para dos: asignaciones de la sala.
+Cambiar la lectura modifica este ajuste. En local para dos se usa la asignación de la sala; en solitario y en línea se usa este ajuste.
 
 [NEW_OPTIONS_SECTION_INPUT]
 Entrada

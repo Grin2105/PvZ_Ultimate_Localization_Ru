@@ -9839,22 +9839,22 @@ Samen: dak
 Samen: bowlingbaan
 
 [COOP_HARD_1]
-Verbond: dag, moeilijk
+Samen: dag, moeilijk
 
 [COOP_HARD_2]
-Verbond: nacht, moeilijk
+Samen: nacht, moeilijk
 
 [COOP_HARD_3]
-Verbond: zwembad, moeilijk
+Samen: zwembad, moeilijk
 
 [COOP_HARD_4]
-Verbond: dak, moeilijk
+Samen: dak, moeilijk
 
 [COOP_FINAL_BOSS]
-Verbond: zombie-eindbaas
+Samen: zombie-eindbaas
 
 [COOP_ENDLESS]
-Verbond: eindeloos
+Samen: eindeloos
 
 [COOP_SUN_PLAYER]
 S{0}
@@ -12221,14 +12221,14 @@ Sneltoetsen
 Controller
 
 [NEW_OPTIONS_HELP_KEYBOARDMODE]
-Gebruik sneltoetsen of gamepad-emulatie in solo-gevechten. Controller-toetsen:
+Gebruik sneltoetsen of gamepad-emulatie in solo- en onlinegevechten. Controller-toetsen:
 WASD: linker stick; pijlen: D-pad
 J/K/U/I: A/B/X/Y; Q/E: LB/RB (kaarten)
 Z/C: LT/RT; numeriek 8/2/4/6: rechter stick
-Enter: pauze; Backspace: terug; Esc: menu; Tab: snelheid
-In solo-gamepadmodus kiest de bovenste cijferrij 1–0 kaarten/gereedschap en pauzeert Spatie; andere oude sneltoetsen zijn uitgeschakeld.
+Enter: pauze; Backspace: terug; Esc: menu; Tab: snelheid in solo
+In gamepadmodus kiest de bovenste cijferrij 1–0 je eigen kaarten/gereedschap en pauzeert Spatie; andere oude sneltoetsen zijn uitgeschakeld.
 J plant, K annuleert. Houd met lege handen K langer dan 1 seconde vast en laat los om te scheppen. U: levelactie.
-Voorlezen omschakelen wijzigt dit ook. Online gebruikt sneltoetsen; lokaal met twee gelden lobbytoewijzingen.
+Voorlezen omschakelen wijzigt dit ook. Lokaal met twee gelden de apparaattoewijzingen uit de lobby; solo en online geldt deze instelling.
 
 [NEW_OPTIONS_SECTION_INPUT]
 Bediening
