@@ -11482,7 +11482,7 @@ Treino concluído!
 As chances acabaram. Tente de novo!
 
 [HOMERUN_TUTORIAL_REPLAY]
-Mais um arremesso!
+Erro
 
 [HOMERUN_TUTORIAL_MISS]
 Eliminado

@@ -11480,7 +11480,7 @@ Training voltooid!
 Geen kansen meer. Probeer het opnieuw!
 
 [HOMERUN_TUTORIAL_REPLAY]
-Nog een worp!
+Fout
 
 [HOMERUN_TUTORIAL_MISS]
 Uit

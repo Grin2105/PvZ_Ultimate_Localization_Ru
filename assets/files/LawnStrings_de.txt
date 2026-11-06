@@ -11491,7 +11491,7 @@ Training abgeschlossen!
 Keine Versuche mehr. Versuch es noch einmal!
 
 [HOMERUN_TUTORIAL_REPLAY]
-Noch ein Wurf!
+Fehler
 
 [HOMERUN_TUTORIAL_MISS]
 Aus

@@ -11493,7 +11493,7 @@ Entraînement terminé !
 Plus de chances. Réessaie !
 
 [HOMERUN_TUTORIAL_REPLAY]
-Encore un lancer !
+Erreur
 
 [HOMERUN_TUTORIAL_MISS]
 Retrait

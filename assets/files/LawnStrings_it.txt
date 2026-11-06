@@ -11494,7 +11494,7 @@ Allenamento completato!
 Tentativi esauriti. Riprova!
 
 [HOMERUN_TUTORIAL_REPLAY]
-Un altro lancio!
+Errore
 
 [HOMERUN_TUTORIAL_MISS]
 Eliminato

@@ -11420,7 +11420,7 @@ Steam 게임패드
 남은 기회가 없습니다. 다시 도전하세요!
 
 [HOMERUN_TUTORIAL_REPLAY]
-한 번 더 투구!
+실책
 
 [HOMERUN_TUTORIAL_MISS]
 아웃

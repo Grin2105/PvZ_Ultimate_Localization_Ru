@@ -11527,7 +11527,7 @@ Practice complete!
 Out of chances. Try again!
 
 [HOMERUN_TUTORIAL_REPLAY]
-One more pitch!
+Error
 
 [HOMERUN_TUTORIAL_MISS]
 Out

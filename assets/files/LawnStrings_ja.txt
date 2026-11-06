@@ -12184,7 +12184,7 @@ Steamコントローラー
 チャンスがなくなりました。もう一度挑戦しよう！
 
 [HOMERUN_TUTORIAL_REPLAY]
-もう一球！
+エラー
 
 [HOMERUN_TUTORIAL_MISS]
 アウト

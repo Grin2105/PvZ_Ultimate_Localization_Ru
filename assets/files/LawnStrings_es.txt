@@ -11575,7 +11575,7 @@ Puntos: {SCORE}  Bola: {ROUND} / 20  Intentos: {LIVES}
 ¡Sin intentos! Vuelve a intentarlo.
 
 [HOMERUN_TUTORIAL_REPLAY]
-¡Otro lanzamiento!
+Error
 
 [HOMERUN_TUTORIAL_MISS]
 Fuera

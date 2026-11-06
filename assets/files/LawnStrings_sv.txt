@@ -11477,7 +11477,7 @@ Träningen är klar!
 Inga chanser kvar. Försök igen!
 
 [HOMERUN_TUTORIAL_REPLAY]
-Ett kast till!
+Fel
 
 [HOMERUN_TUTORIAL_MISS]
 Ute

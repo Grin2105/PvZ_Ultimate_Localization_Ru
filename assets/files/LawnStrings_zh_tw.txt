@@ -11494,7 +11494,7 @@ P{0}：{1}
 機會用完了，再試一次吧！
 
 [HOMERUN_TUTORIAL_REPLAY]
-再投一球！
+失誤
 
 [HOMERUN_TUTORIAL_MISS]
 出局

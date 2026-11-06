@@ -11476,7 +11476,7 @@ Switch / Пара Joy-Con
 Попытки исчерпаны. Ещё раз!
 
 [HOMERUN_TUTORIAL_REPLAY]
-Ещё одна подача!
+Ошибка
 
 [HOMERUN_TUTORIAL_MISS]
 Аут
