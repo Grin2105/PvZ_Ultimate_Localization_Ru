@@ -2919,7 +2919,7 @@ Si crees que la Plantorcha descongela los disparos del Hielaguisantes; amigo, de
 Los minijuegos Carrera de bobsleigh y Saltimbanquis son muy, muy, muy, pero que muy difíciles. ¿Quieres quitar un 'muy'? Pues usa Apisonaflores.
 
 [TREE_OF_WISDOM_30]
-Justo cuando pensabas que los Jalapeños no tenían más usos, va el Árbol de la sabiduría y te sopla que también deshacen los rastros de hielo!
+¡Justo cuando pensabas que los Jalapeños no tenían más usos, va el Árbol de la sabiduría y te sopla que también deshacen los rastros de hielo!
 
 [TREE_OF_WISDOM_31]
 Cuando hayas adquirido la Imitadora, toca la silueta situada arriba a la izquierda en el Almanaque para ver la descripción.
@@ -4591,7 +4591,7 @@ Supervivencia: Muralla China
 Velocidad
 
 [CRAZY_DAVE_9988]
-{NO_CLICK}{MOUTH_BIG_OH}¡Te gastaste 25000 monedas en mi tienda! ¡Que millonada!
+{NO_CLICK}{MOUTH_BIG_OH}¡Te gastaste 25000 monedas en mi tienda! ¡Qué millonada!
 
 [CRAZY_DAVE_9989]
 {NO_CLICK}{SCREAM}¡Oficialmente tienes una adicción a las Compras!
@@ -5712,7 +5712,7 @@ Maceta de Porcelana permite plantar en la Muralla China.
 {KEYWORD}Especial:{STAT} permite plantar sobre el suelo
 {KEYWORD}Restricción:{NOCTURNAL} solo se puede usar en niveles de la Muralla China
 {SHORTLINE}
-{FLAVOR}"Siempre me preguntan si soy la maceta de porcelana completa o solamente el brote que sale de mi. Nunca les doy una respuesta directa, siempre les pregunto ¿Y sabes quién realmente eres tú?"
+{FLAVOR}"Siempre me preguntan si soy la maceta de porcelana completa o solamente el brote que sale de mí. Nunca les doy una respuesta directa, siempre les pregunto ¿Y sabes quién realmente eres tú?"
 
 [WEST_FIRE_GOURD]
 Pimiento lanzallamas
@@ -5852,7 +5852,7 @@ El Frijol Láser lanza rayos por una línea, golpeando a los zombis adelante de 
 {KEYWORD}Ataque normal:{STAT} normal
 {KEYWORD}Alcance especial:{STAT} hacia delante
 {KEYWORD}Ataque especial:{STAT} fuerte
-{FLAVOR}Después de una cirugía ocular fallida, el Frijol Láser encontró un sentido de proposito con su nuevo poder.
+{FLAVOR}Después de una cirugía ocular fallida, el Frijol Láser encontró un sentido de propósito con su nuevo poder.
 
 [ENDLESS_DANDELION]
 Diente de León
@@ -6141,11 +6141,11 @@ El sol se levanta, las setas descansan, y la cabeza del demonio está dando su �
 Calabaza Vampiro
 
 [ULTIMATE_HALLOWEEN_PUMPKIN_TOOLTIP]
-Protege a otras plantas y se autorepara.
+Protege a otras plantas y se autorrepara.
 (requiere Calabaza)
 
 [ULTIMATE_HALLOWEEN_PUMPKIN_DESCRIPTION]
-La Calabaza Vampiro protege a las plantas de su interior y se autorepara cuando no la muerden.
+La Calabaza Vampiro protege a las plantas de su interior y se autorrepara cuando no la muerden.
 {SHORTLINE}
 {KEYWORD}Dureza:{STAT} alta
 {KEYWORD}Especial:{STAT} se planta sobre otras plantas
@@ -6387,7 +6387,7 @@ Nuez Stark
 Son Guisantes
 
 [HEROPLANT_NAME_2]
-Apisonapig
+Apisonacerdo
 
 [HEROPLANT_NAME_3]
 Nuez Wujing
@@ -6417,7 +6417,7 @@ Invoca la Nuez Stark, una nuez resistente que puede atacar a distancia. ¡Todo u
 Invoca al Son Guisante y desata el poder de sus ojos y bastón dorados.
 
 [HEROPLANT_DESC_2]
-Invoca al Apisonapig y aplasta a todos los zombis con su cuerpo pesado
+Invoca al Apisonacerdo y aplasta a todos los zombis con su cuerpo pesado
 
 [HEROPLANT_DESC_3]
 Invoca la Nuez Wujing, ¡su cuerpo esbelto frena el avance de los zombis!
@@ -6453,7 +6453,7 @@ Misil Balístico
 Probabilidad del %s %% de lanzar un misil balístico, haciendo un gran daño al impacto.
 
 [HEROPLANT_0_SKILL_4]
-Autoreparación (Desbloquear al Nv.5)
+Autorreparación (Desbloquear al Nv.5)
 Mientras no es mordida se cura %s %% de su vida máxima.
 
 [HEROPLANT_0_SKILL_5]
@@ -6518,7 +6518,7 @@ Aumenta un %s %% la salud máxima de las demás nueces del césped.
 
 [HEROPLANT_3_SKILL_5]
 Boliche (Desbloquear al Nv.10)
-Cada %s segundos, cuando esta bajo de vida, rueda hacia adelante y aplasta a los zombis que estén adelante.
+Cada %s segundos, cuando está bajo de vida, rueda hacia adelante y aplasta a los zombis que estén adelante.
 
 [HEROPLANT_4_SKILL_1]
 Aceleración
@@ -6557,7 +6557,7 @@ Velocidad del Trueno (Desbloquear al Nv.5)
 Incrementa la Velocidad de disparo del héroe en %s %%.
 
 [HEROPLANT_8_SKILL_5]
-Hechizero (Desbloquear al Nv.10)
+Hechicero (Desbloquear al Nv.10)
 Aleatoriamente llena de lianas a %s zombis en la pantalla.
 
 
@@ -6702,7 +6702,7 @@ Ya has desbloqueado todos los niveles.
 Ya has desbloqueado todos los niveles de Aventura y Más Modos.
 
 [FREE_ARTIFACT]
-Activar Hacks
+Potenciadores gratis para siempre
 
 [FREE_ARTIFACT_CONFIRM]
 Al activar esta opción, los potenciadores dejarán de costar lingotes de oro y no podrás desactivarla. ¿Seguro que quieres hacerlo?
@@ -7267,7 +7267,7 @@ La Enredadera de Escape succiona zombis bajo tierra y permite mover otras planta
 {KEYWORD}Especial:{STAT} puede atraer plantas
 {KEYWORD}Plantación:{STAT} no se puede plantar en piscinas ni tejados
 {SHORTLINE}
-{FLAVOR}La Enredadera de Escape agradece a su prima la Zampalga por ayudarla a encontrar un lugar en el jardín, aunque ella se está cansando de Zampalga. "Si ella piensa que es invisible, ¡Ahora imagínate lo que va a pensar a los catorce" dice Enredadera de Escape.
+{FLAVOR}La Enredadera de Escape agradece a su prima la Zampalga por ayudarla a encontrar un lugar en el jardín, aunque ella se está cansando de Zampalga. "Si ella piensa que es invisible, ¡ahora imagínate lo que va a pensar a los catorce!" dice Enredadera de Escape.
 
 [TIEBA_RADISH_WARRIOR]
 Guerrero Caroteno
@@ -7299,7 +7299,7 @@ El Tronco Luchador crece y luego camina hacia adelante para atacar a los zombis 
 {KEYWORD}Alcance:{STAT} corto
 {KEYWORD}Especial:{STAT} necesita tiempo para crecer
 {SHORTLINE}
-{FLAVOR}Le tomó mucho tiempo, ¡Pero logró dominar el arte de caminar con sus raíces! El problema es que se le olvidó dominar el arte de cambiar de dirección al caminar.
+{FLAVOR}Le tomó mucho tiempo, ¡pero logró dominar el arte de caminar con sus raíces! El problema es que se le olvidó dominar el arte de cambiar de dirección al caminar.
 
 [TIEBA_BURSA]
 Bursa
@@ -7419,13 +7419,13 @@ Triarándano dispara proyectiles que persiguen a los zombis.
 {FLAVOR}Triarándano estaba emocionado de al fin localizar zombis. "Ya sabes, esos zombis piensan que esquivaron mi ataque y dicen 'Oye ya lo esquivé... espera ¿por qué siento que me siguen golpeando?'"
 
 [AIR_RAID_2]
-Ataque Shrump
+Ataque Shmup
 
 [HEAT_WAVE]
 Ola de Calor
 
 [ADVICE_AIR_RAID]
-¡Mueve la Guisantralladora con tu mouse o dedo!. ¡Evita los ataques y ataca al Zombot!
+¡Mueve la Guisantralladora con tu mouse o dedo! ¡Evita los ataques y ataca al Zombot!
 
 [SOCIAL_RABBIT_ZOMBIE]
 Zombidito Conejo
@@ -7483,7 +7483,7 @@ El Zombi con Lanza ataca rápidamente a las plantas con su lanza.
 {SHORTLINE}
 {KEYWORD}Dureza:{STAT} media {640}
 {SHORTLINE}
-{FLAVOR}Nunca le preguntes como consiguió su casco, y si lo haces... terminarás siendo su siguiente casco de colección... 
+{FLAVOR}Nunca le preguntes cómo consiguió su casco, y si lo haces... terminarás siendo su siguiente casco de colección...
 
 [TIEBA_OVERSEER_ZOMBIE]
 Zombi con Gong
@@ -8108,7 +8108,7 @@ Repartidor de Cartas (Desbloquear al Nv.5)
 Lanza %d cartas extras en cada ataque.
 
 [HEROPLANT_12_SKILL_5]
-Mente de Hechizero (Desbloquear al Nv.10)
+Mente de Hechicero (Desbloquear al Nv.10)
 Cada %s segundos, todos los zombis son aturdidos por 1.5 segundos.
 
 [JAPANESE_SAKURA_TREE]
@@ -8201,7 +8201,7 @@ Va muy rápido para incinerar los guisantes de los vegezombis.
 {KEYWORD}Dureza:{STAT} baja {270}
 {KEYWORD}Especial:{STAT} inmune a Hipnoseta
 {SHORTLINE}
-{FLAVOR}El Zombi Plantorcha es bien amado por todos los zombis, especialmente por ser una buena compañía en los fríos días de invierno y como hoguera andante para freir cerebros.
+{FLAVOR}El Zombi Plantorcha es bien amado por todos los zombis, especialmente por ser una buena compañía en los fríos días de invierno y como hoguera andante para freír cerebros.
 
 [STARFRUIT_HEAD_ZOMBIE]
 Zombi Frustrella
@@ -8410,10 +8410,10 @@ Español
 Audio con Baja Latencia
 
 [NEW_OPTIONS_AUTO_COLLECT_SUN]
-Autorecolecta de Soles
+Autorrecolecta de Soles
 
 [NEW_OPTIONS_AUTO_COLLECT_COIN]
-Autorecolecta de Monedas
+Autorrecolecta de Monedas
 
 [NEW_OPTIONS_HELP_GAMEPADTRIGGERS]
 Elige la función de LT/RT (ZL/ZR en Switch) en combate: seleccionar objetos y confirmar su uso, o pulsar una vez para recoger soles y monedas del tablero. Mantener no repite. Arriba en la cruceta sigue seleccionando objetos.
@@ -8789,7 +8789,7 @@ haz clic sobre las categorías de la izquierda.
 Acepto
 
 [ZOMBATAR_DELETE]
-Borrar?
+¿Borrar?
 
 [EXIT_SAVE_FAILED_TITLE]
 No se pudo salir del Juego
@@ -10382,7 +10382,7 @@ Supervivencia: Japón (Infinito)
 ¡Llegamos a Japón!
 
 [CRAZY_DAVE_11102]
-Ahí está el Monte Fuji, aldeas rurales, árboles de Cerezo....
+Ahí está el Monte Fuji, aldeas rurales, árboles de cerezo...
 
 [CRAZY_DAVE_11103]
 Y, como siempre, ¡ZOMBIS!{SCREAM}
@@ -10523,7 +10523,7 @@ Elegir el guardado de la supervivencia infinita
 Solo el anfitrión carga o sobreescribe este guardado de supervivencia infinita. El guardado del invitado no se ve afectado.
 
 [MULTIPLAYER_ENDLESS_NO_SAVE_MESSAGE]
-El anfitrión no tiene archivos de guardado para esta supervivencia infinita. Empieza una nueva partida..
+El anfitrión no tiene archivos de guardado para esta supervivencia infinita. Empieza una nueva partida.
 
 [MULTIPLAYER_LOAD_ENDLESS_SAVE]
 Cargar Arch. Guard.
@@ -10700,7 +10700,7 @@ Noche de Juegos
 Juega al multijugador al menos una vez.
 
 [ACHIEVEMENT_THE_COMPLETE_ZOMBIE_TITLE]
-El Zombi Enplatinado
+El Zombi Emplatinado
 
 [ACHIEVEMENT_THE_COMPLETE_ZOMBIE_DESCRIPTION]
 Tu dedicación te llevó hasta aquí. Descansa un rato, te lo mereces.
@@ -10718,7 +10718,7 @@ PvP Insano
 Consigue una racha de 5 victorias en el Modo VS.
 
 [COMPLETE_ZOMBIE_ACHIEVEMENT_EARNED]
-El Zombi Enplatinado ¡Conseguido! Felicidades por platinar el mod.
+El Zombi Emplatinado ¡Conseguido! Felicidades por platinar el mod.
 
 [LEVEL_OVERRIDE_TITLE]
 Propiedades especiales del nivel
@@ -11544,7 +11544,7 @@ Elige un dispositivo para J{0}
 Ratón / táctil compartido · Ambos bancos disponibles
 
 [SHUFFLE]
-Baraja
+La monedita
 
 [HOMERUN_DERBY_TUTORIAL]
 Derbi de jonrón 2
@@ -11599,7 +11599,7 @@ Sigue ese jarrón con la mirada...
 ¡Correcto!
 
 [SHUFFLE_WRONG]
-¡Maceta equivocada! Este intento ha terminado.
+¡Jarrón incorrecto! Este intento ha terminado.
 
 [SHUFFLE_WIN]
 ¡10 aciertos seguidos! ¡Ganas 10 veces lo apostado!
@@ -11676,7 +11676,7 @@ Mejoras
 
 Correcciones
 1. Se corrigió el nombre del nivel Tragaperras 3.
-2. Apisonaflor Bajie ya no invoca varios rastrillos.
+2. Apisonacerdo ya no invoca varios rastrillos.
 3. Las cantidades de herramientas del jardín ya no pueden ser negativas.
 4. Se corrigió un cierre inesperado al cambiar de página de niveles con un mando.
 5. Se corrigió la pérdida de foco del mando al cambiar de jardín.
@@ -11958,7 +11958,7 @@ Pequeña
 Congelado
 
 [A11Y_SLOWED]
-Lento
+Ralentizado
 
 [A11Y_BUTTERED]
 Enmantequillado
@@ -12303,7 +12303,7 @@ Querido vivo: Hemos oído que habrá una fiesta en la piscina de tu casa. Allí 
 Hola. Soy tu madre. Ven a visitarme un día que nunca vienes. Y déjate la puerta de casa abierta y el jardín sin plantar. Atentamente, Mami, no los zombis.
 
 [A11Y_MAIL_NOTE_5]
-Muy señor mío: Debido a su reiterada negativa ante nuestras legítimas peticiones de cerebro, queda sobre aviso de que, a menos que colabore, se aplicarán medidas drásticas. Entréguenos su cerebro y su casa sin mayor demora. Atentamente.
+Muy señor mío: Debido a su reiterada negativa ante nuestras legítimas peticiones de cerebro, queda sobre aviso de que, a menos que colabore, se aplicarán medidas drásticas. Entréguenos su cerebro y su casa sin mayor demora. Atentamente, Doctor Edgar Zombi.
 
 [A11Y_MAIL_NOTE_6]
 Vale, tú ganas, nada de comer más cerebros. Ahora solo queremos bailar y cantar contigo. Atentamente, los zombis.
