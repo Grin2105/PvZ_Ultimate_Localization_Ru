@@ -9972,6 +9972,9 @@ Bandwidth: Down {0} KB/s Up {1} KB/s
 [MULTIPLAYER_PLAYERS]
 Players: {0}
 
+[MULTIPLAYER_SPECTATORS]
+Spectators: {0}
+
 [MULTIPLAYER_TITLE]
 Multiplayer
 
@@ -10055,6 +10058,15 @@ Password
 
 [MULTIPLAYER_ROOM_ITEM]
 Room: {0}  Level: {1}  {2}/{3}{4}
+
+[MULTIPLAYER_IN_GAME]
+[In game]
+
+[MULTIPLAYER_SETTLING]
+Settling
+
+[MULTIPLAYER_ENTERING_GAME]
+Entering game
 
 [MULTIPLAYER_RESOURCE_PACK_BADGE]
 [Resource Pack]
@@ -11562,12 +11574,6 @@ Great!
 [SHUFFLE_BAD_TIME]
 Too Bad!
 
-[SHUFFLE_CHEAT_ON]
-Shuffle cheat enabled: every vase counts as correct.
-
-[SHUFFLE_CHEAT_OFF]
-Shuffle cheat disabled.
-
 [MAILBOX_TITLE]
 Mail
 
@@ -12497,3 +12503,78 @@ High contrast
 
 [NEW_OPTIONS_HELP_HIGHCONTRAST]
 Darken the battlefield background and highlight plants, zombies and other objects with distinct colors.
+
+[RESOURCE_DOWNLOAD_TITLE]
+Download game resources
+
+[RESOURCE_DOWNLOAD_SELECT]
+All tiers include the full game. Choose texture quality.
+
+[RESOURCE_DOWNLOAD_DEFAULT]
+Full resources
+
+[RESOURCE_DOWNLOAD_BASISUASTC]
+Compact resources
+
+[RESOURCE_DOWNLOAD_LOWMEMORY]
+Minimal resources
+
+[RESOURCE_DOWNLOAD_FETCHING]
+Getting download information...
+
+[RESOURCE_DOWNLOAD_CHECKING]
+Checking local resources...
+
+[RESOURCE_DOWNLOAD_PLAN]
+Download: {0}. Reusable: {1}.
+
+[RESOURCE_DOWNLOAD_PROGRESS]
+Downloaded {0} / {1}
+
+[RESOURCE_DOWNLOAD_PAUSED]
+Paused. Downloaded files are kept.
+
+[RESOURCE_DOWNLOAD_FAILED]
+Download failed. Retry or use the full version.
+
+[RESOURCE_DOWNLOAD_METERED]
+Mobile or metered network. Continuing will use data.
+
+[RESOURCE_DOWNLOAD_WIFI]
+Unmetered network. Download will pause if it becomes metered.
+
+[RESOURCE_DOWNLOAD_OFFLINE]
+Network unavailable. Connect and retry.
+
+[RESOURCE_DOWNLOAD_UNKNOWN]
+Network type unknown. Continuing may use mobile data.
+
+[RESOURCE_DOWNLOAD_DOWNLOAD]
+Download
+
+[RESOURCE_DOWNLOAD_PAUSE]
+Pause
+
+[RESOURCE_DOWNLOAD_RETRY]
+Retry
+
+[RESOURCE_DOWNLOAD_FULL]
+Full version
+
+[RESOURCE_DOWNLOAD_EXIT]
+Exit
+
+[MINIGAME_GOLD_FINGER]
+Golden Glove
+
+[MINIGAME_GOLD_FINGER_HOMERUN]
+Pay 10,000 coins to activate for 1 minute. Every hit uses maximum power at 45 degrees and guarantees a home run.
+
+[MINIGAME_GOLD_FINGER_INVINCIBLE]
+Pay 10,000 coins for 1 minute of invincibility, starting immediately.
+
+[MINIGAME_GOLD_FINGER_SHUFFLE]
+Pay 10,000 coins to activate for 1 minute. Any vase you choose counts as a correct guess.
+
+[MINIGAME_GOLD_FINGER_REMAINING]
+Golden Glove: {SECONDS} seconds remaining

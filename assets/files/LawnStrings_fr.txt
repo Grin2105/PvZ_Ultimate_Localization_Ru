@@ -9938,6 +9938,9 @@ Débit : réception {0} KB/s, envoi {1} KB/s
 [MULTIPLAYER_PLAYERS]
 Joueurs : {0}
 
+[MULTIPLAYER_SPECTATORS]
+Spectateurs : {0}
+
 [MULTIPLAYER_TITLE]
 Multijoueur
 
@@ -10021,6 +10024,15 @@ Mot de passe
 
 [MULTIPLAYER_ROOM_ITEM]
 Salon : {0}  Niveau : {1}  {2}/{3}{4}
+
+[MULTIPLAYER_IN_GAME]
+[En partie]
+
+[MULTIPLAYER_SETTLING]
+Règlement
+
+[MULTIPLAYER_ENTERING_GAME]
+Entrée en partie
 
 [MULTIPLAYER_RESOURCE_PACK_BADGE]
 [Pack de ressources]
@@ -11528,12 +11540,6 @@ Super !
 [SHUFFLE_BAD_TIME]
 Dommage !
 
-[SHUFFLE_CHEAT_ON]
-Triche activée : tous les vases sont corrects.
-
-[SHUFFLE_CHEAT_OFF]
-Triche désactivée.
-
 [MAILBOX_TITLE]
 Courrier
 
@@ -12461,3 +12467,78 @@ Contraste élevé
 
 [NEW_OPTIONS_HELP_HIGHCONTRAST]
 Assombrit le fond du terrain et met les plantes, zombies et objets en évidence par la couleur.
+
+[RESOURCE_DOWNLOAD_TITLE]
+Télécharger les ressources
+
+[RESOURCE_DOWNLOAD_SELECT]
+Tous les niveaux incluent le jeu complet. Choisissez la qualité des textures.
+
+[RESOURCE_DOWNLOAD_DEFAULT]
+Ressources complètes
+
+[RESOURCE_DOWNLOAD_BASISUASTC]
+Ressources compactes
+
+[RESOURCE_DOWNLOAD_LOWMEMORY]
+Ressources minimales
+
+[RESOURCE_DOWNLOAD_FETCHING]
+Récupération des informations…
+
+[RESOURCE_DOWNLOAD_CHECKING]
+Vérification des ressources locales…
+
+[RESOURCE_DOWNLOAD_PLAN]
+À télécharger : {0}. Réutilisables : {1}.
+
+[RESOURCE_DOWNLOAD_PROGRESS]
+Téléchargé : {0} / {1}
+
+[RESOURCE_DOWNLOAD_PAUSED]
+En pause. Les fichiers téléchargés sont conservés.
+
+[RESOURCE_DOWNLOAD_FAILED]
+Échec du téléchargement. Réessayez ou utilisez la version complète.
+
+[RESOURCE_DOWNLOAD_METERED]
+Connexion mobile ou limitée. Continuer consommera des données.
+
+[RESOURCE_DOWNLOAD_WIFI]
+Connexion non limitée. Une connexion limitée mettra le téléchargement en pause.
+
+[RESOURCE_DOWNLOAD_OFFLINE]
+Réseau indisponible. Connectez-vous et réessayez.
+
+[RESOURCE_DOWNLOAD_UNKNOWN]
+Type de réseau inconnu. Des données mobiles peuvent être utilisées.
+
+[RESOURCE_DOWNLOAD_DOWNLOAD]
+Télécharger
+
+[RESOURCE_DOWNLOAD_PAUSE]
+Pause
+
+[RESOURCE_DOWNLOAD_RETRY]
+Réessayer
+
+[RESOURCE_DOWNLOAD_FULL]
+Version complète
+
+[RESOURCE_DOWNLOAD_EXIT]
+Quitter
+
+[MINIGAME_GOLD_FINGER]
+Gant doré
+
+[MINIGAME_GOLD_FINGER_HOMERUN]
+Payez 10 000 pièces pour une activation immédiate de 1 minute. Chaque frappe part à 45 degrés à pleine puissance et garantit un home run.
+
+[MINIGAME_GOLD_FINGER_INVINCIBLE]
+Payez 10 000 pièces pour devenir immédiatement invincible pendant 1 minute.
+
+[MINIGAME_GOLD_FINGER_SHUFFLE]
+Payez 10 000 pièces pour une activation immédiate de 1 minute. Chaque vase choisi compte comme une bonne réponse.
+
+[MINIGAME_GOLD_FINGER_REMAINING]
+Gant doré : encore {SECONDS} secondes

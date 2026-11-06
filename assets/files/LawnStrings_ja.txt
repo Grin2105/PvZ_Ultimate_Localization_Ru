@@ -10629,6 +10629,9 @@ Ultimateオリジナル
 [MULTIPLAYER_PLAYERS]
 プレイヤー：{0}
 
+[MULTIPLAYER_SPECTATORS]
+観戦：{0}
+
 [MULTIPLAYER_TITLE]
 マルチプレイ
 
@@ -10712,6 +10715,15 @@ Ultimateオリジナル
 
 [MULTIPLAYER_ROOM_ITEM]
 ルーム：{0}  ステージ：{1}  {2}/{3}{4}
+
+[MULTIPLAYER_IN_GAME]
+[ゲーム中]
+
+[MULTIPLAYER_SETTLING]
+精算中
+
+[MULTIPLAYER_ENTERING_GAME]
+ゲームに参加中
 
 [MULTIPLAYER_RESOURCE_PACK_BADGE]
 [リソースパック]
@@ -12219,12 +12231,6 @@ Steamコントローラー
 [SHUFFLE_BAD_TIME]
 残念！
 
-[SHUFFLE_CHEAT_ON]
-シャッフルのチート有効：どの花瓶でも正解になります。
-
-[SHUFFLE_CHEAT_OFF]
-シャッフルのチートを無効にしました。
-
 [MAILBOX_TITLE]
 メール
 
@@ -13152,3 +13158,78 @@ Svenska
 
 [NEW_OPTIONS_HELP_HIGHCONTRAST]
 戦場の背景を暗くし、植物・ゾンビなどを目立つ色で強調します。
+
+[RESOURCE_DOWNLOAD_TITLE]
+ゲームリソースのダウンロード
+
+[RESOURCE_DOWNLOAD_SELECT]
+どの画質でもゲーム内容はすべて含まれます。
+
+[RESOURCE_DOWNLOAD_DEFAULT]
+標準リソース
+
+[RESOURCE_DOWNLOAD_BASISUASTC]
+軽量リソース
+
+[RESOURCE_DOWNLOAD_LOWMEMORY]
+最軽量リソース
+
+[RESOURCE_DOWNLOAD_FETCHING]
+ダウンロード情報を取得中…
+
+[RESOURCE_DOWNLOAD_CHECKING]
+ローカルリソースを確認中…
+
+[RESOURCE_DOWNLOAD_PLAN]
+ダウンロード：{0}。再利用：{1}。
+
+[RESOURCE_DOWNLOAD_PROGRESS]
+ダウンロード済み {0} / {1}
+
+[RESOURCE_DOWNLOAD_PAUSED]
+一時停止しました。取得済みファイルは保持されます。
+
+[RESOURCE_DOWNLOAD_FAILED]
+ダウンロードに失敗しました。再試行するか完全版をご利用ください。
+
+[RESOURCE_DOWNLOAD_METERED]
+モバイル回線または従量制回線です。続行すると通信量を消費します。
+
+[RESOURCE_DOWNLOAD_WIFI]
+非従量制回線です。従量制回線への切り替え時は一時停止します。
+
+[RESOURCE_DOWNLOAD_OFFLINE]
+ネットワークに接続して再試行してください。
+
+[RESOURCE_DOWNLOAD_UNKNOWN]
+回線種別を確認できません。モバイル通信を使用する可能性があります。
+
+[RESOURCE_DOWNLOAD_DOWNLOAD]
+ダウンロード
+
+[RESOURCE_DOWNLOAD_PAUSE]
+一時停止
+
+[RESOURCE_DOWNLOAD_RETRY]
+再試行
+
+[RESOURCE_DOWNLOAD_FULL]
+完全版
+
+[RESOURCE_DOWNLOAD_EXIT]
+終了
+
+[MINIGAME_GOLD_FINGER]
+ゴールデングローブ
+
+[MINIGAME_GOLD_FINGER_HOMERUN]
+10000コインで即座に1分間有効になります。打球は必ず角度45度・最大パワーで飛び、ホームランになります。
+
+[MINIGAME_GOLD_FINGER_INVINCIBLE]
+10000コインで即座に1分間無敵になります。
+
+[MINIGAME_GOLD_FINGER_SHUFFLE]
+10000コインで即座に1分間有効になります。どの壺を選んでも正解になります。
+
+[MINIGAME_GOLD_FINGER_REMAINING]
+ゴールデングローブ：残り{SECONDS}秒

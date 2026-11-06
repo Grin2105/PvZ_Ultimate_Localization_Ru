@@ -9936,6 +9936,9 @@ Datenrate: Empfang {0} KB/s Senden {1} KB/s
 [MULTIPLAYER_PLAYERS]
 Spieler: {0}
 
+[MULTIPLAYER_SPECTATORS]
+Zuschauer: {0}
+
 [MULTIPLAYER_TITLE]
 Mehrspieler
 
@@ -10019,6 +10022,15 @@ Passwort
 
 [MULTIPLAYER_ROOM_ITEM]
 Raum: {0}  Level: {1}  {2}/{3}{4}
+
+[MULTIPLAYER_IN_GAME]
+[Im Spiel]
+
+[MULTIPLAYER_SETTLING]
+Abrechnung
+
+[MULTIPLAYER_ENTERING_GAME]
+Spiel wird betreten
 
 [MULTIPLAYER_RESOURCE_PACK_BADGE]
 [Ressourcenpaket]
@@ -11526,12 +11538,6 @@ Großartig!
 [SHUFFLE_BAD_TIME]
 Schade!
 
-[SHUFFLE_CHEAT_ON]
-Schummelmodus an: Jede Vase zählt als richtig.
-
-[SHUFFLE_CHEAT_OFF]
-Schummelmodus aus.
-
 [MAILBOX_TITLE]
 Post
 
@@ -12459,3 +12465,78 @@ Hoher Kontrast
 
 [NEW_OPTIONS_HELP_HIGHCONTRAST]
 Schlachtfeldhintergrund abdunkeln und Pflanzen, Zombies und andere Objekte farbig hervorheben.
+
+[RESOURCE_DOWNLOAD_TITLE]
+Spielressourcen herunterladen
+
+[RESOURCE_DOWNLOAD_SELECT]
+Alle Stufen enthalten das gesamte Spiel. Texturqualität wählen.
+
+[RESOURCE_DOWNLOAD_DEFAULT]
+Volle Ressourcen
+
+[RESOURCE_DOWNLOAD_BASISUASTC]
+Kompakte Ressourcen
+
+[RESOURCE_DOWNLOAD_LOWMEMORY]
+Minimale Ressourcen
+
+[RESOURCE_DOWNLOAD_FETCHING]
+Downloadinformationen werden geladen…
+
+[RESOURCE_DOWNLOAD_CHECKING]
+Lokale Ressourcen werden geprüft…
+
+[RESOURCE_DOWNLOAD_PLAN]
+Download: {0}. Wiederverwendbar: {1}.
+
+[RESOURCE_DOWNLOAD_PROGRESS]
+Heruntergeladen: {0} / {1}
+
+[RESOURCE_DOWNLOAD_PAUSED]
+Pausiert. Geladene Dateien bleiben erhalten.
+
+[RESOURCE_DOWNLOAD_FAILED]
+Download fehlgeschlagen. Erneut versuchen oder die Vollversion verwenden.
+
+[RESOURCE_DOWNLOAD_METERED]
+Mobile oder getaktete Verbindung. Fortfahren verbraucht Datenvolumen.
+
+[RESOURCE_DOWNLOAD_WIFI]
+Ungetaktete Verbindung. Bei Wechsel zu einer getakteten Verbindung wird pausiert.
+
+[RESOURCE_DOWNLOAD_OFFLINE]
+Keine Verbindung. Bitte verbinden und erneut versuchen.
+
+[RESOURCE_DOWNLOAD_UNKNOWN]
+Verbindungstyp unbekannt. Es können mobile Daten verwendet werden.
+
+[RESOURCE_DOWNLOAD_DOWNLOAD]
+Herunterladen
+
+[RESOURCE_DOWNLOAD_PAUSE]
+Pausieren
+
+[RESOURCE_DOWNLOAD_RETRY]
+Wiederholen
+
+[RESOURCE_DOWNLOAD_FULL]
+Vollversion
+
+[RESOURCE_DOWNLOAD_EXIT]
+Beenden
+
+[MINIGAME_GOLD_FINGER]
+Goldener Handschuh
+
+[MINIGAME_GOLD_FINGER_HOMERUN]
+Für 10.000 Münzen sofort 1 Minute aktivieren. Jeder Schlag erfolgt mit maximaler Kraft im 45-Grad-Winkel und garantiert einen Home Run.
+
+[MINIGAME_GOLD_FINGER_INVINCIBLE]
+Für 10.000 Münzen sofort 1 Minute unverwundbar werden.
+
+[MINIGAME_GOLD_FINGER_SHUFFLE]
+Für 10.000 Münzen sofort 1 Minute aktivieren. Jede gewählte Vase zählt als richtig geraten.
+
+[MINIGAME_GOLD_FINGER_REMAINING]
+Goldener Handschuh: noch {SECONDS} Sekunden

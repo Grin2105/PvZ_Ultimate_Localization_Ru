@@ -9865,6 +9865,9 @@ Java 6-10
 [MULTIPLAYER_PLAYERS]
 플레이어: {0}
 
+[MULTIPLAYER_SPECTATORS]
+관전: {0}
+
 [MULTIPLAYER_TITLE]
 멀티플레이
 
@@ -9948,6 +9951,15 @@ Java 6-10
 
 [MULTIPLAYER_ROOM_ITEM]
 방: {0}  스테이지: {1}  {2}/{3}{4}
+
+[MULTIPLAYER_IN_GAME]
+[게임 중]
+
+[MULTIPLAYER_SETTLING]
+정산 중
+
+[MULTIPLAYER_ENTERING_GAME]
+게임 입장 중
 
 [MULTIPLAYER_RESOURCE_PACK_BADGE]
 [리소스 팩]
@@ -11455,12 +11467,6 @@ Steam 게임패드
 [SHUFFLE_BAD_TIME]
 운이 없네요
 
-[SHUFFLE_CHEAT_ON]
-섞기 치트 켜짐: 어느 항아리든 정답입니다.
-
-[SHUFFLE_CHEAT_OFF]
-섞기 치트가 꺼졌습니다.
-
 [MAILBOX_TITLE]
 우편
 
@@ -12388,3 +12394,78 @@ Svenska
 
 [NEW_OPTIONS_HELP_HIGHCONTRAST]
 전장 배경을 어둡게 하고 식물, 좀비 등을 눈에 띄는 색으로 강조합니다.
+
+[RESOURCE_DOWNLOAD_TITLE]
+게임 리소스 다운로드
+
+[RESOURCE_DOWNLOAD_SELECT]
+모든 화질에 전체 게임 콘텐츠가 포함됩니다.
+
+[RESOURCE_DOWNLOAD_DEFAULT]
+전체 리소스
+
+[RESOURCE_DOWNLOAD_BASISUASTC]
+경량 리소스
+
+[RESOURCE_DOWNLOAD_LOWMEMORY]
+최소 리소스
+
+[RESOURCE_DOWNLOAD_FETCHING]
+다운로드 정보를 가져오는 중…
+
+[RESOURCE_DOWNLOAD_CHECKING]
+로컬 리소스를 확인하는 중…
+
+[RESOURCE_DOWNLOAD_PLAN]
+다운로드: {0}. 재사용: {1}.
+
+[RESOURCE_DOWNLOAD_PROGRESS]
+다운로드됨 {0} / {1}
+
+[RESOURCE_DOWNLOAD_PAUSED]
+일시 정지되었습니다. 다운로드한 파일은 유지됩니다.
+
+[RESOURCE_DOWNLOAD_FAILED]
+다운로드에 실패했습니다. 다시 시도하거나 완전판을 이용하세요.
+
+[RESOURCE_DOWNLOAD_METERED]
+모바일 데이터 또는 종량제 네트워크입니다. 계속하면 데이터가 사용됩니다.
+
+[RESOURCE_DOWNLOAD_WIFI]
+비종량제 네트워크입니다. 종량제 연결로 바뀌면 일시 정지됩니다.
+
+[RESOURCE_DOWNLOAD_OFFLINE]
+네트워크에 연결한 후 다시 시도하세요.
+
+[RESOURCE_DOWNLOAD_UNKNOWN]
+네트워크 유형을 알 수 없습니다. 모바일 데이터가 사용될 수 있습니다.
+
+[RESOURCE_DOWNLOAD_DOWNLOAD]
+다운로드
+
+[RESOURCE_DOWNLOAD_PAUSE]
+일시 정지
+
+[RESOURCE_DOWNLOAD_RETRY]
+다시 시도
+
+[RESOURCE_DOWNLOAD_FULL]
+완전판
+
+[RESOURCE_DOWNLOAD_EXIT]
+종료
+
+[MINIGAME_GOLD_FINGER]
+황금 장갑
+
+[MINIGAME_GOLD_FINGER_HOMERUN]
+10000코인을 내면 즉시 1분 동안 활성화됩니다. 모든 타격이 45도 최대 파워로 날아가 반드시 홈런이 됩니다.
+
+[MINIGAME_GOLD_FINGER_INVINCIBLE]
+10000코인을 내면 즉시 1분 동안 무적이 됩니다.
+
+[MINIGAME_GOLD_FINGER_SHUFFLE]
+10000코인을 내면 즉시 1분 동안 활성화됩니다. 어떤 항아리를 골라도 정답으로 처리됩니다.
+
+[MINIGAME_GOLD_FINGER_REMAINING]
+황금 장갑: {SECONDS}초 남음

@@ -9925,6 +9925,9 @@ Bandbreedte: omlaag {0} KB/s, omhoog {1} KB/s
 [MULTIPLAYER_PLAYERS]
 Spelers: {0}
 
+[MULTIPLAYER_SPECTATORS]
+Toeschouwers: {0}
+
 [MULTIPLAYER_TITLE]
 Multiplayer
 
@@ -10008,6 +10011,15 @@ Met wachtwoord
 
 [MULTIPLAYER_ROOM_ITEM]
 Kamer: {0}  Level: {1}  {2}/{3}{4}
+
+[MULTIPLAYER_IN_GAME]
+[In spel]
+
+[MULTIPLAYER_SETTLING]
+Afrekenen
+
+[MULTIPLAYER_ENTERING_GAME]
+Spel wordt betreden
 
 [MULTIPLAYER_RESOURCE_PACK_BADGE]
 [Bronnenpakket]
@@ -11515,12 +11527,6 @@ Prachtig
 [SHUFFLE_BAD_TIME]
 Pech gehad
 
-[SHUFFLE_CHEAT_ON]
-Schudcheat aan: elke vaas telt als goed.
-
-[SHUFFLE_CHEAT_OFF]
-Schudcheat uit.
-
 [MAILBOX_TITLE]
 Post
 
@@ -12448,3 +12454,78 @@ Hoog contrast
 
 [NEW_OPTIONS_HELP_HIGHCONTRAST]
 Maak de slagveldachtergrond donkerder en laat planten, zombies en objecten met duidelijke kleuren opvallen.
+
+[RESOURCE_DOWNLOAD_TITLE]
+Spelbronnen downloaden
+
+[RESOURCE_DOWNLOAD_SELECT]
+Elke optie bevat het volledige spel. Kies de textuurkwaliteit.
+
+[RESOURCE_DOWNLOAD_DEFAULT]
+Volledige bronnen
+
+[RESOURCE_DOWNLOAD_BASISUASTC]
+Compacte bronnen
+
+[RESOURCE_DOWNLOAD_LOWMEMORY]
+Minimale bronnen
+
+[RESOURCE_DOWNLOAD_FETCHING]
+Downloadinformatie ophalen…
+
+[RESOURCE_DOWNLOAD_CHECKING]
+Lokale bronnen controleren…
+
+[RESOURCE_DOWNLOAD_PLAN]
+Download: {0}. Herbruikbaar: {1}.
+
+[RESOURCE_DOWNLOAD_PROGRESS]
+Gedownload: {0} / {1}
+
+[RESOURCE_DOWNLOAD_PAUSED]
+Gepauzeerd. Gedownloade bestanden blijven bewaard.
+
+[RESOURCE_DOWNLOAD_FAILED]
+Download mislukt. Probeer opnieuw of gebruik de volledige versie.
+
+[RESOURCE_DOWNLOAD_METERED]
+Mobiel netwerk of verbinding met datalimiet. Doorgaan verbruikt data.
+
+[RESOURCE_DOWNLOAD_WIFI]
+Verbinding zonder datalimiet. Bij een verbinding met datalimiet wordt gepauzeerd.
+
+[RESOURCE_DOWNLOAD_OFFLINE]
+Geen netwerk. Maak verbinding en probeer opnieuw.
+
+[RESOURCE_DOWNLOAD_UNKNOWN]
+Netwerktype onbekend. Er kunnen mobiele data worden gebruikt.
+
+[RESOURCE_DOWNLOAD_DOWNLOAD]
+Downloaden
+
+[RESOURCE_DOWNLOAD_PAUSE]
+Pauzeren
+
+[RESOURCE_DOWNLOAD_RETRY]
+Opnieuw
+
+[RESOURCE_DOWNLOAD_FULL]
+Volledige versie
+
+[RESOURCE_DOWNLOAD_EXIT]
+Afsluiten
+
+[MINIGAME_GOLD_FINGER]
+Gouden handschoen
+
+[MINIGAME_GOLD_FINGER_HOMERUN]
+Betaal 10.000 munten om direct 1 minuut te activeren. Elke slag gaat met maximale kracht onder 45 graden en garandeert een homerun.
+
+[MINIGAME_GOLD_FINGER_INVINCIBLE]
+Betaal 10.000 munten voor direct 1 minuut onkwetsbaarheid.
+
+[MINIGAME_GOLD_FINGER_SHUFFLE]
+Betaal 10.000 munten om direct 1 minuut te activeren. Elke gekozen vaas telt als een goede gok.
+
+[MINIGAME_GOLD_FINGER_REMAINING]
+Gouden handschoen: nog {SECONDS} seconden

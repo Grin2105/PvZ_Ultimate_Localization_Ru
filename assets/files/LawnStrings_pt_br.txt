@@ -9927,6 +9927,9 @@ Tráfego: recebendo {0} KB/s, enviando {1} KB/s
 [MULTIPLAYER_PLAYERS]
 Jogadores: {0}
 
+[MULTIPLAYER_SPECTATORS]
+Espectadores: {0}
+
 [MULTIPLAYER_TITLE]
 Multijogador
 
@@ -10010,6 +10013,15 @@ Com senha
 
 [MULTIPLAYER_ROOM_ITEM]
 Sala: {0}  Fase: {1}  {2}/{3}{4}
+
+[MULTIPLAYER_IN_GAME]
+[Em jogo]
+
+[MULTIPLAYER_SETTLING]
+Calculando
+
+[MULTIPLAYER_ENTERING_GAME]
+Entrando no jogo
 
 [MULTIPLAYER_RESOURCE_PACK_BADGE]
 [Pacote de recursos]
@@ -11517,12 +11529,6 @@ Muito bem
 [SHUFFLE_BAD_TIME]
 Azar dessa vez
 
-[SHUFFLE_CHEAT_ON]
-Trapaça ativada: qualquer vaso conta como acerto.
-
-[SHUFFLE_CHEAT_OFF]
-Trapaça desativada.
-
 [MAILBOX_TITLE]
 Cartas
 
@@ -12450,3 +12456,78 @@ Alto contraste
 
 [NEW_OPTIONS_HELP_HIGHCONTRAST]
 Escureça o fundo do campo e destaque plantas, zumbis e objetos com cores visíveis.
+
+[RESOURCE_DOWNLOAD_TITLE]
+Baixar recursos do jogo
+
+[RESOURCE_DOWNLOAD_SELECT]
+Todas as opções incluem o jogo completo. Escolha a qualidade das texturas.
+
+[RESOURCE_DOWNLOAD_DEFAULT]
+Recursos completos
+
+[RESOURCE_DOWNLOAD_BASISUASTC]
+Recursos compactos
+
+[RESOURCE_DOWNLOAD_LOWMEMORY]
+Recursos mínimos
+
+[RESOURCE_DOWNLOAD_FETCHING]
+Obtendo informações de download…
+
+[RESOURCE_DOWNLOAD_CHECKING]
+Verificando recursos locais…
+
+[RESOURCE_DOWNLOAD_PLAN]
+Download: {0}. Reutilizáveis: {1}.
+
+[RESOURCE_DOWNLOAD_PROGRESS]
+Baixado: {0} / {1}
+
+[RESOURCE_DOWNLOAD_PAUSED]
+Pausado. Os arquivos baixados serão mantidos.
+
+[RESOURCE_DOWNLOAD_FAILED]
+Falha no download. Tente novamente ou use a versão completa.
+
+[RESOURCE_DOWNLOAD_METERED]
+Rede móvel ou limitada. Continuar consumirá dados.
+
+[RESOURCE_DOWNLOAD_WIFI]
+Rede sem limite de dados. O download pausará ao mudar para uma rede limitada.
+
+[RESOURCE_DOWNLOAD_OFFLINE]
+Rede indisponível. Conecte-se e tente novamente.
+
+[RESOURCE_DOWNLOAD_UNKNOWN]
+Tipo de rede desconhecido. Dados móveis podem ser usados.
+
+[RESOURCE_DOWNLOAD_DOWNLOAD]
+Baixar
+
+[RESOURCE_DOWNLOAD_PAUSE]
+Pausar
+
+[RESOURCE_DOWNLOAD_RETRY]
+Tentar novamente
+
+[RESOURCE_DOWNLOAD_FULL]
+Versão completa
+
+[RESOURCE_DOWNLOAD_EXIT]
+Sair
+
+[MINIGAME_GOLD_FINGER]
+Luva dourada
+
+[MINIGAME_GOLD_FINGER_HOMERUN]
+Pague 10.000 moedas para ativar imediatamente por 1 minuto. Toda rebatida sai a 45 graus com força máxima e garante um home run.
+
+[MINIGAME_GOLD_FINGER_INVINCIBLE]
+Pague 10.000 moedas para ficar invencível imediatamente por 1 minuto.
+
+[MINIGAME_GOLD_FINGER_SHUFFLE]
+Pague 10.000 moedas para ativar imediatamente por 1 minuto. Qualquer vaso escolhido conta como um acerto.
+
+[MINIGAME_GOLD_FINGER_REMAINING]
+Luva dourada: restam {SECONDS} segundos

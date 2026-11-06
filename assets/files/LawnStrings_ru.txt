@@ -9921,6 +9921,9 @@ Java 6-10
 [MULTIPLAYER_PLAYERS]
 Игроки: {0}
 
+[MULTIPLAYER_SPECTATORS]
+Зрители: {0}
+
 [MULTIPLAYER_TITLE]
 Мультиплеер
 
@@ -10004,6 +10007,15 @@ Java 6-10
 
 [MULTIPLAYER_ROOM_ITEM]
 Комната: {0}  Уровень: {1}  {2}/{3}{4}
+
+[MULTIPLAYER_IN_GAME]
+[В игре]
+
+[MULTIPLAYER_SETTLING]
+Расчёт
+
+[MULTIPLAYER_ENTERING_GAME]
+Вход в игру
 
 [MULTIPLAYER_RESOURCE_PACK_BADGE]
 [Пакет ресурсов]
@@ -11511,12 +11523,6 @@ Switch / Пара Joy-Con
 [SHUFFLE_BAD_TIME]
 Жаль!
 
-[SHUFFLE_CHEAT_ON]
-Чит включён: любая ваза правильная.
-
-[SHUFFLE_CHEAT_OFF]
-Чит перемешивания выключен.
-
 [MAILBOX_TITLE]
 Почта
 
@@ -12444,3 +12450,78 @@ Svenska
 
 [NEW_OPTIONS_HELP_HIGHCONTRAST]
 Затемнить фон поля и выделить растения, зомби и другие объекты заметными цветами.
+
+[RESOURCE_DOWNLOAD_TITLE]
+Загрузка ресурсов игры
+
+[RESOURCE_DOWNLOAD_SELECT]
+Все варианты содержат полную игру. Выберите качество текстур.
+
+[RESOURCE_DOWNLOAD_DEFAULT]
+Полные ресурсы
+
+[RESOURCE_DOWNLOAD_BASISUASTC]
+Компактные ресурсы
+
+[RESOURCE_DOWNLOAD_LOWMEMORY]
+Минимальные ресурсы
+
+[RESOURCE_DOWNLOAD_FETCHING]
+Получение сведений о загрузке…
+
+[RESOURCE_DOWNLOAD_CHECKING]
+Проверка локальных ресурсов…
+
+[RESOURCE_DOWNLOAD_PLAN]
+Загрузить: {0}. Можно использовать: {1}.
+
+[RESOURCE_DOWNLOAD_PROGRESS]
+Загружено {0} / {1}
+
+[RESOURCE_DOWNLOAD_PAUSED]
+Загрузка приостановлена. Полученные файлы сохранены.
+
+[RESOURCE_DOWNLOAD_FAILED]
+Ошибка загрузки. Повторите попытку или используйте полную версию.
+
+[RESOURCE_DOWNLOAD_METERED]
+Мобильная или лимитная сеть. Продолжение расходует трафик.
+
+[RESOURCE_DOWNLOAD_WIFI]
+Безлимитная сеть. При переходе на лимитную сеть загрузка приостановится.
+
+[RESOURCE_DOWNLOAD_OFFLINE]
+Сеть недоступна. Подключитесь и повторите попытку.
+
+[RESOURCE_DOWNLOAD_UNKNOWN]
+Тип сети неизвестен. Возможен расход мобильного трафика.
+
+[RESOURCE_DOWNLOAD_DOWNLOAD]
+Загрузить
+
+[RESOURCE_DOWNLOAD_PAUSE]
+Пауза
+
+[RESOURCE_DOWNLOAD_RETRY]
+Повторить
+
+[RESOURCE_DOWNLOAD_FULL]
+Полная версия
+
+[RESOURCE_DOWNLOAD_EXIT]
+Выход
+
+[MINIGAME_GOLD_FINGER]
+Золотая перчатка
+
+[MINIGAME_GOLD_FINGER_HOMERUN]
+Заплатите 10 000 монет: эффект сразу действует 1 минуту. Каждый удар — под углом 45 градусов с максимальной силой и гарантированным хоум-раном.
+
+[MINIGAME_GOLD_FINGER_INVINCIBLE]
+Заплатите 10 000 монет: неуязвимость сразу действует 1 минуту.
+
+[MINIGAME_GOLD_FINGER_SHUFFLE]
+Заплатите 10 000 монет: эффект сразу действует 1 минуту. Любая выбранная ваза считается правильным ответом.
+
+[MINIGAME_GOLD_FINGER_REMAINING]
+Золотая перчатка: осталось {SECONDS} сек.
